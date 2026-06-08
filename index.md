@@ -1,81 +1,59 @@
 ---
 ---
 
-# HelSi-Lab's Website
+{% include section.html dark=true %}
 
-An engaging 1-3 sentence description of your lab.
+# HelSi Lab
+
+Healthcare & Simulation Optimization Lab — Incheon National University
+{:.center}
+
+헬스케어 및 시뮬레이션 최적화 연구실
+{:.center}
+
+We build simulation, optimization, and digital-twin methods to answer real
+questions in healthcare, infectious disease, and bioprocess systems.
+{:.center}
+
+<br>
+
+{% include button.html text="Research" icon="fa-solid fa-flask" link="research" %}
+{% include button.html text="Projects" icon="fa-solid fa-diagram-project" link="projects" %}
+{% include button.html text="Join us" icon="fa-solid fa-user-plus" link="join" %}
+{:.center}
 
 {% include section.html %}
 
-## Highlights
+## Research areas
 
-{% capture text %}
+The lab sits at the intersection of three areas: we model complex health
+systems, simulate how they behave under uncertainty, and optimize the decisions
+that shape them.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% capture col1 %}
+#### Bio & Healthcare Systems
+바이오 · 헬스케어 시스템
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
+Disease-spread prediction, public-health policy modeling, clinical-trial
+analysis, and bioprocess systems.
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+{% capture col2 %}
+#### Simulation & Modeling
+시뮬레이션 & 모델링
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
+Agent-based simulation on HPC, mathematical modeling, and surrogate models for
+systems too complex to solve directly.
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
+{% capture col3 %}
+#### Optimization
+최적화
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
+Global optimization, machine learning, explainable AI, digital twins, and
+representative parameter calibration.
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+{% include cols.html col1=col1 col2=col2 col3=col3 %}
+
+{% include button.html text="See our research" link="research" flip=true style="bare" %}

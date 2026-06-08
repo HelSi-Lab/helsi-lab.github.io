@@ -1,0 +1,19 @@
+# ⚠️ DO NOT replace the whole _config.yaml with this file.
+# Open your repo's existing _config.yaml and replace ONLY the top
+# "basic settings" block with the lines below. Leave the Jekyll
+# settings (collections, plugins, etc.) further down untouched.
+
+title: HelSi Lab
+subtitle: Healthcare & Simulation Optimization · Incheon National University
+description: HelSi Lab at Incheon National University develops simulation, optimization, and digital-twin methods for healthcare, infectious disease, and bioprocess systems. PI Serin Lee.
+logo-text: true
+header-dark: true
+footer-dark: true
+proofer: false
+
+links:
+  email: serinlee@inu.ac.kr
+  # Fill these in if available, otherwise delete the line:
+  # orcid: 0000-0000-0000-0000
+  # google-scholar: XXXXXXXX
+  # github: your-github

@@ -1,77 +1,22 @@
 ---
 title: Contact
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 6
+  tooltip: Find & reach the lab
 ---
-
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{%
-  include button.html
-  type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
 
 {% include section.html %}
 
-{% capture col1 %}
+# Contact
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+**HelSi Lab**
+Department of Industrial & Management Engineering
+Incheon National University
+119 Academy-ro, Yeonsu-gu, Incheon, Republic of Korea
 
-{% endcapture %}
+- **Research lab:** Building 9, Room 302
+- **PI office:** Building 9, Room 409
+- **Email:** [serinlee@inu.ac.kr](mailto:serinlee@inu.ac.kr)
+- **Phone:** +82-32-835-8483
 
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{% include button.html text="Email the lab" icon="fa-solid fa-envelope" link="mailto:serinlee@inu.ac.kr" %}

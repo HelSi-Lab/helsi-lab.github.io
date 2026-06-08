@@ -1,23 +1,85 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+# HelSi Lab — publication sources for Manubot auto-citation.
+# After editing, run the "cite" GitHub Action (or it runs on push) to
+# regenerate _data/citations.yaml. DO NOT edit citations.yaml by hand.
+#
+# Entries with `id: doi:...` are fetched automatically (title, authors, date).
+# Entries without an id are manual fallbacks (no DOI available) — edit freely.
+# `group` is a custom field used only to filter the lists on the Research page.
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+# ---------- Journal papers ----------
+- id: doi:10.1177/0272989X251378472
+  group: journal
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1007/s10729-025-09696-9
+  group: journal
+
+# HPVsim: add `- id: doi:...` instead if you have the DOI (gives auto thumbnail)
+- title: "HPVsim: An agent-based model of HPV transmission and cervical cancer"
+  authors:
+    - Robyn M. Stuart
+    - Jamie A. Cohen
+    - Cliff C. Kerr
+    - "**Serin Lee**"
+    - Daniel J. Klein
+    - et al.
+  publisher: PLOS Computational Biology
+  date: 2024-07-01
+  group: journal
+
+- id: doi:10.1016/j.focus.2023.100155
+  group: journal
+
+- id: doi:10.1177/0272989X221115364
+  group: journal
+
+- title: "COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical interventions on reopening society"
+  authors:
+    - "**Serin Lee**"
+    - Zelda B. Zabinsky
+    - Judith N. Wasserheit
+    - Stephen M. Kofsky
+    - Shan Liu
+  publisher: Medical Decision Making
+  date: 2021-05-01
+  group: journal
+
+# ---------- Peer-reviewed conference proceedings ----------
+- id: doi:10.1109/WSC60868.2023.10408638
+  group: proceedings
+
+# ---------- Under review & in preparation ----------
+- title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection: Insights from pharmacokinetic modeling"
+  authors:
+    - "**Serin Lee**"
+    - Dobromir Dimitrov
+    - Peter Anderson
+    - Mia Moore
+  publisher: Under review · AIDS and Behavior
+  date: 2025-01-01
+  group: review
+
+- title: "Impact of Long-Acting Injectable Lenacapavir for HIV-1 prevention in the United States: A modeling study"
+  authors:
+    - Mia Moore
+    - "**Serin Lee**"
+    - Laura Matrajt
+    - et al.
+  publisher: Under review · Clinical Infectious Diseases
+  date: 2025-01-01
+  group: review
+
+- title: "Explainable calibration for complex simulation models"
+  authors:
+    - "**Serin Lee**"
+    - Pariyakorn Maneekul
+    - Zelda B. Zabinsky
+    - Jamie Cohen
+    - Shan Liu
+  publisher: Manuscript in preparation
+  date: 2025-06-01
+  group: review
+
+# ---------- Optional: preprint not listed in your CV ----------
+# Uncomment to include the HPV therapeutic-vaccine modeling paper (under review):
+# - id: doi:10.1101/2023.12.04.23299403
+#   group: review
