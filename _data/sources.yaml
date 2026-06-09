@@ -5,12 +5,19 @@
 # ========== Journal papers ==========
 - id: doi:10.1177/0272989X251378472
   group: journal
-  
+  authors:
+  - Christopher Weyant
+  - '**Serin Lee**'
+  - Jeremy D. Goldhaber-Fiebert
 
 - id: doi:10.1007/s10729-025-09696-9
   group: journal
+  authors:
+  - '**Serin Lee**'
+  - Zelda B. Zabinsky
+  - Shan Liu
 
-- id: doi:10.1177/0272989X221115364
+- id: doi.org/10.1371/journal.pcbi.1012181
   title: "HPVsim: An agent-based model of HPV transmission and cervical cancer"
   authors:
     - Robyn M. Stuart
@@ -25,6 +32,13 @@
 
 - id: doi:10.1016/j.focus.2023.100155
   group: journal
+  authors:
+    - "**Serin Lee**"
+    - Zelda B. Zabinsky
+    - Judith N. Wasserheit
+    - Jennifer M. Ross
+    - Shi Chen
+    - Shan Liu
 
 - id: doi:10.1177/0272989X221115364
   group: journal
@@ -35,7 +49,7 @@
     - Fernando Alarid-Escudero
     - Jeremy D. Goldhaber-Fiebert
 
-- id: doi:10.1177/0272989X211035341
+- id: doi:10.1177/0272989X211003081
   title: "COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical interventions on reopening society"
   authors:
     - "**Serin Lee**"
@@ -50,7 +64,11 @@
 # ========== Peer-reviewed conference proceedings ==========
 - id: doi:10.1109/WSC60868.2023.10408638
   group: proceedings
-
+  authors:
+    - '**Serin Lee**'
+    - Pariyakorn Maneekul
+    - Zelda B. Zabinsky
+  publisher: 2023 Winter Simulation Conference (WSC)
 # ========== Under review & in preparation ==========
 - title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection: Insights from pharmacokinetic modeling"
   authors:
