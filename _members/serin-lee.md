@@ -11,7 +11,7 @@ aliases:
   - Lee, Serin
 
 links:
-  email: [serinlee@inu.ac.kr](mailto:serinlee@inu.ac.kr)
+  email: [serinlee@inu.ac.kr]
   google-scholar: https://scholar.google.com/citations?user=UUgId1AAAAAJ&hl=en
 ---
 

@@ -75,13 +75,13 @@ nav:
     <h2>Publication</h2>
 
     <h3>Journal papers</h3>
-    {% include list.html data="citations" component="citation" filter="group: journal" %}
+    {% include list.html data="citations" component="citation" filter="d['group'] == 'journal'" %}
 
     <h3>Peer-reviewed conference proceedings</h3>
-    {% include list.html data="citations" component="citation" filter="group: proceedings" %}
+    {% include list.html data="citations" component="citation" filter="d['group'] == 'proceedings'" %}
 
     <h3>Under review & in preparation</h3>
-    {% include list.html data="citations" component="citation" filter="group: review" %}
+    {% include list.html data="citations" component="citation" filter="d['group'] == 'review'" %}
   </section>
 
   <section id="presentation" class="research-section">
