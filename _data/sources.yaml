@@ -1,21 +1,23 @@
 # HelSi Lab — all publication sources
-# DOI entries are auto-cited by Manubot. Manual entries provide all details directly.
-# 'group' field is used to filter on the Research page.
+# DOI entries: Manubot auto-fetches title/publisher/date. Authors override for bold.
+# Manual entries: provide all details directly.
+# 'group' field filters lists on the Research page.
 
 # ========== Journal papers ==========
+
 - id: doi:10.1177/0272989X251378472
   group: journal
   authors:
-  - Christopher Weyant
-  - '**Serin Lee**'
-  - Jeremy D. Goldhaber-Fiebert
+    - Christopher Weyant
+    - "**Serin Lee**"
+    - Jeremy D. Goldhaber-Fiebert
 
 - id: doi:10.1007/s10729-025-09696-9
   group: journal
   authors:
-  - '**Serin Lee**'
-  - Zelda B. Zabinsky
-  - Shan Liu
+    - "**Serin Lee**"
+    - Zelda B. Zabinsky
+    - Shan Liu
 
 - title: "HPVsim: An agent-based model of HPV transmission and cervical cancer"
   authors:
@@ -47,8 +49,9 @@
     - Jason R. Andrews
     - Fernando Alarid-Escudero
     - Jeremy D. Goldhaber-Fiebert
- 
+
 - id: doi:10.1177/0272989X211003081
+  group: journal
   title: "COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical interventions on reopening society"
   authors:
     - "**Serin Lee**"
@@ -56,19 +59,18 @@
     - Judith N. Wasserheit
     - Stephen M. Kofsky
     - Shan Liu
-  publisher: Medical Decision Making
-  date: 2021-05-01
-  group: journal
 
 # ========== Peer-reviewed conference proceedings ==========
+
 - id: doi:10.1109/WSC60868.2023.10408638
   group: proceedings
   authors:
-    - '**Serin Lee**'
+    - "**Serin Lee**"
     - Pariyakorn Maneekul
     - Zelda B. Zabinsky
-  publisher: 2023 Winter Simulation Conference (WSC)
+
 # ========== Under review & in preparation ==========
+
 - title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection: Insights from pharmacokinetic modeling"
   authors:
     - "**Serin Lee**"
@@ -85,7 +87,7 @@
     - "**Serin Lee**"
     - Laura Matrajt
     - et al.
-  publisher: Under review · Clinical Infectious Diseases
+  publisher: Under review · Journal of the International AIDS Society
   date: 2025-01-01
   group: review
 
@@ -100,23 +102,25 @@
   date: 2025-06-01
   group: review
 
-# # ========== Invited talks ==========
-# - title: "Data-driven approaches to support clinical trials"
-#   publisher: Korea Research Institute of Bioscience & Biotechnology (KRIBB)
-#   date: 2026-02-06
-#   group: talk
+# ========== Invited talks ==========
 
-# - title: "Data-driven approaches to support clinical trials"
-#   publisher: Seoul National University (SNU)
-#   date: 2026-01-16
-#   group: talk
+- title: "Data-driven approaches to support clinical trials"
+  publisher: Korea Research Institute of Bioscience & Biotechnology (KRIBB)
+  date: 2026-02-06
+  group: talk
 
-# - title: "Introduction to agent-based modelling"
-#   publisher: Industrial & Mathematical Data Analytics Research Center, SNU
-#   date: 2020-09-01
-#   group: talk
+- title: "Data-driven approaches to support clinical trials"
+  publisher: Seoul National University (SNU)
+  date: 2026-01-16
+  group: talk
+
+- title: "Introduction to agent-based modelling"
+  publisher: Industrial & Mathematical Data Analytics Research Center, SNU
+  date: 2020-09-01
+  group: talk
 
 # ========== Conference presentations — oral ==========
+
 - title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067"
   publisher: Epidemics, San Diego, CA
   date: 2025-11-01
@@ -156,7 +160,7 @@
   publisher: 43rd SMDM Annual Meeting
   date: 2021-10-01
   tags:
-    - Finalist, Lee B. Lusted Award
+    - "Finalist, Lee B. Lusted Award"
   group: oral
 
 - title: "Using agent-based simulation to optimize vaccination schedules and non-pharmaceutical interventions to control COVID-19 outbreaks"
@@ -183,10 +187,11 @@
   publisher: 42nd SMDM Annual Meeting
   date: 2020-10-01
   tags:
-    - Finalist, Lee B. Lusted Award
+    - "Finalist, Lee B. Lusted Award"
   group: oral
 
 # ========== Posters ==========
+
 - title: "Optimal vaccination campaigns under disease transmission and opinion propagation"
   publisher: 44th SMDM Annual Meeting, Seattle, WA
   date: 2022-10-01
