@@ -82,13 +82,13 @@ nav:
     <h2>Publication</h2>
 
     <h3>Under review &amp; in preparation</h3>
-    {% include list.html data="citations" component="citation" filter="d['group'] == 'review'" %}
+    {% include list.html data="citations" component="citation" filter='d["group"] == "review"' %}
 
     <h3>Journal papers</h3>
-    {% include list.html data="citations" component="citation" filter="d['group'] == 'journal'" %}
+    {% include list.html data="citations" component="citation" filter='d["group"] == "journal"' %}
 
     <h3>Conference proceedings</h3>
-    {% include list.html data="citations" component="citation" filter="d['group'] == 'proceedings'" %}
+    {% include list.html data="citations" component="citation" filter='d["group"] == "proceedings"' %}
 
   </section>
 
