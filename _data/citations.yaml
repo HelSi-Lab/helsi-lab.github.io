@@ -1,0 +1,263 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.1177/0272989X251378472
+  title: Reinforcement Learning-Based Control of Epidemics on Networks of Communities
+    and Correctional Facilities
+  authors:
+  - Christopher Weyant
+  - '**Serin Lee**'
+  - Jeremy D. Goldhaber-Fiebert
+  publisher: Medical Decision Making
+  date: '2025-10-22'
+  link: https://doi.org/g99wx2
+  group: journal
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s10729-025-09696-9
+  title: Optimizing vaccination campaign strategies considering societal characteristics
+  authors:
+  - '**Serin Lee**'
+  - Zelda B. Zabinsky
+  - Shan Liu
+  publisher: Health Care Management Science
+  date: '2025-02-10'
+  link: https://doi.org/hb6xnp
+  group: journal
+  plugin: sources.py
+  file: sources.yaml
+- title: 'HPVsim: An agent-based model of HPV transmission and cervical cancer'
+  authors:
+  - Robyn M. Stuart
+  - Jamie A. Cohen
+  - Cliff C. Kerr
+  - '**Serin Lee**'
+  - Daniel J. Klein
+  - et al.
+  publisher: PLOS Computational Biology
+  date: '2024-07-01'
+  group: journal
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.focus.2023.100155
+  title: Impact of Vaccination and Nonpharmaceutical Interventions With Possible COVID-19
+    Viral Evolutions Using an Agent-Based Simulation
+  authors:
+  - '**Serin Lee**'
+  - Zelda B. Zabinsky
+  - Judith N. Wasserheit
+  - Jennifer M. Ross
+  - Shi Chen
+  - Shan Liu
+  publisher: AJPM Focus
+  date: '2024-02-01'
+  link: https://doi.org/hb6xnq
+  group: journal
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1177/0272989X221115364
+  title: 'Dynamics of Respiratory Infectious Diseases in Incarcerated and Free-Living
+    Populations: A Simulation Modeling Study'
+  authors:
+  - Christopher Weyant
+  - '**Serin Lee**'
+  - Jason R. Andrews
+  - Fernando Alarid-Escudero
+  - Jeremy D. Goldhaber-Fiebert
+  publisher: Medical Decision Making
+  date: '2022-07-29'
+  link: https://doi.org/hb6xnr
+  group: journal
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1177/0272989X211003081
+  title: 'COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical
+    interventions on reopening society'
+  authors:
+  - '**Serin Lee**'
+  - Zelda B. Zabinsky
+  - Judith N. Wasserheit
+  - Stephen M. Kofsky
+  - Shan Liu
+  publisher: Medical Decision Making
+  date: '2021-03-18'
+  link: https://doi.org/hb65nv
+  group: journal
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/WSC60868.2023.10408638
+  title: Representative Calibration Using Black-Box Optimization and Clustering
+  authors:
+  - '**Serin Lee**'
+  - Pariyakorn Maneekul
+  - Zelda B. Zabinsky
+  publisher: 2023 Winter Simulation Conference (WSC)
+  date: '2023-12-10'
+  link: https://doi.org/hb6xns
+  group: proceedings
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Dried blood spots measurements as indicator of HIV PrEP adherence and protection:
+    Insights from pharmacokinetic modeling'
+  authors:
+  - '**Serin Lee**'
+  - Dobromir Dimitrov
+  - Peter Anderson
+  - Mia Moore
+  publisher: "Under review \xB7 AIDS and Behavior"
+  date: '2025-01-01'
+  group: review
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Impact of Long-Acting Injectable Lenacapavir for HIV-1 prevention in the
+    United States: A modeling study'
+  authors:
+  - Mia Moore
+  - '**Serin Lee**'
+  - Laura Matrajt
+  - et al.
+  publisher: "Under review \xB7 Journal of the International AIDS Society"
+  date: '2025-01-01'
+  group: review
+  plugin: sources.py
+  file: sources.yaml
+- title: Explainable calibration for complex simulation models
+  authors:
+  - '**Serin Lee**'
+  - Pariyakorn Maneekul
+  - Zelda B. Zabinsky
+  - Jamie Cohen
+  - Shan Liu
+  publisher: Manuscript in preparation
+  date: '2025-06-01'
+  group: review
+  plugin: sources.py
+  file: sources.yaml
+- title: Data-driven approaches to support clinical trials
+  publisher: Korea Research Institute of Bioscience & Biotechnology (KRIBB)
+  date: '2026-02-06'
+  group: talk
+  plugin: sources.py
+  file: sources.yaml
+- title: Data-driven approaches to support clinical trials
+  publisher: Seoul National University (SNU)
+  date: '2026-01-16'
+  group: talk
+  plugin: sources.py
+  file: sources.yaml
+- title: Introduction to agent-based modelling
+  publisher: Industrial & Mathematical Data Analytics Research Center, SNU
+  date: '2020-09-01'
+  group: talk
+  plugin: sources.py
+  file: sources.yaml
+- title: Dried blood spots measurements as indicator of HIV PrEP adherence and protection
+    among MSM in HPTN067
+  publisher: Epidemics, San Diego, CA
+  date: '2025-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimizing Vaccination Campaign Considering Societal Characteristics
+  publisher: Korean Institute of Industrial Engineers, Daejeon
+  date: '2025-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimizing vaccination campaign strategies considering societal characteristics
+  publisher: INFORMS Annual Meeting, Seattle, WA
+  date: '2024-10-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimal vaccine promotion campaigns considering disease transmission and
+    opinion propagation with fairness
+  publisher: INFORMS Annual Meeting, Phoenix, AZ
+  date: '2023-10-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimal budget allocation to vaccine promotion campaigns considering disease
+    transmission and opinion propagation
+  publisher: INFORMS Healthcare Conference, Toronto, Canada
+  date: '2023-07-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Advancing simulation methodology for identifying optimal healthcare policy
+    during COVID-19 pandemic
+  publisher: IDM Annual Symposium, Seattle, WA
+  date: '2023-05-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimal vaccination campaigns under opinion and physical networks
+  publisher: INFORMS Annual Meeting, Indianapolis, IN
+  date: '2022-10-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Impact of vaccination and relaxation of non-pharmaceutical interventions
+    on controlling COVID-19 using agent-based simulation
+  publisher: 43rd SMDM Annual Meeting
+  date: '2021-10-01'
+  tags:
+  - Finalist, Lee B. Lusted Award
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Using agent-based simulation to optimize vaccination schedules and non-pharmaceutical
+    interventions to control COVID-19 outbreaks
+  publisher: INFORMS Annual Meeting, Anaheim, CA
+  date: '2021-10-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Using agent-based simulation to analyze how to achieve herd immunity to SARS-CoV-2
+    with vaccination and non-pharmaceutical interventions
+  publisher: INFORMS Healthcare Conference
+  date: '2021-07-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Impact of population health interventions for a measles outbreak in a low
+    vaccination area
+  publisher: INFORMS Annual Meeting
+  date: '2020-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Agent-based simulation of COVID-19 society reopening plans in an urban setting
+  publisher: INFORMS Annual Meeting
+  date: '2020-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Agent-based simulation study of reopening scenarios for COVID-19 in a large
+    urban area
+  publisher: 42nd SMDM Annual Meeting
+  date: '2020-10-01'
+  tags:
+  - Finalist, Lee B. Lusted Award
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimal vaccination campaigns under disease transmission and opinion propagation
+  publisher: 44th SMDM Annual Meeting, Seattle, WA
+  date: '2022-10-01'
+  group: poster
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimizing COVID-19 vaccine prioritization policies with non-pharmaceutical
+    interventions using agent-based simulation
+  publisher: MIDAS Network Annual Meeting
+  date: '2021-05-01'
+  group: poster
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Dimensionality reduction model for common eligibility criteria to effectively
+    use electronic medical record: a pilot study'
+  publisher: Korean Society of Medical Informatics Spring Conference, Seoul
+  date: '2018-06-01'
+  group: poster
+  plugin: sources.py
+  file: sources.yaml
