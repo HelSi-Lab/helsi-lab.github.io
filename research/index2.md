@@ -33,9 +33,7 @@ nav:
       <div class="research-area-number">02</div>
       <div class="research-area-text">
         <h2>Biopharmaceutical Modeling &amp; Clinical Trials</h2>
-        <p>We use pharmacokinetic modeling, clinical trial data, and simulation to
-          evaluate drug adherence, treatment effectiveness, and trial design in
-          biopharmaceutical applications.</p>
+        <p>We use pharmacokinetic modeling, clinical trial data, and simulation to evaluate drug adherence, treatment effectiveness, and trial design in biopharmaceutical applications.</p>
       </div>
       <div class="research-area-img"><img src="images/proj-dbs.jpg" alt="Biopharmaceutical modeling and clinical trial analysis"></div>
     </div>
@@ -61,11 +59,17 @@ nav:
     </div>
   </div>
 
+  <nav class="research-tabs" aria-label="Research sections">
+    <a href="#publication">Publication</a>
+    <a href="#projects">Projects</a>
+    <a href="#presentation">Presentation</a>
+    <a href="#awards">Awards</a>
+  </nav>
+
 </div>
 
-{% include section.html %}
-
 ## Publication
+{: #publication}
 
 ### Under review & in preparation
 
@@ -79,9 +83,8 @@ nav:
 
 {% include list.html data="citations" component="citation" filters="group: proceedings" %}
 
-{% include section.html %}
-
-## Funded Research
+## Projects
+{: #projects}
 
 {% include cols.html col1="
 **2026 – 2029 · PI**
@@ -104,9 +107,8 @@ Digital Twin-based Virtual Clinical Trial for Infectious Diseases: Effectiveness
 *인천대학교 (Incheon National University)*
 " %}
 
-{% include section.html %}
-
 ## Presentation
+{: #presentation}
 
 ### Invited talks
 
@@ -134,3 +136,11 @@ Digital Twin-based Virtual Clinical Trial for Infectious Diseases: Effectiveness
 
 - **2022** — Optimal vaccination campaigns under disease transmission and opinion propagation. *44th SMDM Annual Meeting, Seattle, WA.*
 - **2021** — Optimizing COVID-19 vaccine prioritization with NPIs using agent-based simulation. *MIDAS Network Annual Meeting.*
+
+## Awards
+{: #awards}
+
+<!-- - **2020 & 2021** — Lee B. Lusted Prize Finalist. *Society for Medical Decision Making.*
+- **2019 – 2020** — Graduate School Fund for Excellence and Innovation Top Scholar Award. *University of Washington.*
+- **2017** — Merit-based Scholarship. *Seoul National University.*
+- **2016** — National Scholarship for Science and Engineering. *Korea Student Aid Foundation.* -->
