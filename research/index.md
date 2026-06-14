@@ -97,7 +97,8 @@ nav:
 - **2026.01** — Data-driven approaches to support clinical trials. *Seoul National University.* **Lee, S.**
 
 ### Conference presentations -->
-
+- **2026** — Discrete-Event Simulation Modeling of​ Monoclonal Antibody Production under Uncertainty​. *대한산업공학회 (Korean Institute of
+Industrial Engineers), Gyeongju. <u>Kang, H.</u>, **Lee, S.**.
 - **2025** — Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067. *Epidemics, San Diego, CA.* **Lee, S.**, Dimitrov, D., Anderson, P., Moore, M.
 - **2025** — Optimizing Vaccination Campaign Considering Societal Characteristics. *대한산업공학회 (Korean Institute of
 Industrial Engineers), Daejeon.* **Lee, S.**, Zabinsky, Z.B., Liu, S.
