@@ -11,7 +11,7 @@
   {% if include.member.links %}
     <div class="team-person-links" aria-label="{{ include.member.name }} links">
       {% if include.member.links.email %}<a href="mailto:{{ include.member.links.email }}" aria-label="Email {{ include.member.name }}" data-tooltip="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>{% endif %}
-      {% if include.member.links.cv %}<a href="{{ include.member.links.cv | relative_url }}" aria-label="{{ include.member.name }} CV" data-tooltip="CV"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a>{% endif %}
+      {% if include.member.links.cv %}<a href="{{ include.member.links.cv | relative_url }}" aria-label="{{ include.member.name }} CV" data-tooltip="CV">CV</a>{% endif %}
       {% if include.member.links.google-scholar %}<a href="https://scholar.google.com/citations?user={{ include.member.links.google-scholar }}" aria-label="{{ include.member.name }} Google Scholar" data-tooltip="Google Scholar"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></a>{% endif %}
     </div>
   {% endif %}

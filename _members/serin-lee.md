@@ -7,9 +7,6 @@ is-pi: true
 description: Assistant Professor · Principal Investigator
 position_ko: 조교수 · 연구책임자
 research_interests:
-  - Healthcare modeling
-  - Simulation optimization
-  - Digital twins
 aliases:
   - Serin Lee
   - Lee S
@@ -35,14 +32,6 @@ links:
 - **Postdoctoral Research Fellow**, Fred Hutchinson Cancer Center, 2024–2025
 - **Research Scientist**, Institute for Disease Modeling, Bill & Melinda Gates Foundation, 2023–2024
 - **Researcher**, Center for Primary Care and Outcomes Research, Stanford University, 2021
-
-## Research Interests
-
-- Healthcare modeling and simulation
-- Simulation optimization and digital twins
-- Agent-based modeling
-- Infectious disease policy modeling
-- Pharmacometric and clinical-trial simulation
 
 ## Honors & Awards
 

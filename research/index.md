@@ -20,7 +20,7 @@ header-dark: false
     <h1>Research Area <span>· 연구 분야</span></h1>
 
     <article id="healthcare-systems" class="research-reference-item">
-      <h2>Health Policy &amp; Disease Modeling <span>· 보건정책 및 질병 모델링</span></h2>
+      <h2><span class="research-title-en">Health Policy &amp; Disease Modeling</span><span class="research-title-ko">보건정책 및 질병 모델링</span></h2>
       <div class="research-reference-body">
         <figure><img src="{{ '/images/proj-abm.png' | relative_url }}" alt="Agent-based simulation of infectious disease policy"></figure>
         <div>
@@ -33,7 +33,7 @@ header-dark: false
     </article>
 
     <article id="clinical-trials" class="research-reference-item">
-      <h2>Clinical Trials &amp; Pharmacometrics <span>· 임상시험 및 약리계량학</span></h2>
+      <h2><span class="research-title-en">Clinical Trials &amp; Pharmacometrics</span><span class="research-title-ko">임상시험 및 약리계량학</span></h2>
       <div class="research-reference-body">
         <figure><img src="{{ '/images/proj-dbs.jpg' | relative_url }}" alt="Pharmacokinetic modeling of clinical-trial data"></figure>
         <div>
@@ -46,7 +46,7 @@ header-dark: false
     </article>
 
     <article id="biomanufacturing" class="research-reference-item">
-      <h2>Biomanufacturing Digital Twins <span>· 바이오공정 디지털 트윈</span></h2>
+      <h2><span class="research-title-en">Biomanufacturing Digital Twins</span><span class="research-title-ko">바이오공정 디지털 트윈</span></h2>
       <div class="research-reference-body">
         <figure><img src="{{ '/images/proj-biomfg.png' | relative_url }}" alt="Discrete-event simulation of a biomanufacturing process"></figure>
         <div>
@@ -59,12 +59,12 @@ header-dark: false
     </article>
 
     <article id="simulation-methods" class="research-reference-item">
-      <h2>Simulation Research <span>· 시뮬레이션 연구</span></h2>
+      <h2><span class="research-title-en">Simulation Methods</span><span class="research-title-ko">시뮬레이션 방법론</span></h2>
       <div class="research-reference-body">
         <figure><img src="{{ '/images/proj-xcal.png' | relative_url }}" alt="Representative calibration and explainable AI output"></figure>
         <div>
           <h3>Agent-based modeling methods</h3>
-          <p>에이전트 기반 모델의 설계, 가상 인구 구성, 상호작용 및 개입 전략 분석 방법론을 연구</p>
+          <p>에이전트 기반 모델의 설계, 가상 인구 구성, 상호작용 및 개입 전략 분석 방법론 연구</p>
           <h3>Calibration, optimization, and explainable analysis</h3>
           <p>복잡한 시뮬레이션 모델의 보정·최적화와 결과 해석을 위한 설명가능 분석 방법론을 개발</p>
         </div>
@@ -74,15 +74,15 @@ header-dark: false
 
   <section class="research-output-panel" data-research-panel="international" role="tabpanel" hidden>
     <h1>International Articles <span>· 국제학술지</span></h1>
+    <h2>Ongoing Work <span>· 진행 중인 연구</span></h2>
+    {% include research-output-list.html group="review" %}
     <h2>Journal Articles <span>· 학술지 논문</span></h2>
     {% include research-output-list.html group="journal" %}
-    <h2>Forthcoming and Ongoing Work <span>· 게재 예정 및 진행 중인 연구</span></h2>
-    {% include research-output-list.html group="review" %}
   </section>
 
   <section class="research-output-panel" data-research-panel="korean" role="tabpanel" hidden>
     <h1>Korean Articles <span>· 국내학술지</span></h1>
-    <p class="research-empty">국내학술지 논문을 준비하고 있습니다.</p>
+    <p class="research-empty">국내학술지 논문 준비중.</p>
   </section>
 
   <section class="research-output-panel" data-research-panel="conference" role="tabpanel" hidden>

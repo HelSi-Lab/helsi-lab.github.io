@@ -7,7 +7,7 @@ header-dark: false
   <section class="home-hero">
     <p class="home-kicker">HEALTHCARE &amp; SIMULATION OPTIMIZATION LAB</p>
     <h1>HELSI LAB</h1>
-    <p class="home-tagline">Building better healthcare decisions<br>through models, data, and optimization.</p>
+    <p class="home-tagline">Building better healthcare decisions through models, data, and optimization.</p>
     <p class="home-tagline-kr">시뮬레이션·최적화·디지털 트윈으로 더 나은 헬스케어 의사결정을 만듭니다.</p>
 
     <a class="home-core-image" href="{{ '/research/' | relative_url }}" aria-label="Explore HelSi Lab research">
@@ -28,7 +28,7 @@ header-dark: false
       </a>
       <a href="{{ '/research/#clinical-trials' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-dbs.jpg' | relative_url }}" alt="Clinical trials and pharmacometrics research">
-        <div><h2><span class="home-title-line">Clinical Trials &amp;</span><span class="home-title-line home-title-long">Pharmacometrics</span><small>· 임상시험 및 약리계량학</small></h2><p class="home-card-keywords"><span>HIV prevention</span><span>Virtual clinical trials</span></p><p class="home-card-keywords-ko">HIV 예방 · 가상 임상시험</p></div>
+        <div><h2><span class="home-title-line">Clinical Trials &amp;</span><span class="home-title-line home-title-long">Pharmacometrics</span><small>· 임상시험 및 약리계량학</small></h2><p class="home-card-keywords"><span>Virtual clinical trials</span></p><p class="home-card-keywords-ko">가상 임상시험</p></div>
       </a>
       <a href="{{ '/research/#biomanufacturing' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-biomfg.png' | relative_url }}" alt="Biomanufacturing digital twins research">

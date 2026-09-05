@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const id = tab.dataset.researchTab;
       history.replaceState(null, "", `#${id}`);
       selectPanel(id);
-      page.scrollIntoView({ block: "start" });
     });
   });
 

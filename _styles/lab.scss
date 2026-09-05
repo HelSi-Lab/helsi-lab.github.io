@@ -525,6 +525,9 @@ html { font-size: 16px; }
 
 /* Research: plain tabs, title, and image/text rows. */
 .research-reference-page {
+  width: 100%;
+  scroll-margin-top: 82px;
+  overflow-x: clip;
   color: #333333;
   background: #ffffff;
   font-family: Arial, "Noto Sans KR", sans-serif;
@@ -532,7 +535,7 @@ html { font-size: 16px; }
 
 .research-subnav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: clamp(16px, 2.1vw, 38px);
   width: 100%;
   padding: 19px max(4vw, 24px) 15px;
@@ -577,7 +580,7 @@ html { font-size: 16px; }
 }
 
 .research-reference-content > h1 span,
-.research-reference-item > h2 span {
+.research-reference-item > h2 .research-title-ko {
   color: #8a8a8a;
   font-size: 0.58em;
   font-weight: 600;
@@ -585,6 +588,7 @@ html { font-size: 16px; }
 }
 
 .research-reference-item {
+  scroll-margin-top: 110px;
   padding: 0 0 clamp(38px, 5vw, 56px);
   border-bottom: 1px solid #e5e5e5;
 }
@@ -594,7 +598,8 @@ html { font-size: 16px; }
 }
 
 .research-reference-item > h2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 9px minmax(0, 1.15fr) minmax(180px, 0.6fr);
   align-items: center;
   gap: 14px;
   margin: 0 0 27px;
@@ -613,6 +618,19 @@ html { font-size: 16px; }
   flex: none;
   background: #3a3a3a;
   content: "";
+}
+
+.research-title-en {
+  min-width: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.research-reference-item > h2 .research-title-ko {
+  min-width: 0;
+  padding-left: 12px;
+  line-height: 1.28;
 }
 
 .research-reference-body {
@@ -1198,6 +1216,15 @@ html { font-size: 16px; }
   .home-research-grid { grid-template-columns: 1fr; }
   .home-research-card { min-height: 230px; }
   .home-research-card + .home-research-card { border-top: 6px solid #ffffff; border-left: 0; }
+  .research-reference-item > h2 {
+    grid-template-columns: 7px minmax(0, 1fr);
+    align-items: start;
+  }
+  .research-reference-item > h2::before { grid-row: 1 / span 2; }
+  .research-reference-item > h2 .research-title-ko {
+    grid-column: 2;
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 540px) {
