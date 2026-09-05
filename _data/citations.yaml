@@ -51,7 +51,7 @@
   - Daniel J. Klein
   - et al.
   publisher: PLOS Computational Biology
-  date: 2024-07-01
+  date: '2024-07-01'
   link: https://doi.org/hb7pj3
   group: journal
   plugin: sources.py
@@ -121,7 +121,7 @@
   - Dobromir Dimitrov
   - Peter Anderson
   - Mia Moore
-  publisher: "Accepted · AIDS and Behavior"
+  publisher: "Accepted \xB7 AIDS and Behavior"
   date: '2026-06-01'
   group: review
   plugin: sources.py
@@ -168,7 +168,8 @@
   group: review
   plugin: sources.py
   file: sources.yaml
-- title: "Explaining the efficacy–effectiveness gap in seasonal influenza vaccination using agent-based modeling"
+- title: "Explaining the efficacy\u2013effectiveness gap in seasonal influenza vaccination\
+    \ using agent-based modeling"
   authors:
   - '**Serin Lee**'
   - et al.
@@ -180,9 +181,9 @@
 - title: Data-driven approaches to support clinical trials
   authors:
   - '**Serin Lee**'
-  publisher: Invited seminar · Korea Research Institute of Bioscience & Biotechnology
-    (KRIBB), Ochang
-  date: 2026-02-06
+  publisher: "Invited seminar \xB7 Korea Research Institute of Bioscience & Biotechnology\
+    \ (KRIBB), Ochang"
+  date: '2026-02-06'
   group: talk
   plugin: sources.py
   file: sources.yaml
@@ -190,17 +191,17 @@
     in HPTN 067
   authors:
   - '**Serin Lee**'
-  publisher: Invited seminar · Seoul National University, Seoul
-  date: 2026-01-16
+  publisher: "Invited seminar \xB7 Seoul National University, Seoul"
+  date: '2026-01-16'
   group: talk
   plugin: sources.py
   file: sources.yaml
 - title: Introduction to agent-based modelling
   authors:
   - '**Serin Lee**'
-  publisher: Invited seminar · Industrial & Mathematical Data Analytics Research Center,
-    SNU
-  date: 2020-09-01
+  publisher: "Invited seminar \xB7 Industrial & Mathematical Data Analytics Research\
+    \ Center, SNU"
+  date: '2020-09-01'
   group: talk
   plugin: sources.py
   file: sources.yaml
@@ -210,7 +211,7 @@
   - Haeun Kang
   - '**Serin Lee**'
   publisher: Korean Institute of Industrial Engineers (KIIE) Spring Conference, Gyeongju
-  date: 2026-06-01
+  date: '2026-06-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -219,7 +220,7 @@
   authors:
   - '**Serin Lee**'
   publisher: Epidemics, San Diego, CA
-  date: 2025-11-01
+  date: '2025-11-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -227,7 +228,7 @@
   authors:
   - '**Serin Lee**'
   publisher: Korean Institute of Industrial Engineers, Daejeon
-  date: 2025-11-01
+  date: '2025-11-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -235,7 +236,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Annual Meeting, Seattle, WA
-  date: 2024-10-01
+  date: '2024-10-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -244,7 +245,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Annual Meeting, Phoenix, AZ
-  date: 2023-10-01
+  date: '2023-10-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -253,7 +254,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Healthcare Conference, Toronto, Canada
-  date: 2023-07-01
+  date: '2023-07-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -262,7 +263,7 @@
   authors:
   - '**Serin Lee**'
   publisher: IDM Annual Symposium, Seattle, WA
-  date: 2023-05-01
+  date: '2023-05-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -270,7 +271,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Annual Meeting, Indianapolis, IN
-  date: 2022-10-01
+  date: '2022-10-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -279,7 +280,7 @@
   authors:
   - '**Serin Lee**'
   publisher: 43rd SMDM Annual Meeting
-  date: 2021-10-01
+  date: '2021-10-01'
   tags:
   - Finalist, Lee B. Lusted Award
   group: oral
@@ -290,7 +291,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Annual Meeting, Anaheim, CA
-  date: 2021-10-01
+  date: '2021-10-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -299,7 +300,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Healthcare Conference
-  date: 2021-07-01
+  date: '2021-07-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -308,7 +309,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Annual Meeting
-  date: 2020-11-01
+  date: '2020-11-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -316,7 +317,7 @@
   authors:
   - '**Serin Lee**'
   publisher: INFORMS Annual Meeting
-  date: 2020-11-01
+  date: '2020-11-01'
   group: oral
   plugin: sources.py
   file: sources.yaml
@@ -325,7 +326,7 @@
   authors:
   - '**Serin Lee**'
   publisher: 42nd SMDM Annual Meeting
-  date: 2020-10-01
+  date: '2020-10-01'
   tags:
   - Finalist, Lee B. Lusted Award
   group: oral
@@ -335,7 +336,7 @@
   authors:
   - '**Serin Lee**'
   publisher: 44th SMDM Annual Meeting, Seattle, WA
-  date: 2022-10-01
+  date: '2022-10-01'
   group: poster
   plugin: sources.py
   file: sources.yaml
@@ -344,7 +345,7 @@
   authors:
   - '**Serin Lee**'
   publisher: MIDAS Network Annual Meeting
-  date: 2021-05-01
+  date: '2021-05-01'
   group: poster
   plugin: sources.py
   file: sources.yaml
@@ -353,33 +354,39 @@
   authors:
   - '**Serin Lee**'
   publisher: Korean Society of Medical Informatics Spring Conference, Seoul
-  date: 2018-06-01
+  date: '2018-06-01'
   group: poster
   plugin: sources.py
   file: sources.yaml
-- title: 'Digital twin-based virtual clinical trial for infectious diseases: effectiveness
-    prediction and protocol optimization (가상 임상시험을 활용한 감염병 약물 유효성 예측 및 임상 프로토콜 최적화)'
+- title: "Digital twin-based virtual clinical trial for infectious diseases: effectiveness\
+    \ prediction and protocol optimization (\uAC00\uC0C1 \uC784\uC0C1\uC2DC\uD5D8\uC744\
+    \ \uD65C\uC6A9\uD55C \uAC10\uC5FC\uBCD1 \uC57D\uBB3C \uC720\uD6A8\uC131 \uC608\
+    \uCE21 \uBC0F \uC784\uC0C1 \uD504\uB85C\uD1A0\uCF5C \uCD5C\uC801\uD654)"
   authors:
   - '**Serin Lee** (PI)'
-  publisher: National Research Foundation of Korea (NRF) · Mar 2026 – Feb 2029
-  date: 2026-03-01
+  publisher: "National Research Foundation of Korea (NRF) \xB7 Mar 2026 \u2013 Feb\
+    \ 2029"
+  date: '2026-03-01'
   group: project
   plugin: sources.py
   file: sources.yaml
-- title: Agent-based simulation research using publicly available data (공공데이터를 활용한
-    에이전트 기반 시뮬레이션 연구)
+- title: "Agent-based simulation research using publicly available data (\uACF5\uACF5\
+    \uB370\uC774\uD130\uB97C \uD65C\uC6A9\uD55C \uC5D0\uC774\uC804\uD2B8 \uAE30\uBC18\
+    \ \uC2DC\uBBAC\uB808\uC774\uC158 \uC5F0\uAD6C)"
   authors:
   - '**Serin Lee** (PI)'
-  publisher: Incheon National University · Apr 2026 – Apr 2027
-  date: 2026-04-01
+  publisher: "Incheon National University \xB7 Apr 2026 \u2013 Apr 2027"
+  date: '2026-04-01'
   group: project
   plugin: sources.py
   file: sources.yaml
-- title: Studies on data-driven simulation and modeling (데이터 기반 시뮬레이션 및 모델링 기법 연구)
+- title: "Studies on data-driven simulation and modeling (\uB370\uC774\uD130 \uAE30\
+    \uBC18 \uC2DC\uBBAC\uB808\uC774\uC158 \uBC0F \uBAA8\uB378\uB9C1 \uAE30\uBC95 \uC5F0\
+    \uAD6C)"
   authors:
   - '**Serin Lee** (PI)'
-  publisher: Incheon National University · Oct 2025 – Apr 2027
-  date: 2025-10-01
+  publisher: "Incheon National University \xB7 Oct 2025 \u2013 Apr 2027"
+  date: '2025-10-01'
   group: project
   plugin: sources.py
   file: sources.yaml
