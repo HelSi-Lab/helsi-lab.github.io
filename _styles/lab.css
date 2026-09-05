@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html {
+  font-size: 16px;
+}
+
 /* Shared clean header for the three renewed pages. */
 .header-urban {
   min-height: 80px;
@@ -210,7 +214,7 @@
 .home-research-card {
   position: relative;
   display: block;
-  min-height: 310px;
+  min-height: 290px;
   overflow: hidden;
   background: #e4eaeb;
   color: #ffffff;
@@ -237,9 +241,9 @@
 
 .home-research-card > div {
   position: absolute;
-  right: 23px;
-  bottom: 23px;
-  left: 23px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
   z-index: 1;
 }
 
@@ -247,10 +251,19 @@
   margin: 0 0 9px;
   color: #ffffff;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: clamp(1.3rem, 2vw, 1.8rem);
+  font-size: clamp(1.03rem, 1.45vw, 1.38rem);
   font-weight: 800;
   letter-spacing: -0.06em;
-  line-height: 1.03;
+  line-height: 1.08;
+}
+
+.home-title-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.home-title-long {
+  font-size: 0.9em;
 }
 
 .home-research-card h2 small {
@@ -266,13 +279,31 @@
 .home-research-card p {
   margin: 0;
   color: #e3e9eb;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   line-height: 1.45;
 }
 
-.home-research-card p span {
-  color: #bcd4dc;
-  font-size: 0.91em;
+.home-card-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 5px;
+}
+
+.home-card-keywords span {
+  color: inherit;
+  font-size: inherit;
+  white-space: nowrap;
+}
+
+.home-card-keywords span:not(:last-child)::after {
+  margin-left: 5px;
+  content: "·";
+}
+
+.home-card-keywords-ko {
+  margin-top: 3px !important;
+  color: #bcd4dc !important;
+  font-size: 0.62rem !important;
 }
 
 .home-cta {
@@ -334,7 +365,7 @@
   border-bottom: 1px solid #dedede;
   color: #303030;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  font-size: clamp(1.65rem, 2.6vw, 2.25rem);
   font-weight: 800;
   letter-spacing: -0.065em;
 }
@@ -351,7 +382,7 @@
   margin: 0 0 19px;
   color: #343434;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.04rem;
   font-weight: 800;
   letter-spacing: -0.045em;
 }
@@ -363,14 +394,14 @@
 }
 
 .team-card-grid-pi {
-  grid-template-columns: minmax(220px, 270px);
+  grid-template-columns: minmax(220px, 255px);
   justify-content: center;
   margin-bottom: clamp(60px, 8vw, 92px);
 }
 
 .team-person-card {
   min-width: 0;
-  padding: 29px 25px 31px;
+  padding: 24px 22px 26px;
   border-radius: 30px;
   background: #f3f3f3;
   color: #101010;
@@ -401,7 +432,7 @@
   margin: 0;
   color: #050505;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  font-size: clamp(1.35rem, 1.85vw, 1.68rem);
   font-weight: 800;
   letter-spacing: -0.07em;
   line-height: 1.04;
@@ -429,7 +460,7 @@
   background: #ddecf6;
   color: #0b3470;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: 0.88rem;
+  font-size: 0.79rem;
   font-weight: 800;
   letter-spacing: -0.045em;
   line-height: 1.1;
@@ -441,7 +472,7 @@
   padding: 0;
   background: transparent;
   color: #6881a1;
-  font-size: 0.61rem;
+  font-size: 0.59rem;
   font-weight: 700;
 }
 
@@ -456,14 +487,14 @@
 
 .team-person-links a {
   display: inline-grid;
-  width: 31px;
-  height: 31px;
+  width: 29px;
+  height: 29px;
   place-items: center;
   border: 1px solid #a5a5a5;
   border-radius: 50%;
   color: #171717;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: 1rem;
+  font-size: 0.82rem;
   font-weight: 800;
   line-height: 1;
   text-decoration: none;
@@ -476,16 +507,28 @@
 }
 
 .team-person-interests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px 5px;
   margin: 0;
   padding: 0;
   color: #151515;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: clamp(0.65rem, 1.1vw, 0.78rem);
+  font-size: clamp(0.63rem, 0.9vw, 0.72rem);
   font-weight: 700;
   letter-spacing: -0.045em;
   line-height: 1.45;
   text-align: center;
+}
+
+.team-person-interests span {
   white-space: nowrap;
+}
+
+.team-person-interests span:not(:last-child)::after {
+  margin-left: 5px;
+  content: "·";
 }
 
 .team-alumni {
@@ -538,7 +581,7 @@
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
   color: #929292;
-  font-size: clamp(0.88rem, 1.18vw, 1.1rem);
+  font-size: clamp(0.82rem, 1.05vw, 0.98rem);
   font-weight: 800;
   letter-spacing: -0.055em;
   text-decoration: none;
@@ -566,7 +609,7 @@
   margin: 0 0 35px;
   color: #3a3a3a;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: clamp(1.9rem, 3vw, 2.65rem);
+  font-size: clamp(1.65rem, 2.55vw, 2.18rem);
   font-weight: 800;
   letter-spacing: -0.075em;
 }
@@ -595,7 +638,7 @@
   margin: 0 0 27px;
   color: #353535;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: clamp(1.35rem, 2.15vw, 2.12rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.75rem);
   font-weight: 800;
   letter-spacing: -0.075em;
   line-height: 1.1;
@@ -633,7 +676,7 @@
   margin: 3px 0 4px;
   color: #363636;
   font-family: Arial, "Noto Sans KR", sans-serif;
-  font-size: clamp(1.02rem, 1.48vw, 1.38rem);
+  font-size: clamp(0.96rem, 1.3vw, 1.18rem);
   font-weight: 800;
   letter-spacing: -0.06em;
   line-height: 1.28;
@@ -642,7 +685,7 @@
 .research-reference-body p {
   margin: 0 0 24px;
   color: #919191;
-  font-size: clamp(0.82rem, 1.05vw, 0.95rem);
+  font-size: clamp(0.78rem, 0.96vw, 0.88rem);
   font-weight: 500;
   letter-spacing: -0.035em;
   line-height: 1.45;
@@ -663,7 +706,7 @@
 .research-output-panel > h1 {
   margin: 0 0 35px;
   color: #3a3a3a;
-  font-size: clamp(1.9rem, 3vw, 2.65rem);
+  font-size: clamp(1.65rem, 2.55vw, 2.18rem);
   font-weight: 800;
   letter-spacing: -0.075em;
 }
@@ -680,7 +723,7 @@
   padding-bottom: 12px;
   border-bottom: 1px solid #dadada;
   color: #3b3b3b;
-  font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+  font-size: clamp(1.05rem, 1.55vw, 1.34rem);
   font-weight: 800;
   letter-spacing: -0.055em;
 }
@@ -697,10 +740,30 @@
 
 .research-output-row {
   display: grid;
-  grid-template-columns: 70px minmax(0, 1fr);
+  grid-template-columns: 62px minmax(0, 1fr);
   gap: 22px;
   padding: 25px 0;
   border-bottom: 1px solid #e5e5e5;
+}
+
+.research-output-row-has-image {
+  grid-template-columns: 142px 54px minmax(0, 1fr);
+  align-items: start;
+}
+
+.research-output-image {
+  display: grid;
+  min-height: 98px;
+  place-items: center;
+  overflow: hidden;
+  background: #f1f3f3;
+}
+
+.research-output-image img {
+  display: block;
+  width: 100%;
+  height: 104px;
+  object-fit: contain;
 }
 
 .research-output-year {
@@ -713,7 +776,7 @@
 .research-output-row h3 {
   margin: 0 0 9px;
   color: #293d6f;
-  font-size: clamp(1rem, 1.6vw, 1.42rem);
+  font-size: clamp(0.94rem, 1.32vw, 1.18rem);
   font-weight: 800;
   letter-spacing: -0.045em;
   line-height: 1.3;
@@ -732,7 +795,7 @@
 .research-output-meta {
   margin: 0;
   color: #474747;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   line-height: 1.5;
 }
 
@@ -769,7 +832,7 @@
 .lab-page-heading h1 {
   margin: 0 0 14px;
   color: #353535;
-  font-size: clamp(2rem, 3.6vw, 3rem);
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
   font-weight: 800;
   letter-spacing: -0.075em;
   line-height: 1.05;
@@ -802,7 +865,7 @@
 .teaching-section h2 {
   margin: 0 0 20px;
   color: #363636;
-  font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+  font-size: clamp(1.1rem, 1.8vw, 1.45rem);
   font-weight: 800;
   letter-spacing: -0.065em;
 }
@@ -831,7 +894,7 @@
 .teaching-list h3 {
   margin: 0;
   color: #363636;
-  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  font-size: clamp(0.94rem, 1.45vw, 1.1rem);
   font-weight: 800;
   letter-spacing: -0.05em;
   line-height: 1.32;
@@ -870,6 +933,23 @@
   border-bottom: 1px solid #e3e3e3;
 }
 
+.news-reference-list article.has-image {
+  grid-template-columns: 148px 105px minmax(0, 1fr);
+}
+
+.news-reference-image {
+  display: block;
+  overflow: hidden;
+  background: #f1f1f1;
+}
+
+.news-reference-image img {
+  display: block;
+  width: 100%;
+  height: 104px;
+  object-fit: cover;
+}
+
 .news-reference-list time {
   padding-top: 5px;
   color: #888888;
@@ -880,7 +960,7 @@
 
 .news-reference-list h2 {
   margin: 0 0 10px;
-  font-size: clamp(1.1rem, 2vw, 1.48rem);
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
   font-weight: 800;
   letter-spacing: -0.06em;
   line-height: 1.28;
@@ -898,7 +978,7 @@
 .news-reference-list p {
   margin: 0;
   color: #7f7f7f;
-  font-size: 0.92rem;
+  font-size: 0.86rem;
   line-height: 1.6;
 }
 
@@ -921,7 +1001,7 @@
   grid-column: 1;
   margin: 0;
   color: #383838;
-  font-size: clamp(1.08rem, 1.8vw, 1.38rem);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
   font-weight: 800;
   letter-spacing: -0.06em;
   line-height: 1.3;
@@ -933,11 +1013,38 @@
   grid-column: 2;
 }
 
+.contact-map {
+  margin-top: clamp(42px, 5vw, 62px);
+  padding: 0 !important;
+  text-align: right;
+}
+
+.contact-map iframe {
+  display: block;
+  width: 100%;
+  height: clamp(300px, 42vw, 470px);
+  border: 0;
+  filter: grayscale(0.28);
+}
+
+.contact-map a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #293d6f;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-map a:hover {
+  text-decoration: underline;
+}
+
 .join-reference-list p,
 .contact-reference-list p {
   margin: 0 0 14px;
   color: #696969;
-  font-size: clamp(0.9rem, 1.25vw, 1rem);
+  font-size: clamp(0.86rem, 1.1vw, 0.94rem);
   font-weight: 500;
   letter-spacing: -0.035em;
   line-height: 1.68;
@@ -1016,7 +1123,7 @@
 .member-profile-intro h1 {
   margin: 0 0 18px;
   color: #262626;
-  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-size: clamp(1.75rem, 3vw, 2.42rem);
   font-weight: 800;
   letter-spacing: -0.08em;
   line-height: 1.04;
@@ -1037,7 +1144,7 @@
   padding: 5px 10px;
   background: #ddecf6;
   color: #0b3470;
-  font-size: 0.92rem;
+  font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: -0.045em;
 }
@@ -1052,7 +1159,7 @@
 .member-profile-interests {
   margin: 26px 0 0;
   color: #4f4f4f;
-  font-size: 0.91rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: -0.035em;
   line-height: 1.55;
@@ -1086,7 +1193,7 @@
   padding-top: 0;
   padding-bottom: 0;
   color: #515151;
-  font-size: 1rem;
+  font-size: 0.92rem;
   line-height: 1.8;
 }
 
@@ -1129,7 +1236,7 @@
 .lab-post-heading h1 {
   margin: 0 0 18px;
   color: #303030;
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: clamp(1.72rem, 3.35vw, 2.55rem);
   font-weight: 800;
   letter-spacing: -0.075em;
   line-height: 1.12;
@@ -1144,7 +1251,7 @@
 .lab-post-content {
   padding: clamp(35px, 5vw, 56px) 0;
   color: #555555;
-  font-size: clamp(1rem, 1.4vw, 1.1rem);
+  font-size: clamp(0.92rem, 1.25vw, 1rem);
   line-height: 1.8;
 }
 
@@ -1154,6 +1261,22 @@
 
 .lab-post-content > :last-child {
   margin-bottom: 0;
+}
+
+.lab-post-gallery {
+  margin-top: clamp(30px, 4vw, 46px);
+}
+
+.lab-post-gallery img {
+  display: block;
+  width: 100%;
+  max-height: 620px;
+  object-fit: contain;
+  background: #f2f2f2;
+}
+
+.lab-post-gallery img + img {
+  margin-top: 18px;
 }
 
 .lab-post-back {
@@ -1189,6 +1312,12 @@
   .research-output-row {
     grid-template-columns: 55px minmax(0, 1fr);
     gap: 15px;
+  }
+  .research-output-row-has-image {
+    grid-template-columns: 118px 46px minmax(0, 1fr);
+  }
+  .research-output-image img {
+    height: 88px;
   }
   .join-reference-list article,
   .contact-reference-list article {
@@ -1229,7 +1358,7 @@
     grid-template-columns: 1fr;
   }
   .home-research-card {
-    min-height: 245px;
+    min-height: 230px;
   }
   .home-research-card + .home-research-card {
     border-top: 6px solid #ffffff;
@@ -1290,8 +1419,35 @@
     grid-template-columns: 1fr;
     gap: 7px;
   }
+  .news-reference-list article.has-image {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .news-reference-image {
+    width: min(100%, 330px);
+  }
+  .news-reference-image img {
+    height: auto;
+    max-height: 240px;
+    object-fit: contain;
+  }
   .news-reference-list time {
     padding-top: 0;
+  }
+  .research-output-row-has-image {
+    grid-template-columns: 82px minmax(0, 1fr);
+  }
+  .research-output-row-has-image .research-output-image {
+    grid-row: 1/span 2;
+  }
+  .research-output-row-has-image .research-output-year {
+    grid-column: 2;
+  }
+  .research-output-row-has-image > div:last-child {
+    grid-column: 2;
+  }
+  .research-output-image img {
+    height: 70px;
   }
   .member-reference-page,
   .lab-post-page {
