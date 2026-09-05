@@ -184,6 +184,23 @@
   group: oral
   plugin: sources.py
   file: sources.yaml
+- title: Dried blood spots measurements as indicator of HIV PrEP adherence and protection
+    among MSM in HPTN067
+  authors:
+  - '**Serin Lee**'
+  publisher: Epidemics, San Diego, CA
+  date: '2025-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Optimizing Vaccination Campaign Considering Societal Characteristics
+  authors:
+  - '**Serin Lee**'
+  publisher: Korean Institute of Industrial Engineers, Daejeon
+  date: '2025-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
 - title: "Digital twin-based virtual clinical trial for infectious diseases: effectiveness\
     \ prediction and protocol optimization (\uAC00\uC0C1 \uC784\uC0C1\uC2DC\uD5D8\uC744\
     \ \uD65C\uC6A9\uD55C \uAC10\uC5FC\uBCD1 \uC57D\uBB3C \uC720\uD6A8\uC131 \uC608\
