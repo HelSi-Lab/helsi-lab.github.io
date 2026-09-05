@@ -36,6 +36,19 @@
   margin: 0 0 1.2rem;
 }
 
+.research-kr {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--helsi-muted);
+  margin-top: 0.2rem;
+}
+
+.research-lead-kr {
+  margin-top: -0.6rem;
+  font-size: 1rem;
+}
+
 .research-lead {
   color: var(--helsi-muted);
   font-size: 1.15rem;
@@ -142,105 +155,61 @@
   color: var(--helsi-blue);
 }
 
-/* ══════════════════════════════════════════════════
-   Publication — nuclear specificity overrides
-   Using .pub-page ID for maximum CSS priority
-   ══════════════════════════════════════════════════ */
-/* Hide thumbnails */
-.pub-page .citation-image,
-.pub-page .thumbnail,
-.pub-page .citation > a:first-child:has(img) {
-  display: none !important;
-}
-
-/* Strip ALL card chrome from citations */
-.pub-page .citation {
-  padding: 0.25em 0 !important;
-  margin: 0 !important;
-  border: none !important;
-  background: none !important;
-  box-shadow: none !important;
-  gap: 0 !important;
-  display: block !important;
-}
-
-/* Thin separator between citations */
-.pub-page .citation + .citation {
-  border-top: 1px solid var(--helsi-border) !important;
-  padding-top: 0.3em !important;
-}
-
-/* Kill ALL inner spacing */
-.pub-page .citation > *,
-.pub-page .citation > * > *,
-.pub-page .citation div,
-.pub-page .citation span,
-.pub-page .citation p {
-  margin: 0 !important;
-  padding: 0 !important;
-  line-height: 1.4 !important;
-}
-
-/* Title */
-.pub-page .citation a {
-  font-size: 0.92em !important;
-  font-weight: 600;
-}
-
-/* Authors + details */
-.pub-page .citation span,
-.pub-page .citation div:not(:first-child) {
-  font-size: 0.82em !important;
-  color: var(--helsi-muted);
-}
-
-/* Tags */
-.pub-page .citation .tag {
-  font-size: 0.7em !important;
-  padding: 0.05em 0.3em !important;
-}
-
-/* Kill ALL list wrapper gaps */
-.pub-page .list {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.pub-page .list > * {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.pub-page .list > * + * {
-  margin: 0 !important;
-}
-
-/* Year sub-headers inside list */
-.pub-page .list h2,
-.pub-page .list h3 {
-  font-size: 0.85em !important;
-  margin: 0.6em 0 0.1em !important;
-  padding: 0 !important;
-  color: var(--helsi-muted);
-  font-weight: 700;
-  border: none !important;
-}
-
+/* ══════════════════════════════════════════
+   Publications / Projects — compact lists
+   ══════════════════════════════════════════ */
 .pub-page > h1 {
-  font-size: 2rem;
-  margin: 2.5rem 0 0.5rem;
+  font-size: 1.9rem;
+  margin: 2.2rem 0 0.4rem;
 }
 
 .pub-page > h1:first-child {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
-/* Section sub-headers */
 .pub-page > h2 {
   font-size: 1.05rem;
   color: var(--helsi-blue);
-  margin: 1.5rem 0 0.3rem;
+  margin: 1.3rem 0 0.2rem;
   font-weight: 800;
+}
+
+.compact-list {
+  list-style: none;
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+
+.compact-list li {
+  margin: 0;
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--helsi-border);
+  line-height: 1.45;
+}
+
+.compact-list li:first-child {
+  border-top: none;
+}
+
+.cl-title {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.cl-title a {
+  text-decoration: none;
+}
+
+.cl-meta {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--helsi-muted);
+}
+
+.compact-list[data-style=oneline] .cl-title,
+.compact-list[data-style=oneline] .cl-meta {
+  display: inline;
 }
 
 /* ── Responsive ── */
