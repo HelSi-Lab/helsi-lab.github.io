@@ -4,8 +4,8 @@ nav:
   order: 2
   tooltip: Research areas, publications, projects, and talks
   dropdown:
-    - title: Research areas
-      link: research/#areas
+    - title: Research Outline
+      link: research/#outline
     - title: Publications
       link: research/#publication
     - title: Projects
@@ -20,128 +20,74 @@ nav:
 
 <div class="research-page">
 
-  <div class="research-hero" id="areas">
+  <div class="research-hero" id="outline">
     <p class="research-eyebrow">Research</p>
-    <h1>Research Areas</h1>
+    <h1>Research Outline</h1>
     <p class="research-lead">
       HelSi Lab develops simulation, optimization, and digital-twin methods to
-      support decision-making in complex bio/healthcare systems. Our work spans
-      three areas — click each to see what we do.
+      support decision-making in complex bio/healthcare systems. We model real
+      systems, simulate how they behave under uncertainty, and optimize the
+      decisions that shape them.
     </p>
   </div>
 
-  <div class="research-areas">
-
-    <details class="research-area" open>
-      <summary>
-        <span class="research-area-number">01</span>
-        <span class="research-area-title">Bio &amp; Healthcare Systems</span>
-        <span class="research-area-sub">Infectious disease · Clinical trials · Biomanufacturing</span>
-      </summary>
-      <div class="research-area-body">
-        <p class="research-area-intro">Where we apply our models: real bio and healthcare systems
-          in which decisions must be made under uncertainty.</p>
-
-        <div class="research-topic">
-          <img src="{{ "/images/proj-abm.jpg" | relative_url }}" alt="Agent-based model of COVID-19 policy">
-          <div>
-            <h3>Infectious Disease &amp; Public Health Policy</h3>
-            <p>HPC-based agent-based simulation of disease spread (COVID-19, measles,
-              seasonal influenza) to forecast outbreaks and evaluate public-health
-              interventions — vaccination campaigns, non-pharmaceutical interventions,
-              and resource allocation — including how opinion dynamics shape vaccine uptake.</p>
-          </div>
-        </div>
-
-        <div class="research-topic">
-          <img src="{{ "/images/proj-dbs.jpg" | relative_url }}" alt="Pharmacokinetic modeling of HIV PrEP adherence">
-          <div>
-            <h3>Clinical Trials &amp; Pharmacometrics</h3>
-            <p>Pharmacokinetic and mathematical modeling of clinical-trial data to estimate
-              drug adherence, protection, and efficacy — e.g., HIV pre-exposure prophylaxis
-              (dried blood spot biomarkers, long-acting injectables) — and digital-twin-based
-              <em>virtual clinical trials</em> for infectious diseases (NRF, 2026–2029),
-              in collaboration with Gilead Sciences.</p>
-          </div>
-        </div>
-
-        <div class="research-topic">
-          <img src="{{ "/images/proj-biomfg.jpg" | relative_url }}" alt="Biomanufacturing process model">
-          <div>
-            <h3>Biomanufacturing</h3>
-            <p>Discrete-event simulation of biopharmaceutical production (e.g., monoclonal
-              antibodies) and batch-scheduling optimization to improve yield and
-              throughput under process uncertainty.</p>
-          </div>
-        </div>
-      </div>
-    </details>
-
-    <details class="research-area">
-      <summary>
-        <span class="research-area-number">02</span>
-        <span class="research-area-title">Agent-Based Modeling &amp; Digital Twins</span>
-        <span class="research-area-sub">LLM-persona agents · Synthetic populations · Digital-twin frameworks</span>
-      </summary>
-      <div class="research-area-body">
-        <p class="research-area-intro">How we build models: making agent-based simulations
-          more realistic, more data-driven, and reusable across problems.</p>
-
-        <div class="research-topic">
-          <div class="research-topic-placeholder">Figure coming soon</div>
-          <div>
-            <h3>LLM-Persona Agents &amp; Synthetic Populations</h3>
-            <p>Agent-based models whose agents are driven by LLM personas, and algorithms
-              for building synthetic populations from public data (e.g., household assignment
-              using the NVIDIA Persona Korea synthetic population) for general-purpose ABM.</p>
-          </div>
-        </div>
-
-        <div class="research-topic">
-          <div class="research-topic-placeholder">Figure coming soon</div>
-          <div>
-            <h3>Digital-Twin Frameworks &amp; Surrogate Modeling</h3>
-            <p>Digital twins of healthcare and bioprocess systems, and mathematical or
-              surrogate models that approximate simulations too expensive to run directly.</p>
-          </div>
-        </div>
-      </div>
-    </details>
-
-    <details class="research-area">
-      <summary>
-        <span class="research-area-number">03</span>
-        <span class="research-area-title">Calibration, Simulation Optimization &amp; Explainable AI</span>
-        <span class="research-area-sub">Representative calibration · Post-calibration XAI · Optimization under uncertainty</span>
-      </summary>
-      <div class="research-area-body">
-        <p class="research-area-intro">How we make models trustworthy and actionable: fitting
-          them to data, explaining what they learned, and optimizing the decisions they inform.</p>
-
-        <div class="research-topic">
-          <img src="{{ "/images/proj-xcal.jpg" | relative_url }}" alt="Calibration output">
-          <div>
-            <h3>Representative Calibration &amp; Explainable AI</h3>
-            <p>Calibration algorithms that use black-box optimization and clustering to find
-              <em>representative</em> parameter sets for complex simulation models, and
-              explainable post-calibration analysis that interprets how calibrated parameters
-              drive policy outcomes.</p>
-          </div>
-        </div>
-
-        <div class="research-topic">
-          <div class="research-topic-placeholder">Figure coming soon</div>
-          <div>
-            <h3>Simulation Optimization under Uncertainty</h3>
-            <p>Global optimization and machine learning on top of simulation models to find
-              robust policies — e.g., optimal vaccination campaign strategies that account for
-              societal characteristics and fairness.</p>
-          </div>
-        </div>
-      </div>
-    </details>
-
+  <div class="research-outline">
+    <div class="research-outline-col">
+      <h2>Bio &amp; Healthcare Systems</h2>
+      <p>Infectious disease &amp; public-health policy · Clinical trials &amp; pharmacometrics · Biomanufacturing</p>
+    </div>
+    <div class="research-outline-col">
+      <h2>Simulation &amp; Modeling</h2>
+      <p>Agent-based simulation on HPC · LLM-persona agents &amp; synthetic populations · Digital twins · Surrogate &amp; mathematical models</p>
+    </div>
+    <div class="research-outline-col">
+      <h2>Optimization &amp; Explainable AI</h2>
+      <p>Representative calibration · Post-calibration XAI · Simulation optimization under uncertainty · Machine learning</p>
+    </div>
   </div>
+
+  {% include research-venn.html %}
+
+  <hr class="research-rule">
+
+  <h2 class="research-h2">Selected Topics: Infectious Disease &amp; Public Health Policy</h2>
+  <figure class="research-figure">
+    <img src="{{ "/images/proj-abm.jpg" | relative_url }}" alt="Agent-based simulation of COVID-19 policy">
+    <figcaption><strong>Figure.</strong> HPC-based agent-based simulation of disease spread (COVID-19, measles,
+      seasonal influenza) used to forecast outbreaks and evaluate interventions — vaccination campaigns,
+      non-pharmaceutical interventions, and resource allocation — including how opinion dynamics
+      shape vaccine uptake.</figcaption>
+  </figure>
+
+  <h2 class="research-h2">Selected Topics: Clinical Trials &amp; Pharmacometrics</h2>
+  <figure class="research-figure">
+    <img src="{{ "/images/proj-dbs.jpg" | relative_url }}" alt="Pharmacokinetic modeling of HIV PrEP adherence in HPTN 067">
+    <figcaption><strong>Figure.</strong> Pharmacokinetic modeling of clinical-trial data (HPTN 067) to evaluate
+      dried-blood-spot biomarkers as indicators of HIV PrEP adherence and protection. Related work:
+      long-acting injectable PrEP impact modeling and digital-twin-based <em>virtual clinical trials</em>
+      for infectious diseases (NRF, 2026–2029), in collaboration with Gilead Sciences.</figcaption>
+  </figure>
+
+  <h2 class="research-h2">Selected Topics: Biomanufacturing Digital Twins</h2>
+  <figure class="research-figure">
+    <img src="{{ "/images/proj-biomfg.jpg" | relative_url }}" alt="Discrete-event simulation of a biomanufacturing process">
+    <figcaption><strong>Figure.</strong> Discrete-event simulation of biopharmaceutical production (e.g., monoclonal
+      antibodies, cell therapy) and batch-scheduling optimization to improve yield and throughput under
+      process uncertainty.</figcaption>
+  </figure>
+
+  <h2 class="research-h2">Selected Topics: Representative Calibration &amp; Explainable AI</h2>
+  <figure class="research-figure">
+    <img src="{{ "/images/proj-xcal.jpg" | relative_url }}" alt="Representative calibration output">
+    <figcaption><strong>Figure.</strong> Calibration of complex simulation models using black-box optimization and
+      clustering to find <em>representative</em> parameter sets, and explainable post-calibration analysis
+      that interprets how calibrated parameters drive policy outcomes.</figcaption>
+  </figure>
+
+  <h2 class="research-h2">Selected Topics: LLM-Persona Agents &amp; Synthetic Populations</h2>
+  <p class="research-topic-text">Agent-based models whose agents are driven by LLM personas, and algorithms for
+    building synthetic populations from public data (e.g., household assignment using the NVIDIA Persona
+    Korea synthetic population) for general-purpose agent-based modeling. <em>Figures coming soon.</em></p>
 
   <nav class="research-tabs" aria-label="Research sections">
     <a href="#publication">Publication</a>
@@ -155,7 +101,7 @@ nav:
 ## Publication
 {: #publication}
 
-### Under review & in preparation
+### Work in progress
 
 {% include list.html data="citations" component="citation" filter="group == 'review'" %}
 

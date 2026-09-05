@@ -1,0 +1,124 @@
+---
+---
+
+/* ── Home hero (two columns) ── */
+.home-hero {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 60px;
+  align-items: center;
+  padding: 40px 0 20px;
+}
+
+.home-hero p {
+  text-align: left;
+}
+
+.home-title {
+  font-family: var(--display);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+.home-title em {
+  font-style: italic;
+  color: var(--primary);
+}
+
+.home-tagline {
+  color: var(--dark-gray);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0 0 28px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 0 0 32px;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 999px;
+  border: 1px solid var(--light-gray);
+  color: var(--text);
+  font-weight: var(--bold);
+  text-decoration: none;
+  transition: background var(--transition), color var(--transition);
+}
+
+.home-btn:hover {
+  background: var(--background-alt);
+}
+
+.home-btn-primary {
+  background: #1f3f8f;
+  border-color: #1f3f8f;
+  color: #ffffff;
+}
+
+.home-btn-primary:hover {
+  background: #163070;
+}
+
+.home-recruit {
+  padding: 18px 22px;
+  border-radius: 10px;
+  background: #eaf1fb;
+  border: 1px solid #d6e2f5;
+  font-size: 0.92rem;
+}
+
+[data-dark="true"] .home-recruit {
+  background: #1e2a3d;
+  border-color: #2c3d58;
+}
+
+.home-recruit-title {
+  color: #1f3f8f;
+  font-weight: var(--bold);
+  font-size: 1.05rem;
+  margin: 0 0 8px;
+}
+
+[data-dark="true"] .home-recruit-title {
+  color: var(--secondary);
+}
+
+.home-recruit p {
+  margin: 4px 0;
+  line-height: 1.6;
+}
+
+.home-welcome {
+  font-family: var(--display);
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin: 0 0 20px;
+  text-align: left;
+}
+
+.home-hero-right p {
+  color: var(--dark-gray);
+  line-height: 1.85;
+  margin: 0 0 14px;
+}
+
+.home-welcome-en {
+  padding-top: 10px;
+  border-top: 1px solid var(--light-gray);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 850px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

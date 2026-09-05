@@ -1,8 +1,7 @@
 ---
 title: "Lab website launched"
-# image: images/news/2026-06-01-website-launch.jpg   # optional — drop a photo in images/news/ and uncomment
-tags:
-  - news
+# images:                      # optional photos (one or more)
+#   - images/news/photo.jpg
 ---
 
 HelSi Lab's website is live!

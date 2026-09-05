@@ -5,6 +5,21 @@
 
 # ========== Journal papers ==========
 
+# TODO: replace with `- id: doi:...` once the DOI is at hand (auto-fetches title/thumbnail)
+- title: "Modelling the 5-year impact of twice-yearly injectable lenacapavir for HIV pre-exposure prophylaxis in the United States"
+  authors:
+    - Mia Moore
+    - "**Serin Lee**"
+    - Laura Matrajt
+    - Sarah E. Stansfield
+    - Li Tao
+    - et al.
+    - Dobromir Dimitrov
+  publisher: Journal of the International AIDS Society, 29(8), e70188
+  date: 2026-08-01
+  group: journal
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5666231
+
 - id: doi:10.1177/0272989X251378472
   group: journal
   authors:
@@ -69,7 +84,7 @@
     - Pariyakorn Maneekul
     - Zelda B. Zabinsky
 
-# ========== Under review & in preparation ==========
+# ========== Work in progress ==========
 
 - title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection: Insights from pharmacokinetic modeling"
   authors:
@@ -77,29 +92,50 @@
     - Dobromir Dimitrov
     - Peter Anderson
     - Mia Moore
-  publisher: Under review · AIDS and Behavior
-  date: 2025-01-01
+  publisher: Accepted · AIDS and Behavior
+  date: 2026-06-01
   group: review
 
-- title: "Impact of Long-Acting Injectable Lenacapavir for HIV-1 prevention in the United States: A modeling study"
-  authors:
-    - Mia Moore
-    - "**Serin Lee**"
-    - Laura Matrajt
-    - et al.
-  publisher: Under review · Journal of the International AIDS Society
-  date: 2025-01-01
-  group: review
-
-- title: "A tutorial on explainable post-calibration analysis for policy evaluation"
+- title: "A tutorial on explainable post-calibration analysis for interpreting policy outcomes"
   authors:
     - "**Serin Lee**"
     - Pariyakorn Maneekul
     - Zelda B. Zabinsky
-    - Jamie Cohen
     - Shan Liu
-  publisher: Manuscript in preparation
-  date: 2025-06-01
+  publisher: Under review
+  date: 2026-05-01
+  group: review
+
+- title: "Estimating HIV PrEP efficacy threshold in cisgender women using clinical trials data"
+  authors:
+    - "**Serin Lee**"
+    - et al.
+  publisher: In preparation
+  date: 2026-04-01
+  group: review
+
+- title: "Discrete-event simulation and batch scheduling optimization for biopharmaceutical manufacturing operations"
+  authors:
+    - Haeun Kang
+    - "**Serin Lee**"
+  publisher: In preparation
+  date: 2026-03-01
+  group: review
+
+- title: "A household assignment algorithm for general-purpose agent-based modeling using the NVIDIA Persona Korea synthetic population"
+  authors:
+    - "**Serin Lee**"
+    - et al.
+  publisher: In preparation
+  date: 2026-02-01
+  group: review
+
+- title: "Explaining the efficacy–effectiveness gap in seasonal influenza vaccination using agent-based modeling"
+  authors:
+    - "**Serin Lee**"
+    - et al.
+  publisher: In preparation
+  date: 2026-01-01
   group: review
 
 # ========== Invited talks ==========
