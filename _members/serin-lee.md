@@ -4,8 +4,8 @@ name_ko: 이세린
 image: images/team/serin-lee.jpg
 role: pi
 is-pi: true
-description: Assistant Professor · Principal Investigator
-position_ko: 조교수 · 연구책임자
+description: Principal Investigator
+position_ko: 연구책임자
 research_interests:
 aliases:
   - Serin Lee

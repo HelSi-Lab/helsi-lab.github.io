@@ -19,7 +19,7 @@ header-dark: false
   </section>
 
   <section class="contact-map" aria-label="Incheon National University location map">
-    <iframe src="https://www.google.com/maps?q=%EC%9D%B8%EC%B2%9C%EB%8C%80%ED%95%99%EA%B5%90%209%ED%98%B8%EA%B4%80&amp;output=embed" title="인천대학교 9호관 지도" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <a href="https://www.google.com/maps/search/?api=1&amp;query=%EC%9D%B8%EC%B2%9C%EB%8C%80%ED%95%99%EA%B5%90%209%ED%98%B8%EA%B4%80" target="_blank" rel="noopener">Open in Google Maps · 큰 지도 보기 →</a>
+    <iframe src="https://maps.app.goo.gl/QVmE4ZaVFQCERnXf8;output=embed" title="인천대학교 9호관 지도" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <a href="https://maps.app.goo.gl/QVmE4ZaVFQCERnXf8" target="_blank" rel="noopener">Open in Google Maps · 큰 지도 보기 →</a>
   </section>
 </div>

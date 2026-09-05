@@ -16,6 +16,11 @@
     </div>
   {% endif %}
   {% if include.member.research_interests %}
-    <p class="team-person-interests">{% for interest in include.member.research_interests %}<span>{{ interest }}</span>{% endfor %}</p>
+  <ul class="team-person-interests">
+    {% for interest in include.member.research_interests %}
+      <li>{{ interest }}</li>
+    {% endfor %}
+    </ul>
   {% endif %}
 </article>
+
