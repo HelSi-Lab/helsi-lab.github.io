@@ -11,7 +11,7 @@
   - et al.
   - Dobromir Dimitrov
   publisher: Journal of the International AIDS Society, 29(8), e70188
-  date: 2026-08-01
+  date: '2026-08-01'
   group: journal
   link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5666231
   plugin: sources.py
@@ -121,8 +121,8 @@
   - Dobromir Dimitrov
   - Peter Anderson
   - Mia Moore
-  publisher: Accepted · AIDS and Behavior
-  date: 2026-06-01
+  publisher: "Accepted · AIDS and Behavior"
+  date: '2026-06-01'
   group: review
   plugin: sources.py
   file: sources.yaml
@@ -134,7 +134,7 @@
   - Zelda B. Zabinsky
   - Shan Liu
   publisher: Under review
-  date: 2026-05-01
+  date: '2026-05-01'
   group: review
   plugin: sources.py
   file: sources.yaml
@@ -144,7 +144,7 @@
   - '**Serin Lee**'
   - et al.
   publisher: In preparation
-  date: 2026-04-01
+  date: '2026-04-01'
   group: review
   plugin: sources.py
   file: sources.yaml
@@ -154,7 +154,7 @@
   - Haeun Kang
   - '**Serin Lee**'
   publisher: In preparation
-  date: 2026-03-01
+  date: '2026-03-01'
   group: review
   plugin: sources.py
   file: sources.yaml
@@ -164,17 +164,16 @@
   - '**Serin Lee**'
   - et al.
   publisher: In preparation
-  date: 2026-02-01
+  date: '2026-02-01'
   group: review
   plugin: sources.py
   file: sources.yaml
-- title: Explaining the efficacy–effectiveness gap in seasonal influenza vaccination
-    using agent-based modeling
+- title: "Explaining the efficacy–effectiveness gap in seasonal influenza vaccination using agent-based modeling"
   authors:
   - '**Serin Lee**'
   - et al.
   publisher: In preparation
-  date: 2026-01-01
+  date: '2026-01-01'
   group: review
   plugin: sources.py
   file: sources.yaml
