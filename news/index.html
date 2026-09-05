@@ -90,7 +90,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Noto+Serif%20KR:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -207,6 +207,10 @@
   
 
   
+    <link href="/_styles/home.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/icon.css" rel="stylesheet">
   
 
@@ -224,6 +228,10 @@
 
   
     <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/news.css" rel="stylesheet">
   
 
   
@@ -344,6 +352,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -362,6 +372,8 @@
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/news-carousel.js"></script>
 
   <script src="/_scripts/search.js"></script>
 
@@ -383,7 +395,7 @@
 
 
 
-<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+<header class="background" style="--image: url('')" data-dark="false">
   <a href="/" class="home">
     
     
@@ -410,7 +422,7 @@
             </a>
             <div class="nav-dropdown-menu">
               
-                <a href="/research/#areas">Research areas</a>
+                <a href="/research/#outline">Research Outline</a>
               
                 <a href="/research/#publication">Publications</a>
               
@@ -422,6 +434,14 @@
               
             </div>
           </div>
+        
+      
+    
+      
+        
+          <a href="/teaching/" data-tooltip="Courses taught at INU">
+            Teaching
+          </a>
         
       
     
@@ -486,477 +506,107 @@
 
 <h1 id="news">News</h1>
 
-<h3 id="2026">2026</h3>
+<div class="news-list">
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2026.09.05] Website updated with our 2026 lab introduction</h2>
+      <p>The lab website now reflects our 2026 lab introduction: new members, a refreshed research overview, and updated recruiting information.</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2026/09/05/website-update.html">Website updated with our 2026 lab introduction</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="The lab website now reflects our 2026 lab introduction: new members, a refreshed research overview, and updated recruiting information.">
-        The lab website now reflects our 2026 lab introduction: new members, a refreshed research overview, and updated recruiting information.
-
-      </p>
     </div>
-  </div>
-</div>
+  </article>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2026.06.01] Lab website launched</h2>
+      <p>HelSi Lab’s website is live!</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2026/06/01/kiie-spring-2026.html">Haeun Kang presents at KIIE Spring Conference 2026</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>June 01, 2026</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Haeun Kang presented Discrete-Event Simulation Modeling of Monoclonal Antibody Production under Uncertainty at the Korean Institute of Industrial Engineers KIIE Spring Conference in Gyeongju.">
-        Haeun Kang presented Discrete-Event Simulation Modeling of Monoclonal Antibody Production under Uncertainty at the Korean Institute of Industrial Engineers (KIIE) Spring Conference in Gyeongju.
-
-      </p>
     </div>
-  </div>
-</div>
+  </article>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2026.06.01] Haeun Kang presents at KIIE Spring Conference 2026</h2>
+      <p>Haeun Kang presented <em>Discrete-Event Simulation Modeling of Monoclonal Antibody Production under Uncertainty</em> at the Korean Institute of Industrial Engineers (KIIE) Spring Conference in Gyeongju.</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2026/06/01/website-launch.html">Lab website launched</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>June 01, 2026</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="HelSi Lab s website is live">
-        HelSi Lab’s website is live!
-
-      </p>
     </div>
-  </div>
-</div>
+  </article>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2026.03.01] NRF grant awarded: Digital Twin-based Virtual Clinical Trials</h2>
+      <p>Our proposal <em>Digital Twin-based Virtual Clinical Trial for Infectious Diseases: Effectiveness Prediction and Protocol Optimization</em> was funded by the National Research Foundation of Korea (2026–2029).</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2026/03/01/nrf-grant.html">NRF grant awarded: Digital Twin-based Virtual Clinical Trials</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>March 01, 2026</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Our proposal Digital Twin-based Virtual Clinical Trial for Infectious Diseases: Effectiveness Prediction and Protocol Optimization was funded by the National Research Foundation of Korea 2026 2029 .">
-        Our proposal Digital Twin-based Virtual Clinical Trial for Infectious Diseases: Effectiveness Prediction and Protocol Optimization was funded by the National Research Foundation of Korea (2026–2029).
-
-      </p>
     </div>
-  </div>
-</div>
+  </article>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2026.02.06] Invited talk at KRIBB</h2>
+      <p>Prof. Serin Lee gave an invited talk, <em>Data-driven approaches to support clinical trials</em>, at the Korea Research Institute of Bioscience &amp; Biotechnology (KRIBB).</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2026/02/06/kribb-talk.html">Invited talk at KRIBB</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>February 06, 2026</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Prof. Serin Lee gave an invited talk, Data-driven approaches to support clinical trials, at the Korea Research Institute of Bioscience amp; Biotechnology KRIBB .">
-        Prof. Serin Lee gave an invited talk, Data-driven approaches to support clinical trials, at the Korea Research Institute of Bioscience &amp; Biotechnology (KRIBB).
-
-      </p>
     </div>
-  </div>
-</div>
+  </article>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2026.01.16] Invited talk at Seoul National University</h2>
+      <p>Prof. Serin Lee gave an invited seminar at Seoul National University on evaluating DBS snapshots as a benchmark for HIV PrEP adherence and protection in HPTN 067.</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2026/01/16/snu-talk.html">Invited talk at Seoul National University</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>January 16, 2026</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Prof. Serin Lee gave an invited seminar at Seoul National University on evaluating DBS snapshots as a benchmark for HIV PrEP adherence and protection in HPTN 067.">
-        Prof. Serin Lee gave an invited seminar at Seoul National University on evaluating DBS snapshots as a benchmark for HIV PrEP adherence and protection in HPTN 067.
-
-      </p>
     </div>
-  </div>
-</div>
+  </article>
 
-<h3 id="2025">2025</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2025.11.01] Oral presentation at Epidemics, San Diego</h2>
+      <p>Prof. Serin Lee presented <em>Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067</em> at Epidemics 2025 in San Diego, CA.</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2025/11/01/epidemics-2025.html">Oral presentation at Epidemics, San Diego</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>November 01, 2025</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Prof. Serin Lee presented Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067 at Epidemics 2025 in San Diego, CA.">
-        Prof. Serin Lee presented Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067 at Epidemics 2025 in San Diego, CA.
-
-      </p>
     </div>
-  </div>
-</div>
+  </article>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
+  <article class="news-item">
     
     
     
+    <div class="news-text">
+      <h2 class="news-title">[2025.09.01] HelSi Lab opens at Incheon National University</h2>
+      <p>Prof. Serin Lee joins INU as Assistant Professor in the Department of Industrial &amp; Management Engineering, and HelSi Lab opens!</p>
 
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2025/09/01/lab-opens.html">HelSi Lab opens at Incheon National University</a>
-
-      <div class="post-info">
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>September 01, 2025</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>September 05, 2026</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/News?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
-        news
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Prof. Serin Lee joins INU as Assistant Professor in the Department of Industrial amp; Management Engineering, and HelSi Lab opens">
-        Prof. Serin Lee joins INU as Assistant Professor in the Department of Industrial &amp; Management Engineering, and HelSi Lab opens!
-
-      </p>
     </div>
-  </div>
+  </article>
+
 </div>
 
 <!--
-How to add a news item:
-  1. Create _posts/YYYY-MM-DD-short-title.md with front matter:
-       ---
-       title: "Headline"
-       image: images/news/photo.jpg   # optional; put the photo in images/news/
-       ---
-       One or two sentences of text (shown in the list). More text is fine — it shows on the post's own page.
+How to add a news item: create _posts/YYYY-MM-DD-short-title.md
+  ---
+  title: "제목"
+  images:                       # optional; one or more photos in images/news/
+    - images/news/photo-1.jpg
+    - images/news/photo-2.jpg
+  ---
+  본문 (한 줄씩 문단으로 씁니다)
 -->
   </section>
 
@@ -965,7 +615,7 @@ How to add a news item:
     
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('')" data-dark="false" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address
