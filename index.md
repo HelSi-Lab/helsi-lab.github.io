@@ -18,7 +18,7 @@ questions in healthcare, infectious disease, and bioprocess systems.
 <br>
 
 {% include button.html text="Research" icon="fa-solid fa-flask" link="research" %}
-{% include button.html text="Projects" icon="fa-solid fa-diagram-project" link="projects" %}
+{% include button.html text="People" icon="fa-solid fa-users" link="team" %}
 {% include button.html text="Join us" icon="fa-solid fa-user-plus" link="join" %}
 {:.center}
 
@@ -26,32 +26,29 @@ questions in healthcare, infectious disease, and bioprocess systems.
 
 ## Research areas
 
-The lab sits at the intersection of three areas: we model complex health
-systems, simulate how they behave under uncertainty, and optimize the decisions
-that shape them.
+Our work sits at the intersection of three areas: we model complex bio and
+healthcare systems, simulate how they behave under uncertainty, and optimize
+the decisions that shape them.
+{:.center}
+
+{% include research-venn.html %}
 
 {% capture col1 %}
-#### Bio & Healthcare Systems
-바이오 · 헬스케어 시스템
-
-Disease-spread prediction, public-health policy modeling, clinical-trial
-analysis, and bioprocess systems.
+#### Bio · Healthcare Systems
+Disease forecasting, hospital resource allocation, clinical trial analysis,
+and bioprocess systems.
 {% endcapture %}
 
 {% capture col2 %}
 #### Simulation & Modeling
-시뮬레이션 & 모델링
-
 Agent-based simulation on HPC, mathematical modeling, and surrogate models for
 systems too complex to solve directly.
 {% endcapture %}
 
 {% capture col3 %}
 #### Optimization
-최적화
-
-Global optimization, machine learning, explainable AI, digital twins, and
-representative parameter calibration.
+Global optimization, machine learning, and explainable AI — with digital twins
+and parameter calibration bridging simulation and optimization.
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

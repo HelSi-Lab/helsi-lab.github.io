@@ -9,7 +9,7 @@ footer-dark: true
 proofer: false
 
 links:
-  # email: serinlee@inu.ac.kr
+  email: serinlee@inu.ac.kr
   github: HelSi-Lab
   # Fill these in if available, otherwise delete the line:
   # orcid: 0000-0000-0000-0000
@@ -69,6 +69,10 @@ include:
 # force jekyll to exclude certain files/folders
 exclude:
   - README.md
+  - INSTRUCTIONS.md
+  - _config-BASIC-SETTINGS.yaml
+  - "*.pptx"
+  - _to_delete
   - LICENSE.md
   - CITATION.cff
 

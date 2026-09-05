@@ -9,7 +9,9 @@ nav:
 
 # News
 
-- **2026.06** — Lab website launched!
+- **2026.09** — Lab website launched!
+
+- **2026.06** — Haeun Kang presents *Discrete-Event Simulation Modeling of Monoclonal Antibody Production under Uncertainty* at the KIIE Spring Conference, Gyeongju.
 
 - **2026.03** — NRF grant awarded: Digital Twin-based Virtual Clinical Trials for Infectious Diseases (2026–2029).
 

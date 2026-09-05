@@ -18,41 +18,54 @@ nav:
     </p>
   </div>
 
-  <div class="research-grid">
+  <div class="research-grid research-grid-3">
     <div class="research-card">
-      <img class="research-card-img" src="images/proj-abm.jpg" alt="Healthcare systems and policy model">
+      <img class="research-card-img" src="{{ "/images/proj-dbs.jpg" | relative_url }}" alt="Bio and healthcare systems modeling">
       <div class="research-card-body">
         <div class="research-card-number">01</div>
-        <h2>Healthcare Systems &amp; Policy</h2>
-        <p>Simulation and mathematical modeling for disease forecasting, health
-          policy evaluation, and resource allocation.</p>
+        <h2>Bio &amp; Healthcare Systems Modeling</h2>
+        <p>Simulation and mathematical modeling of real bio/healthcare systems to
+          forecast outcomes and evaluate decisions.</p>
+        <ul class="research-card-topics">
+          <li><strong>Infectious disease</strong> — HPC-based agent-based simulation for
+            disease-spread forecasting and public-health policy evaluation.</li>
+          <li><strong>Clinical trials</strong> — Pharmacokinetic modeling and clinical-trial
+            data analysis (e.g., HIV PrEP adherence), in collaboration with Gilead Sciences.</li>
+          <li><strong>Bioprocess</strong> — Digital-twin models of biomanufacturing
+            (monoclonal antibody production) for yield optimization under uncertainty.</li>
+        </ul>
       </div>
     </div>
     <div class="research-card">
-      <img class="research-card-img" src="images/proj-dbs.jpg" alt="Biopharmaceutical modeling">
+      <img class="research-card-img" src="{{ "/images/proj-abm.jpg" | relative_url }}" alt="Simulation methodology">
       <div class="research-card-body">
         <div class="research-card-number">02</div>
-        <h2>Biopharmaceutical Modeling &amp; Clinical Trials</h2>
-        <p>Pharmacokinetic modeling, clinical trial data, and simulation to
-          evaluate drug adherence and treatment effectiveness.</p>
+        <h2>Simulation Methodology</h2>
+        <p>New ways to build simulation models that are more realistic, more
+          data-driven, and cheaper to run.</p>
+        <ul class="research-card-topics">
+          <li><strong>LLM-persona agents</strong> — Agent-based models whose agents are driven
+            by LLM personas, and LLM-based synthetic population generation.</li>
+          <li><strong>Surrogate &amp; mathematical modeling</strong> — Approximate models for
+            systems too complex to simulate directly.</li>
+        </ul>
       </div>
     </div>
     <div class="research-card">
-      <img class="research-card-img" src="images/proj-biomfg.jpg" alt="Digital twin and simulation">
+      <img class="research-card-img" src="{{ "/images/proj-xcal.jpg" | relative_url }}" alt="Simulation optimization and explainable AI">
       <div class="research-card-body">
         <div class="research-card-number">03</div>
-        <h2>Digital Twin &amp; Simulation</h2>
-        <p>Digital-twin models for virtual clinical trials, biomanufacturing
-          processes, and healthcare operations.</p>
-      </div>
-    </div>
-    <div class="research-card">
-      <img class="research-card-img" src="images/proj-xcal.jpg" alt="Simulation optimization">
-      <div class="research-card-body">
-        <div class="research-card-number">04</div>
         <h2>Simulation Optimization &amp; Explainable AI</h2>
-        <p>Optimization under uncertainty, surrogate modeling, parameter
-          calibration, and explainable AI for complex simulations.</p>
+        <p>Turning simulation models into decisions: fitting them to data and
+          optimizing the policies they inform.</p>
+        <ul class="research-card-topics">
+          <li><strong>Calibration</strong> — Algorithms for representative parameter
+            calibration of complex simulation models.</li>
+          <li><strong>Explainable AI (XAI)</strong> — Explaining calibrated models and
+            post-calibration analysis for policy evaluation.</li>
+          <li><strong>Global optimization</strong> — Simulation optimization under
+            uncertainty, machine learning, and digital twins.</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -90,13 +103,14 @@ nav:
 
 ## Presentation
 {: #presentation}
-<!-- 
+
 ### Invited talks
 
-- **2026.02** — Data-driven approaches to support clinical trials. *KRIBB.* **Lee, S.**
+- **2026.02** — Data-driven approaches to support clinical trials. *Korea Research Institute of Bioscience & Biotechnology (KRIBB).* **Lee, S.**
 - **2026.01** — Data-driven approaches to support clinical trials. *Seoul National University.* **Lee, S.**
 
-### Conference presentations -->
+### Conference presentations
+
 - **2026** — Discrete-Event Simulation Modeling of​ Monoclonal Antibody Production under Uncertainty​. *대한산업공학회 (Korean Institute of
 Industrial Engineers), Gyeongju. <u>Kang, H.</u>, **Lee, S.**.
 - **2025** — Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067. *Epidemics, San Diego, CA.* **Lee, S.**, Dimitrov, D., Anderson, P., Moore, M.
@@ -106,4 +120,4 @@ Industrial Engineers), Daejeon.* **Lee, S.**, Zabinsky, Z.B., Liu, S.
 ## Awards
 {: #awards}
 
-<!-- - **2020 & 2021** — Lee B. Lusted Prize Finalist. *Society for Medical Decision Making.* -->
+Lab awards and honors will be listed here.

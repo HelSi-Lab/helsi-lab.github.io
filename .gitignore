@@ -5,9 +5,13 @@ _site
 vendor
 debug.log
 __pycache__
-.DS_STORE
+.DS_Store
 .env*
 package.json
 package-lock.json
 yarn.lock
 node_modules
+
+# local-only
+*.pptx
+_to_delete

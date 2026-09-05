@@ -11,7 +11,9 @@ aliases:
   - Lee, Serin
 links:
   email: serinlee@inu.ac.kr
-  google-scholar: https://scholar.google.com/citations?user=UUgId1AAAAAJ&hl=en
+  google-scholar: UUgId1AAAAAJ
+  # cv: files/cv-serin-lee.pdf   # add the PDF to /files and uncomment
+  # orcid: 0000-0000-0000-0000
 ---
 
 Serin Lee is an Assistant Professor in the Department of Industrial & Management Engineering at Incheon National University and the director of the Healthcare & Simulation Optimization (HelSi) Lab. Her research develops simulation, optimization, and digital-twin methods to support decision-making in complex healthcare, infectious disease, and biomanufacturing systems.
@@ -38,5 +40,14 @@ Serin Lee is an Assistant Professor in the Department of Industrial & Management
 - Agent-based modeling
 - Infectious disease policy modeling
 - Pharmacometric and clinical-trial simulation
+
+## Teaching
+
+Data Literacy · Databases · Simulation · Healthcare Systems · Digital Twins · AI Programming
+(데이터 리터러시, 데이터베이스, 시뮬레이션, 헬스케어시스템, 디지털 트윈, AI프로그래밍)
+
+## Awards & Honors
+
+- **2020, 2021** — Lee B. Lusted Student Prize Finalist, *Society for Medical Decision Making (SMDM)*
 
 **Office:** Building 9, Room 409 · **Lab:** Building 9, Room 302
