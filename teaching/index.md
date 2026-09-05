@@ -1,7 +1,7 @@
 ---
 title: Teaching
 nav:
-  order: 3
+  order: 5
   tooltip: Courses taught at INU
 ---
 

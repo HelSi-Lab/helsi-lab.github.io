@@ -2,18 +2,7 @@
 title: Research
 nav:
   order: 2
-  tooltip: Research areas, publications, projects, and talks
-  dropdown:
-    - title: Research Outline
-      link: research/#outline
-    - title: Publications
-      link: research/#publication
-    - title: Projects
-      link: research/#projects
-    - title: Presentations
-      link: research/#presentation
-    - title: Awards
-      link: research/#awards
+  tooltip: Research outline and selected topics
 ---
 
 {% include section.html %}
@@ -89,54 +78,5 @@ nav:
     building synthetic populations from public data (e.g., household assignment using the NVIDIA Persona
     Korea synthetic population) for general-purpose agent-based modeling. <em>Figures coming soon.</em></p>
 
-  <nav class="research-tabs" aria-label="Research sections">
-    <a href="#publication">Publication</a>
-    <a href="#projects">Projects</a>
-    <a href="#presentation">Presentation</a>
-    <a href="#awards">Awards</a>
-  </nav>
 
 </div>
-
-## Publication
-{: #publication}
-
-### Work in progress
-
-{% include list.html data="citations" component="citation" filter="group == 'review'" %}
-
-### Journal papers
-
-{% include list.html data="citations" component="citation" filter="group == 'journal'" %}
-
-### Conference proceedings
-
-{% include list.html data="citations" component="citation" filter="group == 'proceedings'" %}
-
-## Projects
-{: #projects}
-
-- **2026 – 2029 · PI** — 가상 임상시험을 활용한 감염병 약물 유효성 예측 및 임상 프로토콜 최적화 (Digital Twin-based Virtual Clinical Trial for Infectious Diseases). *한국연구재단 (NRF)*
-- **2026 – 2027 · PI** — 공공데이터를 활용한 에이전트 기반 시뮬레이션 연구. *인천대학교 (INU)*
-- **2025 – 2027 · PI** — 데이터 기반 시뮬레이션 및 모델링 기법 연구. *인천대학교 (INU)*
-
-## Presentation
-{: #presentation}
-
-### Invited talks
-
-- **2026.02** — Data-driven approaches to support clinical trials. *Korea Research Institute of Bioscience & Biotechnology (KRIBB).* **Lee, S.**
-- **2026.01** — Data-driven approaches to support clinical trials. *Seoul National University.* **Lee, S.**
-
-### Conference presentations
-
-- **2026** — Discrete-Event Simulation Modeling of​ Monoclonal Antibody Production under Uncertainty​. *대한산업공학회 (Korean Institute of
-Industrial Engineers), Gyeongju. <u>Kang, H.</u>, **Lee, S.**.
-- **2025** — Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067. *Epidemics, San Diego, CA.* **Lee, S.**, Dimitrov, D., Anderson, P., Moore, M.
-- **2025** — Optimizing Vaccination Campaign Considering Societal Characteristics. *대한산업공학회 (Korean Institute of
-Industrial Engineers), Daejeon.* **Lee, S.**, Zabinsky, Z.B., Liu, S.
-
-## Awards
-{: #awards}
-
-Lab awards and honors will be listed here.
