@@ -122,7 +122,7 @@
   group: review
   plugin: sources.py
   file: sources.yaml
-- title: Explainable calibration for complex simulation models
+- title: A tutorial on explainable post-calibration analysis for policy evaluation
   authors:
   - '**Serin Lee**'
   - Pariyakorn Maneekul
