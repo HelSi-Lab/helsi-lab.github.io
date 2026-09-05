@@ -1,0 +1,725 @@
+/* Shared clean header for the three renewed pages. */
+.header-urban {
+  min-height: 80px;
+  padding: 14px max(7vw, 28px);
+  background: #ffffff;
+  box-shadow: none;
+  color: #111111;
+}
+
+.header-urban::before {
+  display: none;
+}
+
+.header-urban .home {
+  gap: 12px;
+  flex-grow: 0;
+}
+
+.header-urban .home::before {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border: 2px solid #111111;
+  border-radius: 50%;
+  color: #111111;
+  content: "H";
+  font-family: Arial, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.header-urban .title {
+  color: #111111;
+  font-family: Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.06em;
+}
+
+.header-urban .title-text::after {
+  color: #4e4e4e;
+  content: "Healthcare & Simulation Optimization";
+  font-family: Arial, sans-serif;
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+.header-urban nav {
+  gap: clamp(12px, 2.5vw, 42px);
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.header-urban nav > a {
+  padding: 6px 0;
+}
+
+.header-urban nav > a:hover {
+  color: #126b90;
+}
+
+.header-urban[data-big] {
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 14px max(7vw, 28px);
+}
+
+.header-urban[data-big] .home {
+  flex-direction: row;
+  flex-grow: 0;
+}
+
+.header-urban[data-big] .title-text {
+  flex-direction: row;
+  align-items: baseline;
+  text-align: left;
+}
+
+.header-urban[data-big] .title {
+  font-size: 1.25rem;
+}
+
+.team-section-label,
+.home-kicker {
+  margin: 0;
+  color: #126b90;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1.35;
+}
+
+/* Home: title, key image, and research area. */
+.home-page {
+  color: #101010;
+  background: #ffffff;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+}
+
+.home-page section {
+  padding: 0;
+}
+
+.home-hero {
+  padding: clamp(64px, 8vw, 118px) 24px 32px !important;
+  border-top: 18px solid #f5f5f5;
+  text-align: center;
+}
+
+.home-hero h1 {
+  margin: 15px 0 13px;
+  color: #050505;
+  font-family: Arial, sans-serif;
+  font-size: clamp(3.3rem, 8.5vw, 8.1rem);
+  font-weight: 900;
+  letter-spacing: -0.09em;
+  line-height: 0.88;
+}
+
+.home-tagline {
+  margin: 0;
+  color: #252525;
+  font-size: clamp(1.02rem, 1.8vw, 1.45rem);
+  line-height: 1.42;
+}
+
+.home-tagline-kr {
+  margin: 8px 0 36px;
+  color: #707070;
+  font-size: 0.82rem;
+}
+
+.home-core-image {
+  position: relative;
+  display: block;
+  width: min(100%, 760px);
+  height: clamp(220px, 34vw, 405px);
+  margin: 0 auto;
+  overflow: hidden;
+  background: #e7eef1;
+}
+
+.home-core-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home-core-image::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 58%, rgba(0, 0, 0, 0.7));
+  content: "";
+}
+
+.home-core-image > span {
+  position: absolute;
+  right: 19px;
+  bottom: 16px;
+  left: 19px;
+  z-index: 1;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.home-core-image b,
+.home-section-title > a span,
+.home-cta a span {
+  color: #8bd0e9;
+}
+
+.home-research-area {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: clamp(70px, 9vw, 118px) 24px !important;
+}
+
+.home-section-title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #171717;
+}
+
+.home-section-title > a {
+  color: #101010;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.home-research-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.home-research-card {
+  position: relative;
+  display: block;
+  min-height: 310px;
+  overflow: hidden;
+  background: #e4eaeb;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.home-research-card + .home-research-card {
+  border-left: 4px solid #ffffff;
+}
+
+.home-research-card::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(7, 22, 27, 0.04) 26%, rgba(6, 18, 23, 0.86) 100%);
+  content: "";
+}
+
+.home-research-card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-research-card > div {
+  position: absolute;
+  right: 23px;
+  bottom: 23px;
+  left: 23px;
+  z-index: 1;
+}
+
+.home-research-card h2 {
+  margin: 0 0 9px;
+  color: #ffffff;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: clamp(1.3rem, 2vw, 1.8rem);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 1.03;
+}
+
+.home-research-card h2 small {
+  display: block;
+  margin-top: 5px;
+  color: #d5e9f0;
+  font-size: 0.47em;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.home-research-card p {
+  margin: 0;
+  color: #e3e9eb;
+  font-size: 0.7rem;
+  line-height: 1.45;
+}
+
+.home-research-card p span {
+  color: #bcd4dc;
+  font-size: 0.91em;
+}
+
+.home-cta {
+  padding: clamp(62px, 9vw, 112px) 24px !important;
+  background: #132d3a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.home-cta .team-section-label {
+  color: #8bd0e9;
+}
+
+.home-cta h2 {
+  margin: 12px 0 24px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.065em;
+  line-height: 1.06;
+}
+
+.home-cta > div {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.home-cta a {
+  padding-bottom: 3px;
+  border-bottom: 1px solid currentColor;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+/* People: straightforward team cards. */
+.team-page {
+  color: #101010;
+  background: #ffffff;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+}
+
+.team-page section {
+  padding: 0;
+}
+
+.team-roster {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: clamp(58px, 7vw, 88px) 24px 100px !important;
+}
+
+.team-page-title {
+  margin: 0 0 54px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dedede;
+  color: #303030;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  font-weight: 800;
+  letter-spacing: -0.065em;
+}
+
+.team-page-title span,
+.team-group-title span {
+  color: #858585;
+  font-size: 0.67em;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.team-group-title {
+  margin: 0 0 19px;
+  color: #343434;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+}
+
+.team-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.team-card-grid-pi {
+  grid-template-columns: minmax(220px, 270px);
+  margin-bottom: clamp(60px, 8vw, 92px);
+}
+
+.team-person-card {
+  display: block;
+  min-width: 0;
+  padding: 29px 25px 31px;
+  border-radius: 30px;
+  background: #f3f3f3;
+  color: #101010;
+  text-decoration: none;
+}
+
+.team-person-card:hover {
+  background: #eceff0;
+}
+
+.team-person-photo {
+  margin: 0 0 23px;
+  background: #ffffff;
+}
+
+.team-person-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.team-person-card h2 {
+  margin: 0;
+  color: #050505;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  font-weight: 800;
+  letter-spacing: -0.07em;
+  line-height: 1.04;
+  text-align: center;
+}
+
+.team-person-name-en {
+  margin: 5px 0 15px;
+  color: #707070;
+  font-size: 0.67rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team-person-position,
+.team-person-position-en {
+  display: table;
+  margin: 0 auto;
+  padding: 4px 9px;
+  background: #ddecf6;
+  color: #0b3470;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.team-person-position-en {
+  margin-top: 2px;
+  padding: 0;
+  background: transparent;
+  color: #6881a1;
+  font-size: 0.61rem;
+  font-weight: 700;
+}
+
+.team-person-email {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  margin: 23px 0 18px;
+  color: #111111;
+  font-size: 0.77rem;
+  font-weight: 700;
+}
+
+.team-person-email:first-letter {
+  font-size: 1.3rem;
+}
+
+.team-person-email span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.team-person-interests {
+  margin: 0;
+  padding-left: 20px;
+  color: #151515;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.65;
+}
+
+.team-alumni {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: 0 24px 100px !important;
+}
+
+.team-alumni > .team-group-title {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #171717;
+}
+
+.team-alumni a {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid #d4d4d4;
+  color: #171717;
+  font-size: 0.86rem;
+  text-decoration: none;
+}
+
+.team-alumni a span:nth-child(2) {
+  color: #666666;
+}
+
+/* Research: plain tabs, title, and image/text rows. */
+.research-reference-page {
+  color: #333333;
+  background: #ffffff;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+}
+
+.research-subnav {
+  display: flex;
+  gap: clamp(20px, 3vw, 47px);
+  width: 100%;
+  padding: 21px max(4vw, 24px);
+  overflow-x: auto;
+  border-bottom: 1px solid #ededed;
+  background: #ffffff;
+  white-space: nowrap;
+}
+
+.research-subnav a {
+  flex: none;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+  color: #c5c5c5;
+  font-size: clamp(0.95rem, 1.7vw, 1.42rem);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  text-decoration: none;
+}
+
+.research-subnav a.active,
+.research-subnav a:hover {
+  border-bottom-color: #363636;
+  color: #383838;
+}
+
+.research-subnav span {
+  color: inherit;
+  font-size: 0.64em;
+  font-weight: 600;
+}
+
+.research-reference-content {
+  width: min(100%, 1800px);
+  margin: 0 auto;
+  padding: clamp(50px, 6vw, 78px) max(4vw, 30px) 110px !important;
+}
+
+.research-reference-content > h1 {
+  margin: 0 0 46px;
+  color: #3a3a3a;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: clamp(2.1rem, 3.8vw, 3.45rem);
+  font-weight: 800;
+  letter-spacing: -0.075em;
+}
+
+.research-reference-content > h1 span,
+.research-reference-item > h2 span {
+  color: #8a8a8a;
+  font-size: 0.58em;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+.research-reference-item {
+  padding: 0 0 clamp(48px, 6vw, 78px);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.research-reference-item + .research-reference-item {
+  padding-top: clamp(48px, 6vw, 78px);
+}
+
+.research-reference-item > h2 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 0 0 38px;
+  color: #353535;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: clamp(1.8rem, 3vw, 3.1rem);
+  font-weight: 800;
+  letter-spacing: -0.075em;
+  line-height: 1.1;
+}
+
+.research-reference-item > h2::before {
+  display: block;
+  width: 12px;
+  height: 0.92em;
+  flex: none;
+  background: #3a3a3a;
+  content: "";
+}
+
+.research-reference-body {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.64fr) minmax(380px, 1.36fr);
+  align-items: start;
+  gap: clamp(34px, 4vw, 64px);
+}
+
+.research-reference-body figure {
+  margin: 0;
+  overflow: hidden;
+  background: #edf0f0;
+}
+
+.research-reference-body figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.42/1;
+  object-fit: cover;
+}
+
+.research-reference-body h3 {
+  margin: 3px 0 4px;
+  color: #363636;
+  font-family: Arial, "Noto Sans KR", sans-serif;
+  font-size: clamp(1.15rem, 2.1vw, 2.1rem);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 1.28;
+}
+
+.research-reference-body p {
+  margin: 0 0 32px;
+  color: #919191;
+  font-size: clamp(0.83rem, 1.2vw, 1.1rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.45;
+}
+
+.research-reference-body h3:not(:first-child) {
+  margin-top: 33px;
+}
+
+@media (max-width: 850px) {
+  .team-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .team-card-grid-pi {
+    grid-template-columns: minmax(220px, 300px);
+  }
+  .research-reference-body {
+    grid-template-columns: 1fr;
+  }
+  .research-reference-body figure {
+    width: min(100%, 570px);
+  }
+}
+@media (max-width: 760px) {
+  .header-urban,
+  .header-urban[data-big] {
+    min-height: 66px;
+    padding: 10px 20px;
+  }
+  .header-urban .home::before {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+  .header-urban .title-text::after {
+    display: none;
+  }
+  .header-urban nav {
+    padding-top: 10px;
+  }
+  .home-core-image {
+    height: 250px;
+  }
+  .home-research-grid {
+    grid-template-columns: 1fr;
+  }
+  .home-research-card {
+    min-height: 245px;
+  }
+  .home-research-card + .home-research-card {
+    border-top: 6px solid #ffffff;
+    border-left: 0;
+  }
+}
+@media (max-width: 540px) {
+  .home-hero {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+  }
+  .home-core-image {
+    height: 185px;
+  }
+  .home-cta h2 {
+    font-size: 1.75rem;
+  }
+  .home-cta > div {
+    gap: 16px;
+  }
+  .team-roster {
+    padding-top: 42px !important;
+  }
+  .team-page-title {
+    margin-bottom: 38px;
+  }
+  .team-card-grid,
+  .team-card-grid-pi {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .team-person-card {
+    padding: 26px;
+  }
+  .team-person-photo {
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .research-reference-content {
+    padding-right: 22px !important;
+    padding-left: 22px !important;
+  }
+  .research-reference-item > h2 {
+    align-items: flex-start;
+    gap: 11px;
+  }
+  .research-reference-item > h2::before {
+    width: 7px;
+    margin-top: 0.09em;
+  }
+}
+
+/*# sourceMappingURL=lab.css.map */

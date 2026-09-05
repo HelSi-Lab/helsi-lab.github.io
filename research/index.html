@@ -215,6 +215,10 @@
   
 
   
+    <link href="/_styles/lab.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/link.css" rel="stylesheet">
   
 
@@ -224,10 +228,6 @@
 
   
     <link href="/_styles/main.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/member.css" rel="stylesheet">
   
 
   
@@ -259,10 +259,6 @@
   
 
   
-    <link href="/_styles/research.css" rel="stylesheet">
-  
-
-  
     <link href="/_styles/rule.css" rel="stylesheet">
   
 
@@ -284,10 +280,6 @@
 
   
     <link href="/_styles/tags.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/team.css" rel="stylesheet">
   
 
   
@@ -484,60 +476,73 @@
   
 
   <section class="background" data-size="page">
-    <div class="research-urban-page">
-  <section class="research-urban-hero">
-    <p class="team-kicker">HEALTHCARE &amp; SIMULATION OPTIMIZATION LAB</p>
-    <h1>RESEARCH</h1>
-    <p>We develop models, simulations, and optimization methods<br>for complex bio and healthcare systems.</p>
-    <p class="research-urban-kr">복잡한 바이오·헬스케어 시스템을 위한 모델링, 시뮬레이션, 최적화 방법론을 연구합니다.</p>
-    <figure class="research-urban-core-image">
-      <img src="/images/proj-abm.png" alt="Agent-based simulation of disease transmission and policy">
-      <figcaption><span>CORE METHOD</span> Modeling interactions, uncertainty, and decisions at scale.</figcaption>
-    </figure>
-  </section>
+    <div class="research-reference-page">
+  <nav class="research-subnav" aria-label="Research navigation">
+    <a href="#research-area" class="active">Research Area <span>· 연구 분야</span></a>
+    <a href="/publications/">International Articles <span>· 국제학술지</span></a>
+    <a href="/publications/">Korean Articles <span>· 국내학술지</span></a>
+    <a href="/publications/">Conference <span>· 학술대회</span></a>
+    <a href="/projects/">Projects <span>· 연구과제</span></a>
+  </nav>
 
-  <section class="research-urban-areas">
-    <div class="research-urban-heading">
-<p class="team-section-label">RESEARCH AREA</p>
-<p>From real systems to actionable decisions.</p>
-</div>
-    <div class="research-urban-area-grid">
-      <a href="#healthcare-systems"><img src="/images/proj-dbs.jpg" alt="Healthcare and public health research"><span><b>01</b><h2>Healthcare &amp;<br>Public Health</h2>
-<p>Infectious disease policy · Clinical trials · Pharmacometrics</p></span></a>
-      <a href="#simulation-digital-twins"><img src="/images/proj-biomfg.png" alt="Simulation and digital twins research"><span><b>02</b><h2>Simulation &amp;<br>Digital Twins</h2>
-<p>Agent-based modeling · Biomanufacturing · Synthetic populations</p></span></a>
-      <a href="#optimization-xai"><img src="/images/proj-xcal.png" alt="Optimization and explainable AI research"><span><b>03</b><h2>Optimization &amp;<br>Explainable AI</h2>
-<p>Calibration · Uncertainty · Decision support</p></span></a>
-    </div>
-  </section>
+  <section class="research-reference-content" id="research-area">
+    <h1>Research Area <span>· 연구 분야</span>
+</h1>
 
-  <section class="research-urban-selected">
-    <p class="team-section-label">SELECTED WORK</p>
-
-    <article id="healthcare-systems" class="research-urban-feature">
-      <div class="research-urban-feature-copy">
-<p class="team-role">HEALTHCARE &amp; PUBLIC HEALTH</p>
-<h2>Modeling policy,<br>care, and prevention.</h2>
-<p>We use disease-transmission and clinical-trial models to test interventions, understand health outcomes, and improve resource allocation under uncertainty.</p>
-</div>
-      <figure><img src="/images/proj-dbs.jpg" alt="Pharmacokinetic modeling of clinical-trial data"><figcaption>Clinical trials &amp; pharmacometrics</figcaption></figure>
+    <article id="healthcare-systems" class="research-reference-item">
+      <h2>Health Policy &amp; Disease Modeling <span>· 보건정책 및 질병 모델링</span>
+</h2>
+      <div class="research-reference-body">
+        <figure><img src="/images/proj-abm.png" alt="Agent-based simulation of infectious disease policy"></figure>
+        <div>
+          <h3>Developing simulation models for vaccination, prevention, and infectious-disease policy</h3>
+          <p>백신, 예방, 감염병 대응 정책을 위한 시뮬레이션 모델을 개발</p>
+          <h3>Examining how population behavior and intervention strategies shape health outcomes</h3>
+          <p>인구집단의 행동과 개입 전략이 건강 결과에 미치는 영향을 분석</p>
+        </div>
+      </div>
     </article>
 
-    <article id="simulation-digital-twins" class="research-urban-feature research-urban-feature-reverse">
-      <div class="research-urban-feature-copy">
-<p class="team-role">SIMULATION &amp; DIGITAL TWINS</p>
-<h2>Making complex systems<br>visible and testable.</h2>
-<p>We build agent-based, discrete-event, and digital-twin models to explore real operations before decisions are made in the real world.</p>
-</div>
-      <figure><img src="/images/proj-biomfg.png" alt="Discrete-event simulation of biomanufacturing"><figcaption>Biomanufacturing digital twins</figcaption></figure>
+    <article id="clinical-trials" class="research-reference-item">
+      <h2>Clinical Trials &amp; Pharmacometrics <span>· 임상시험 및 약리계량학</span>
+</h2>
+      <div class="research-reference-body">
+        <figure><img src="/images/proj-dbs.jpg" alt="Pharmacokinetic modeling of clinical-trial data"></figure>
+        <div>
+          <h3>Developing simulation-based evidence for clinical-trial design and treatment evaluation</h3>
+          <p>임상시험 설계와 치료 효과 평가를 위한 시뮬레이션 기반 근거를 개발</p>
+          <h3>Connecting pharmacometric models and virtual trials to practical healthcare decisions</h3>
+          <p>약리계량학 모델과 가상 임상시험을 실제 헬스케어 의사결정에 연결</p>
+        </div>
+      </div>
     </article>
-    <article id="optimization-xai" class="research-urban-feature">
-      <div class="research-urban-feature-copy">
-<p class="team-role">OPTIMIZATION &amp; EXPLAINABLE AI</p>
-<h2>Finding the right<br>decision under uncertainty.</h2>
-<p>We combine simulation optimization, representative calibration, and explainable methods to make complex model outputs useful in practice.</p>
-</div>
-      <figure><img src="/images/proj-xcal.png" alt="Representative calibration output"><figcaption>Representative calibration &amp; XAI</figcaption></figure>
+
+    <article id="biomanufacturing" class="research-reference-item">
+      <h2>Biomanufacturing Digital Twins <span>· 바이오공정 디지털 트윈</span>
+</h2>
+      <div class="research-reference-body">
+        <figure><img src="/images/proj-biomfg.png" alt="Discrete-event simulation of a biomanufacturing process"></figure>
+        <div>
+          <h3>Making biopharmaceutical production systems visible, testable, and more resilient</h3>
+          <p>바이오의약품 생산 시스템을 가시화하고, 가상 환경에서 검증하며, 불확실성에 강한 공정을 설계</p>
+          <h3>Improving yield and throughput through process simulation and scheduling optimization</h3>
+          <p>공정 시뮬레이션과 스케줄링 최적화를 통해 수율과 생산성을 향상</p>
+        </div>
+      </div>
+    </article>
+
+    <article id="simulation-methods" class="research-reference-item">
+      <h2>Simulation Methods &amp; Decision Support <span>· 시뮬레이션 방법론 및 의사결정 지원</span>
+</h2>
+      <div class="research-reference-body">
+        <figure><img src="/images/proj-xcal.png" alt="Representative calibration and explainable AI output"></figure>
+        <div>
+          <h3>Developing calibration, optimization, and explainable analysis for complex simulation models</h3>
+          <p>복잡한 시뮬레이션 모델을 위한 보정, 최적화, 설명가능 분석 방법론을 개발</p>
+          <h3>Turning model outputs into interpretable evidence for practical decisions</h3>
+          <p>모델 결과를 해석 가능한 근거로 전환하여 실제 의사결정을 지원</p>
+        </div>
+      </div>
     </article>
   </section>
 </div>
