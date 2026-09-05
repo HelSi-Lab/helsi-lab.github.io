@@ -24,19 +24,19 @@ header-dark: false
     <div class="home-research-grid">
       <a href="{{ '/research/#healthcare-systems' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-abm.png' | relative_url }}" alt="Health policy and disease modeling research">
-        <div><h2>Health Policy &amp;<br>Disease Modeling <small>· 보건정책 및 질병 모델링</small></h2><p>Vaccination · Infectious disease · Agent-based models<br><span>백신 정책 · 감염병 · 에이전트 기반 모델</span></p></div>
+        <div><h2><span class="home-title-line">Health Policy &amp;</span><span class="home-title-line">Disease Modeling</span><small>· 보건정책 및 질병 모델링</small></h2><p class="home-card-keywords"><span>Vaccination</span><span>Infectious disease</span><span>Agent-based models</span></p><p class="home-card-keywords-ko">백신 정책 · 감염병 · 에이전트 기반 모델</p></div>
       </a>
       <a href="{{ '/research/#clinical-trials' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-dbs.jpg' | relative_url }}" alt="Clinical trials and pharmacometrics research">
-        <div><h2>Clinical Trials &amp;<br>Pharmacometrics <small>· 임상시험 및 약리계량학</small></h2><p>HIV prevention · Virtual clinical trials<br><span>HIV 예방 · 가상 임상시험</span></p></div>
+        <div><h2><span class="home-title-line">Clinical Trials &amp;</span><span class="home-title-line home-title-long">Pharmacometrics</span><small>· 임상시험 및 약리계량학</small></h2><p class="home-card-keywords"><span>HIV prevention</span><span>Virtual clinical trials</span></p><p class="home-card-keywords-ko">HIV 예방 · 가상 임상시험</p></div>
       </a>
       <a href="{{ '/research/#biomanufacturing' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-biomfg.png' | relative_url }}" alt="Biomanufacturing digital twins research">
-        <div><h2>Biomanufacturing<br>Digital Twins <small>· 바이오공정 디지털 트윈</small></h2><p>Process simulation · Batch scheduling<br><span>공정 시뮬레이션 · 배치 스케줄링</span></p></div>
+        <div><h2><span class="home-title-line home-title-long">Biomanufacturing</span><span class="home-title-line">Digital Twins</span><small>· 바이오공정 디지털 트윈</small></h2><p class="home-card-keywords"><span>Process simulation</span><span>Batch scheduling</span></p><p class="home-card-keywords-ko">공정 시뮬레이션 · 배치 스케줄링</p></div>
       </a>
       <a href="{{ '/research/#simulation-methods' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-xcal.png' | relative_url }}" alt="Simulation optimization research">
-        <div><h2>Simulation<br>Research <small>· 시뮬레이션 연구</small></h2><p>Agent-based modeling · Calibration · Optimization<br><span>에이전트 기반 모델 · 보정 · 최적화</span></p></div>
+        <div><h2><span class="home-title-line">Simulation</span><span class="home-title-line">Research</span><small>· 시뮬레이션 연구</small></h2><p class="home-card-keywords"><span>Agent-based modeling</span><span>Calibration</span><span>Optimization</span></p><p class="home-card-keywords-ko">에이전트 기반 모델 · 보정 · 최적화</p></div>
       </a>
     </div>
   </section>

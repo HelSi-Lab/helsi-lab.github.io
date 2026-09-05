@@ -87,7 +87,7 @@ header-dark: false
 
   <section class="research-output-panel" data-research-panel="conference" role="tabpanel" hidden>
     <h1>Conference <span>· 학술대회</span></h1>
-    <h2>Peer-reviewed Proceedings <span>· 학회 프로시딩</span></h2>
+    <h2>WSC Proceedings <span>· Winter Simulation Conference 논문</span></h2>
     {% include research-output-list.html group="proceedings" %}
     <h2>Invited Talks <span>· 초청 강연</span></h2>
     {% include research-output-list.html group="talk" %}

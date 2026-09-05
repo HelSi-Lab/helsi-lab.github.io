@@ -2,7 +2,10 @@
 <ol class="research-output-list">
   {% for c in items %}
     {% if c.title %}
-      <li class="research-output-row">
+      <li class="research-output-row{% if c.image %} research-output-row-has-image{% endif %}">
+        {% if c.image %}
+          <div class="research-output-image"><img src="{{ c.image | relative_url }}" alt="{{ c.image_alt | default: c.title }}" loading="lazy"></div>
+        {% endif %}
         <div class="research-output-year">{{ c.date | date: "%Y" }}</div>
         <div>
           <h3>{% if c.link %}<a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</h3>

@@ -15,9 +15,9 @@ layout: default
       {% if page.research_interests %}<p class="member-profile-interests">{{ page.research_interests | join: " · " }}</p>{% endif %}
       {% if page.links %}
         <div class="member-profile-links" aria-label="{{ page.name }} links">
-          {% if page.links.email %}<a href="mailto:{{ page.links.email }}" data-tooltip="Email" aria-label="Email {{ page.name }}">✉ Email</a>{% endif %}
-          {% if page.links.cv %}<a href="{{ page.links.cv | relative_url }}" data-tooltip="CV" aria-label="{{ page.name }} CV">▤ CV</a>{% endif %}
-          {% if page.links.google-scholar %}<a href="https://scholar.google.com/citations?user={{ page.links.google-scholar }}" data-tooltip="Google Scholar" aria-label="{{ page.name }} Google Scholar">G Scholar</a>{% endif %}
+          {% if page.links.email %}<a href="mailto:{{ page.links.email }}" data-tooltip="Email" aria-label="Email {{ page.name }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>{% endif %}
+          {% if page.links.cv %}<a href="{{ page.links.cv | relative_url }}" data-tooltip="CV" aria-label="{{ page.name }} CV"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV</a>{% endif %}
+          {% if page.links.google-scholar %}<a href="https://scholar.google.com/citations?user={{ page.links.google-scholar }}" data-tooltip="Google Scholar" aria-label="{{ page.name }} Google Scholar"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Scholar</a>{% endif %}
         </div>
       {% endif %}
     </div>

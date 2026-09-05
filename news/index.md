@@ -14,7 +14,12 @@ header-dark: false
 
   <section class="news-reference-list">
     {% for post in site.posts %}
-      <article>
+      <article{% if post.images and post.images.size > 0 %} class="has-image"{% endif %}>
+        {% if post.images and post.images.size > 0 %}
+          <a class="news-reference-image" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+            <img src="{{ post.images.first | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          </a>
+        {% endif %}
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
         <div>
           <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
