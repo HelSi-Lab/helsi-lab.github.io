@@ -383,7 +383,7 @@
 
 
 
-<header class="background" style="--image: url('')" data-dark="true">
+<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
   <a href="/" class="home">
     
     
@@ -402,33 +402,59 @@
     
     
       
-        <a href="/research/" data-tooltip="Research areas, publications, projects, and talks">
-          Research
-        </a>
+        
+          <div class="nav-dropdown">
+            <a href="/research/" data-tooltip="Research areas, publications, projects, and talks">
+              Research
+              <span class="nav-dropdown-caret" aria-hidden="true">▾</span>
+            </a>
+            <div class="nav-dropdown-menu">
+              
+                <a href="/research/#areas">Research areas</a>
+              
+                <a href="/research/#publication">Publications</a>
+              
+                <a href="/research/#projects">Projects</a>
+              
+                <a href="/research/#presentation">Presentations</a>
+              
+                <a href="/research/#awards">Awards</a>
+              
+            </div>
+          </div>
+        
       
     
       
-        <a href="/team/" data-tooltip="About our team">
-          People
-        </a>
+        
+          <a href="/team/" data-tooltip="About our team">
+            People
+          </a>
+        
       
     
       
-        <a href="/news/" data-tooltip="Lab updates">
-          News
-        </a>
+        
+          <a href="/news/" data-tooltip="Lab updates">
+            News
+          </a>
+        
       
     
       
-        <a href="/join/" data-tooltip="Open positions">
-          Join Us
-        </a>
+        
+          <a href="/join/" data-tooltip="Open positions">
+            Join Us
+          </a>
+        
       
     
       
-        <a href="/contact/" data-tooltip="Find &amp; reach the lab">
-          Contact
-        </a>
+        
+          <a href="/contact/" data-tooltip="Find &amp; reach the lab">
+            Contact
+          </a>
+        
       
     
   </nav>
@@ -459,6 +485,8 @@
 -->
 
 <h1 id="people">People</h1>
+
+<h2 id="principal-investigator">Principal Investigator</h2>
 
 <div class="portrait-wrapper">
   <a href="/members/serin-lee.html" class="portrait" data-style="" aria-label="Serin Lee">
@@ -496,29 +524,7 @@
   <size></size>
 -->
 
-<div class="portrait-wrapper">
-  <a href="/members/gwanhyeon-lee.html" class="portrait" data-style="" aria-label="Gwanhyeon Lee">
-    
-      <i class="icon fa-solid fa-user-graduate"></i>
-    
-
-    <img src="/images/team/gwanhyeon-lee.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        Gwanhyeon Lee
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Undergraduate Researcher
-      </span>
-    
-
-    
-  </a>
-</div>
+<h2 id="members">Members</h2>
 
 <div class="portrait-wrapper">
   <a href="/members/haeun-kang.html" class="portrait" data-style="" aria-label="Haeun Kang">
@@ -537,6 +543,30 @@
     
       <span class="portrait-description">
         M.S. Student
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/minjae-kang.html" class="portrait" data-style="" aria-label="Minjae Kang">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/team/minjae-kang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Minjae Kang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Undergraduate Researcher
       </span>
     
 
@@ -569,16 +599,16 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/minjae-kang.html" class="portrait" data-style="" aria-label="Minjae Kang">
+  <a href="/members/gwanhyeon-lee.html" class="portrait" data-style="" aria-label="Gwanhyeon Lee">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
 
-    <img src="/images/team/minjae-kang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/team/gwanhyeon-lee.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
-        Minjae Kang
+        Gwanhyeon Lee
       </span>
     
 
@@ -591,6 +621,22 @@
     
   </a>
 </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="alumni">Alumni</h2>
+
+<!-- To add an alumnus: set `role: alumni` in the member's file in _members/ (they will appear here automatically). -->
   </section>
 
 
