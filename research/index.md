@@ -3,71 +3,144 @@ title: Research
 nav:
   order: 2
   tooltip: Research areas, publications, projects, and talks
+  dropdown:
+    - title: Research areas
+      link: research/#areas
+    - title: Publications
+      link: research/#publication
+    - title: Projects
+      link: research/#projects
+    - title: Presentations
+      link: research/#presentation
+    - title: Awards
+      link: research/#awards
 ---
 
 {% include section.html %}
 
 <div class="research-page">
 
-  <div class="research-hero">
+  <div class="research-hero" id="areas">
     <p class="research-eyebrow">Research</p>
     <h1>Research Areas</h1>
     <p class="research-lead">
       HelSi Lab develops simulation, optimization, and digital-twin methods to
-      support decision-making in complex bio/healthcare systems.
+      support decision-making in complex bio/healthcare systems. Our work spans
+      three areas — click each to see what we do.
     </p>
   </div>
 
-  <div class="research-grid research-grid-3">
-    <div class="research-card">
-      <img class="research-card-img" src="{{ "/images/proj-dbs.jpg" | relative_url }}" alt="Bio and healthcare systems modeling">
-      <div class="research-card-body">
-        <div class="research-card-number">01</div>
-        <h2>Bio &amp; Healthcare Systems Modeling</h2>
-        <p>Simulation and mathematical modeling of real bio/healthcare systems to
-          forecast outcomes and evaluate decisions.</p>
-        <ul class="research-card-topics">
-          <li><strong>Infectious disease</strong> — HPC-based agent-based simulation for
-            disease-spread forecasting and public-health policy evaluation.</li>
-          <li><strong>Clinical trials</strong> — Pharmacokinetic modeling and clinical-trial
-            data analysis (e.g., HIV PrEP adherence), in collaboration with Gilead Sciences.</li>
-          <li><strong>Bioprocess</strong> — Digital-twin models of biomanufacturing
-            (monoclonal antibody production) for yield optimization under uncertainty.</li>
-        </ul>
+  <div class="research-areas">
+
+    <details class="research-area" open>
+      <summary>
+        <span class="research-area-number">01</span>
+        <span class="research-area-title">Bio &amp; Healthcare Systems</span>
+        <span class="research-area-sub">Infectious disease · Clinical trials · Biomanufacturing</span>
+      </summary>
+      <div class="research-area-body">
+        <p class="research-area-intro">Where we apply our models: real bio and healthcare systems
+          in which decisions must be made under uncertainty.</p>
+
+        <div class="research-topic">
+          <img src="{{ "/images/proj-abm.jpg" | relative_url }}" alt="Agent-based model of COVID-19 policy">
+          <div>
+            <h3>Infectious Disease &amp; Public Health Policy</h3>
+            <p>HPC-based agent-based simulation of disease spread (COVID-19, measles,
+              seasonal influenza) to forecast outbreaks and evaluate public-health
+              interventions — vaccination campaigns, non-pharmaceutical interventions,
+              and resource allocation — including how opinion dynamics shape vaccine uptake.</p>
+          </div>
+        </div>
+
+        <div class="research-topic">
+          <img src="{{ "/images/proj-dbs.jpg" | relative_url }}" alt="Pharmacokinetic modeling of HIV PrEP adherence">
+          <div>
+            <h3>Clinical Trials &amp; Pharmacometrics</h3>
+            <p>Pharmacokinetic and mathematical modeling of clinical-trial data to estimate
+              drug adherence, protection, and efficacy — e.g., HIV pre-exposure prophylaxis
+              (dried blood spot biomarkers, long-acting injectables) — and digital-twin-based
+              <em>virtual clinical trials</em> for infectious diseases (NRF, 2026–2029),
+              in collaboration with Gilead Sciences.</p>
+          </div>
+        </div>
+
+        <div class="research-topic">
+          <img src="{{ "/images/proj-biomfg.jpg" | relative_url }}" alt="Biomanufacturing process model">
+          <div>
+            <h3>Biomanufacturing</h3>
+            <p>Discrete-event simulation of biopharmaceutical production (e.g., monoclonal
+              antibodies) and batch-scheduling optimization to improve yield and
+              throughput under process uncertainty.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="research-card">
-      <img class="research-card-img" src="{{ "/images/proj-abm.jpg" | relative_url }}" alt="Simulation methodology">
-      <div class="research-card-body">
-        <div class="research-card-number">02</div>
-        <h2>Simulation Methodology</h2>
-        <p>New ways to build simulation models that are more realistic, more
-          data-driven, and cheaper to run.</p>
-        <ul class="research-card-topics">
-          <li><strong>LLM-persona agents</strong> — Agent-based models whose agents are driven
-            by LLM personas, and LLM-based synthetic population generation.</li>
-          <li><strong>Surrogate &amp; mathematical modeling</strong> — Approximate models for
-            systems too complex to simulate directly.</li>
-        </ul>
+    </details>
+
+    <details class="research-area">
+      <summary>
+        <span class="research-area-number">02</span>
+        <span class="research-area-title">Agent-Based Modeling &amp; Digital Twins</span>
+        <span class="research-area-sub">LLM-persona agents · Synthetic populations · Digital-twin frameworks</span>
+      </summary>
+      <div class="research-area-body">
+        <p class="research-area-intro">How we build models: making agent-based simulations
+          more realistic, more data-driven, and reusable across problems.</p>
+
+        <div class="research-topic">
+          <div class="research-topic-placeholder">Figure coming soon</div>
+          <div>
+            <h3>LLM-Persona Agents &amp; Synthetic Populations</h3>
+            <p>Agent-based models whose agents are driven by LLM personas, and algorithms
+              for building synthetic populations from public data (e.g., household assignment
+              using the NVIDIA Persona Korea synthetic population) for general-purpose ABM.</p>
+          </div>
+        </div>
+
+        <div class="research-topic">
+          <div class="research-topic-placeholder">Figure coming soon</div>
+          <div>
+            <h3>Digital-Twin Frameworks &amp; Surrogate Modeling</h3>
+            <p>Digital twins of healthcare and bioprocess systems, and mathematical or
+              surrogate models that approximate simulations too expensive to run directly.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="research-card">
-      <img class="research-card-img" src="{{ "/images/proj-xcal.jpg" | relative_url }}" alt="Simulation optimization and explainable AI">
-      <div class="research-card-body">
-        <div class="research-card-number">03</div>
-        <h2>Simulation Optimization &amp; Explainable AI</h2>
-        <p>Turning simulation models into decisions: fitting them to data and
-          optimizing the policies they inform.</p>
-        <ul class="research-card-topics">
-          <li><strong>Calibration</strong> — Algorithms for representative parameter
-            calibration of complex simulation models.</li>
-          <li><strong>Explainable AI (XAI)</strong> — Explaining calibrated models and
-            post-calibration analysis for policy evaluation.</li>
-          <li><strong>Global optimization</strong> — Simulation optimization under
-            uncertainty, machine learning, and digital twins.</li>
-        </ul>
+    </details>
+
+    <details class="research-area">
+      <summary>
+        <span class="research-area-number">03</span>
+        <span class="research-area-title">Calibration, Simulation Optimization &amp; Explainable AI</span>
+        <span class="research-area-sub">Representative calibration · Post-calibration XAI · Optimization under uncertainty</span>
+      </summary>
+      <div class="research-area-body">
+        <p class="research-area-intro">How we make models trustworthy and actionable: fitting
+          them to data, explaining what they learned, and optimizing the decisions they inform.</p>
+
+        <div class="research-topic">
+          <img src="{{ "/images/proj-xcal.jpg" | relative_url }}" alt="Calibration output">
+          <div>
+            <h3>Representative Calibration &amp; Explainable AI</h3>
+            <p>Calibration algorithms that use black-box optimization and clustering to find
+              <em>representative</em> parameter sets for complex simulation models, and
+              explainable post-calibration analysis that interprets how calibrated parameters
+              drive policy outcomes.</p>
+          </div>
+        </div>
+
+        <div class="research-topic">
+          <div class="research-topic-placeholder">Figure coming soon</div>
+          <div>
+            <h3>Simulation Optimization under Uncertainty</h3>
+            <p>Global optimization and machine learning on top of simulation models to find
+              robust policies — e.g., optimal vaccination campaign strategies that account for
+              societal characteristics and fairness.</p>
+          </div>
+        </div>
       </div>
-    </div>
+    </details>
+
   </div>
 
   <nav class="research-tabs" aria-label="Research sections">

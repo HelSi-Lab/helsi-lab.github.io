@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include section.html dark=true %}
+{% include section.html dark=true background="images/background.jpg" %}
 
 # HelSi Lab
 

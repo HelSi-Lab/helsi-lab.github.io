@@ -22,6 +22,10 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+alumni:
+  icon: fa-solid fa-user-clock
+  description: Alumni
+
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student

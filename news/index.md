@@ -9,16 +9,14 @@ nav:
 
 # News
 
-- **2026.09** — Lab website launched!
+{% include list.html data="posts" component="post-excerpt" %}
 
-- **2026.06** — Haeun Kang presents *Discrete-Event Simulation Modeling of Monoclonal Antibody Production under Uncertainty* at the KIIE Spring Conference, Gyeongju.
-
-- **2026.03** — NRF grant awarded: Digital Twin-based Virtual Clinical Trials for Infectious Diseases (2026–2029).
-
-- **2026.02** — Invited talk at KRIBB: Data-driven approaches to support clinical trials.
-
-- **2026.01** — Invited talk at SNU: Data-driven approaches to support clinical trials.
-
-- **2025.11** — Oral presentation at Epidemics, San Diego: DBS measurements for HIV PrEP adherence.
-
-- **2025.09** — Prof. Serin Lee joins INU as Assistant Professor. HelSi Lab opens!
+<!--
+How to add a news item:
+  1. Create _posts/YYYY-MM-DD-short-title.md with front matter:
+       ---
+       title: "Headline"
+       image: images/news/photo.jpg   # optional; put the photo in images/news/
+       ---
+       One or two sentences of text (shown in the list). More text is fine — it shows on the post's own page.
+-->

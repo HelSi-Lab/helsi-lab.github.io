@@ -12,7 +12,7 @@ aliases:
 links:
   email: serinlee@inu.ac.kr
   google-scholar: UUgId1AAAAAJ
-  # cv: files/cv-serin-lee.pdf   # add the PDF to /files and uncomment
+  cv: files/CV_Serin_Lee.pdf
   # orcid: 0000-0000-0000-0000
 ---
 
@@ -31,7 +31,7 @@ Serin Lee is an Assistant Professor in the Department of Industrial & Management
 - **Assistant Professor**, Dept. of Industrial & Management Engineering, Incheon National University, 2025–Present
 - **Postdoctoral Research Fellow**, Fred Hutchinson Cancer Center, 2024–2025
 - **Research Scientist**, Institute for Disease Modeling, Bill & Melinda Gates Foundation, 2023–2024
-- **Summer Research Intern**, Stanford University, 2021
+- **Researcher**, Center for Primary Care and Outcomes Research, Stanford University, 2021
 
 ## Research Interests
 
@@ -41,13 +41,12 @@ Serin Lee is an Assistant Professor in the Department of Industrial & Management
 - Infectious disease policy modeling
 - Pharmacometric and clinical-trial simulation
 
-## Teaching
+## Honors & Awards
 
-Data Literacy · Databases · Simulation · Healthcare Systems · Digital Twins · AI Programming
-(데이터 리터러시, 데이터베이스, 시뮬레이션, 헬스케어시스템, 디지털 트윈, AI프로그래밍)
-
-## Awards & Honors
-
-- **2020, 2021** — Lee B. Lusted Student Prize Finalist, *Society for Medical Decision Making (SMDM)*
+- **2021–2022** — Industrial & Systems Engineering Faculty Endowed Fellowship, *University of Washington*
+- **2020, 2021** — Lee B. Lusted Prize Finalist, *Society for Medical Decision Making (SMDM)*
+- **2019–2020** — Graduate School Fund for Excellence and Innovation Top Scholar Award, *University of Washington*
+- **2017** — Merit-based Scholarship, *Seoul National University*
+- **2016** — National Scholarship for Science and Engineering, *Korea Student Aid Foundation*
 
 **Office:** Building 9, Room 409 · **Lab:** Building 9, Room 302
