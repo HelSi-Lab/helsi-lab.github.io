@@ -9,10 +9,10 @@ nav:
 
 <div class="pub-page" markdown="1">
 
-# Projects
+# Projects · 연구 과제
 
-## Current
+## Ongoing projects · 진행 중인 과제
 
-{% include list.html data="citations" component="citation" filter="group == 'project'" %}
+{% include compact-list.html group="project" style="oneline" %}
 
 </div>

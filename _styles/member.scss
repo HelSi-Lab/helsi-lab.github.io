@@ -1,0 +1,28 @@
+---
+---
+
+/* compact member profile */
+.member-links {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: -6px !important;
+}
+
+.member-links .button-wrapper {
+  margin: 0;
+}
+
+.member-links .button[data-style="bare"] {
+  padding: 4px 8px;
+  font-size: 1.15em;
+}
+
+.float .portrait {
+  margin: 0 20px 6px;
+}
+
+.float + h2,
+.float ~ h2 {
+  margin-top: 20px;
+}

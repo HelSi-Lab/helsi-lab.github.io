@@ -7,15 +7,15 @@ nav:
 
 {% include section.html %}
 
-# People
+# People · 구성원
 
-## Principal Investigator
+## Principal Investigator · 지도교수
 
 {% include portrait.html lookup="serin-lee" %}
 
 {% include section.html %}
 
-## Members
+## Members · 연구원
 
 {% include portrait.html lookup="haeun-kang" %}
 {% include portrait.html lookup="minjae-kang" %}
@@ -24,7 +24,7 @@ nav:
 
 {% include section.html %}
 
-## Alumni
+## Alumni · 졸업생
 
 {% include list.html data="members" component="portrait" filter="role == 'alumni'" %}
 

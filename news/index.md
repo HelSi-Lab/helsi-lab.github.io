@@ -7,7 +7,7 @@ nav:
 
 {% include section.html %}
 
-# News
+# News · 소식
 
 <div class="news-list">
 {% for post in site.posts %}

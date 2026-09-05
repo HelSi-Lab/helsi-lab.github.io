@@ -7,7 +7,7 @@ nav:
 
 {% include section.html %}
 
-# Contact
+# Contact · 연락처
 
 **HelSi Lab**
 Department of Industrial & Management Engineering

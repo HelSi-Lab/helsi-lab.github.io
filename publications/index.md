@@ -9,43 +9,40 @@ nav:
 
 <div class="pub-page" markdown="1">
 
-# Publications
+# Publications · 논문
 
-## Journal papers
-{: #journal}
+## Work in progress · 진행 중인 연구
 
-{% include list.html data="citations" component="citation" filter="group == 'journal'" %}
+{% include compact-list.html group="review" style="wip" %}
 
-## Peer-reviewed conference proceedings
-{: #proceedings}
+## Journal papers · 학술지 논문
 
-{% include list.html data="citations" component="citation" filter="group == 'proceedings'" %}
+{% include compact-list.html group="journal" style="pub" %}
 
-## Work in progress
-{: #wip}
+## Peer-reviewed conference proceedings · 학회 프로시딩
 
-{% include list.html data="citations" component="citation" filter="group == 'review'" %}
+{% include compact-list.html group="proceedings" style="pub" %}
 
-# Presentations
+# Presentations · 발표
 {: #presentation}
 
-## Invited talks
+## Invited talks · 초청 강연
 
-{% include list.html data="citations" component="citation" filter="group == 'talk'" %}
+{% include compact-list.html group="talk" style="twoline" %}
 
-## Oral presentations
+## Oral presentations · 구두 발표
 
-{% include list.html data="citations" component="citation" filter="group == 'oral'" %}
+{% include compact-list.html group="oral" style="twoline" %}
 
-## Posters
+## Posters · 포스터
 
-{% include list.html data="citations" component="citation" filter="group == 'poster'" %}
+{% include compact-list.html group="poster" style="twoline" %}
 
-# Awards
+# Awards · 수상
 {: #awards}
 
-{% include list.html data="citations" component="citation" filter="group == 'award'" %}
+{% include compact-list.html group="award" style="twoline" %}
 
-Lab and student awards will be listed here.
+Lab and student awards will be listed here. 연구실 및 학생 수상 내역이 여기에 표시됩니다.
 
 </div>

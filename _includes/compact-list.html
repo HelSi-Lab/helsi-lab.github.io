@@ -1,0 +1,29 @@
+{% comment %}
+  Compact list of citations from _data/citations.yaml
+  params: group (required), style = "wip" | "oneline" | "twoline" | "pub"
+{% endcomment %}
+{% assign items = site.data.citations
+  | where: "group", include.group
+  | sort: "date"
+  | reverse
+%}
+<ul class="compact-list" data-style="{{ include.style }}">
+{% for c in items %}
+  {% if c.title %}
+  <li>
+    {% if include.style == "wip" %}
+      <span class="cl-title">{{ c.title }}</span>
+      <span class="cl-meta">{{ c.publisher }}</span>
+    {% elsif include.style == "twoline" %}
+      <span class="cl-title">{{ c.title }}</span>
+      <span class="cl-meta">{% if c.authors %}{{ c.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" | strip }} · {% endif %}{{ c.publisher }} · {{ c.date | date: "%Y.%m" }}</span>
+    {% elsif include.style == "oneline" %}
+      <span class="cl-title">{{ c.title }}</span> <span class="cl-meta">— {{ c.publisher }}</span>
+    {% else %}
+      <span class="cl-title">{% if c.link %}<a href="{{ c.link }}">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</span>
+      <span class="cl-meta">{% if c.authors %}{{ c.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" | strip }}. {% endif %}<em>{{ c.publisher }}</em>{% if c.date %}, {{ c.date | date: "%Y" }}{% endif %}</span>
+    {% endif %}
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
