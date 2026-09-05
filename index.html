@@ -414,14 +414,14 @@
       
     
       
-        <a href="/join/" data-tooltip="Open positions">
-          Join Us
+        <a href="/news/" data-tooltip="Lab updates">
+          News
         </a>
       
     
       
-        <a href="/news/" data-tooltip="Lab updates">
-          News
+        <a href="/join/" data-tooltip="Open positions">
+          Join Us
         </a>
       
     
@@ -479,10 +479,10 @@ questions in healthcare, infectious disease, and bioprocess systems.</p>
   </div>
 
 <div class="button-wrapper">
-    <a class="button" href="/projects" data-style="" aria-label="fa-solid fa-diagram-project">
-      <i class="icon fa-solid fa-diagram-project"></i>
+    <a class="button" href="/team" data-style="" aria-label="fa-solid fa-users">
+      <i class="icon fa-solid fa-users"></i>
       
-        <span>Projects</span>
+        <span>People</span>
       
     </a>
   </div>
@@ -510,26 +510,104 @@ questions in healthcare, infectious disease, and bioprocess systems.</p>
 
 <h2 id="research-areas">Research areas</h2>
 
-<p>The lab sits at the intersection of three areas: we model complex health
-systems, simulate how they behave under uncertainty, and optimize the decisions
-that shape them.</p>
+<p class="center">Our work sits at the intersection of three areas: we model complex bio and
+healthcare systems, simulate how they behave under uncertainty, and optimize
+the decisions that shape them.</p>
+
+<div class="research-venn">
+<svg viewbox="0 0 1400 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="venn-title">
+  <title id="venn-title">HelSi Lab research areas: Bio &amp; Healthcare Systems, Simulation &amp; Modeling, and Optimization</title>
+  <style>
+    .venn-c { fill-opacity: 0.55; stroke-width: 3; }
+    .venn-item { font-size: 27px; fill: var(--text, #222); font-family: inherit; }
+    .venn-label { font-size: 44px; font-weight: 700; font-family: inherit; }
+  </style>
+  <!-- circles -->
+  <circle class="venn-c" cx="705" cy="270" r="245" fill="#F6D88A" stroke="#C9A227"></circle>
+  <circle class="venn-c" cx="560" cy="530" r="245" fill="#9FB8DB" stroke="#1F4E9A"></circle>
+  <circle class="venn-c" cx="850" cy="530" r="245" fill="#A6CFC9" stroke="#2A8A80"></circle>
+
+  <!-- area labels -->
+  <text class="venn-label" x="390" y="80" text-anchor="end" fill="#8A6D1F">Bio · Healthcare</text>
+  <text class="venn-label" x="390" y="130" text-anchor="end" fill="#8A6D1F">Systems</text>
+  <text class="venn-label" x="330" y="720" text-anchor="end" fill="#1F4E9A">Simulation</text>
+  <text class="venn-label" x="330" y="770" text-anchor="end" fill="#1F4E9A">&amp; Modeling</text>
+  <text class="venn-label" x="1080" y="740" text-anchor="start" fill="#2A8A80">Optimization</text>
+
+  <text class="venn-item" x="705" y="100" text-anchor="middle">Disease forecasting</text>
+  <text class="venn-item" x="705" y="175" text-anchor="middle">Hospital resource allocation</text>
+  <text class="venn-item" x="705" y="250" text-anchor="middle">Clinical trial analysis</text>
+  <text class="venn-item" x="705" y="325" text-anchor="middle">Bioprocess systems</text>
+  <text class="venn-item" x="465" y="480" text-anchor="middle">Agent-based</text>
+  <text class="venn-item" x="465" y="512" text-anchor="middle">simulation</text>
+  <text class="venn-item" x="495" y="605" text-anchor="middle">Mathematical modeling</text>
+  <text class="venn-item" x="545" y="695" text-anchor="middle">Surrogate modeling</text>
+  <text class="venn-item" x="955" y="480" text-anchor="middle">Global optimization</text>
+  <text class="venn-item" x="960" y="570" text-anchor="middle">Machine learning</text>
+  <text class="venn-item" x="920" y="660" text-anchor="middle">Explainable AI (XAI)</text>
+  <text class="venn-item" x="705" y="530" text-anchor="middle">Digital twins</text>
+  <text class="venn-item" x="705" y="585" text-anchor="middle">Parameter</text>
+  <text class="venn-item" x="705" y="617" text-anchor="middle">calibration</text>
+
+  <text class="venn-item" x="705" y="100" text-anchor="middle">Disease forecasting</text>
+  <text class="venn-item" x="705" y="175" text-anchor="middle">Hospital resource allocation</text>
+  <text class="venn-item" x="705" y="250" text-anchor="middle">Clinical trial analysis</text>
+  <text class="venn-item" x="705" y="325" text-anchor="middle">Bioprocess systems</text>
+  <text class="venn-item" x="465" y="480" text-anchor="middle">Agent-based</text>
+  <text class="venn-item" x="465" y="512" text-anchor="middle">simulation</text>
+  <text class="venn-item" x="495" y="605" text-anchor="middle">Mathematical modeling</text>
+  <text class="venn-item" x="545" y="695" text-anchor="middle">Surrogate modeling</text>
+  <text class="venn-item" x="955" y="480" text-anchor="middle">Global optimization</text>
+  <text class="venn-item" x="960" y="570" text-anchor="middle">Machine learning</text>
+  <text class="venn-item" x="920" y="660" text-anchor="middle">Explainable AI (XAI)</text>
+  <text class="venn-item" x="705" y="530" text-anchor="middle">Digital twins</text>
+  <text class="venn-item" x="705" y="585" text-anchor="middle">Parameter</text>
+  <text class="venn-item" x="705" y="617" text-anchor="middle">calibration</text>
+
+  <text class="venn-item" x="705" y="100" text-anchor="middle">Disease forecasting</text>
+  <text class="venn-item" x="705" y="175" text-anchor="middle">Hospital resource allocation</text>
+  <text class="venn-item" x="705" y="250" text-anchor="middle">Clinical trial analysis</text>
+  <text class="venn-item" x="705" y="325" text-anchor="middle">Bioprocess systems</text>
+  <text class="venn-item" x="465" y="480" text-anchor="middle">Agent-based</text>
+  <text class="venn-item" x="465" y="512" text-anchor="middle">simulation</text>
+  <text class="venn-item" x="495" y="605" text-anchor="middle">Mathematical modeling</text>
+  <text class="venn-item" x="545" y="695" text-anchor="middle">Surrogate modeling</text>
+  <text class="venn-item" x="955" y="480" text-anchor="middle">Global optimization</text>
+  <text class="venn-item" x="960" y="570" text-anchor="middle">Machine learning</text>
+  <text class="venn-item" x="920" y="660" text-anchor="middle">Explainable AI (XAI)</text>
+  <text class="venn-item" x="705" y="530" text-anchor="middle">Digital twins</text>
+  <text class="venn-item" x="705" y="585" text-anchor="middle">Parameter</text>
+  <text class="venn-item" x="705" y="617" text-anchor="middle">calibration</text>
+
+  <text class="venn-item" x="705" y="100" text-anchor="middle">Disease forecasting</text>
+  <text class="venn-item" x="705" y="175" text-anchor="middle">Hospital resource allocation</text>
+  <text class="venn-item" x="705" y="250" text-anchor="middle">Clinical trial analysis</text>
+  <text class="venn-item" x="705" y="325" text-anchor="middle">Bioprocess systems</text>
+  <text class="venn-item" x="465" y="480" text-anchor="middle">Agent-based</text>
+  <text class="venn-item" x="465" y="512" text-anchor="middle">simulation</text>
+  <text class="venn-item" x="495" y="605" text-anchor="middle">Mathematical modeling</text>
+  <text class="venn-item" x="545" y="695" text-anchor="middle">Surrogate modeling</text>
+  <text class="venn-item" x="955" y="480" text-anchor="middle">Global optimization</text>
+  <text class="venn-item" x="960" y="570" text-anchor="middle">Machine learning</text>
+  <text class="venn-item" x="920" y="660" text-anchor="middle">Explainable AI (XAI)</text>
+  <text class="venn-item" x="705" y="530" text-anchor="middle">Digital twins</text>
+  <text class="venn-item" x="705" y="585" text-anchor="middle">Parameter</text>
+  <text class="venn-item" x="705" y="617" text-anchor="middle">calibration</text>
+</svg>
+</div>
 
 <div class="cols" style="--cols: 3">
   
     
     <div>
-<h4 id="bio--healthcare-systems">Bio &amp; Healthcare Systems</h4>
-<p>바이오 · 헬스케어 시스템</p>
-
-<p>Disease-spread prediction, public-health policy modeling, clinical-trial
-analysis, and bioprocess systems.</p>
+<h4 id="bio--healthcare-systems">Bio · Healthcare Systems</h4>
+<p>Disease forecasting, hospital resource allocation, clinical trial analysis,
+and bioprocess systems.</p>
 </div>
   
     
     <div>
 <h4 id="simulation--modeling">Simulation &amp; Modeling</h4>
-<p>시뮬레이션 &amp; 모델링</p>
-
 <p>Agent-based simulation on HPC, mathematical modeling, and surrogate models for
 systems too complex to solve directly.</p>
 </div>
@@ -537,10 +615,8 @@ systems too complex to solve directly.</p>
     
     <div>
 <h4 id="optimization">Optimization</h4>
-<p>최적화</p>
-
-<p>Global optimization, machine learning, explainable AI, digital twins, and
-representative parameter calibration.</p>
+<p>Global optimization, machine learning, and explainable AI — with digital twins
+and parameter calibration bridging simulation and optimization.</p>
 </div>
   
 </div>
@@ -576,8 +652,23 @@ representative parameter calibration.</p>
 
 
   <div class="button-wrapper">
-    <a class="button" href="/HelSi-Lab" data-style="bare" aria-label="button">
+    <a class="button" href="mailto:serinlee@inu.ac.kr" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
       
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/HelSi-Lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
       
     </a>
   </div>
