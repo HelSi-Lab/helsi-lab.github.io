@@ -1,9 +1,14 @@
 ---
 name: Serin Lee
+name_ko: 이세린
 image: images/team/serin-lee.jpg
 role: pi
 is-pi: true
 description: Assistant Professor · Principal Investigator
+position_ko: 조교수 · 연구책임자
+research_interests:
+  - Healthcare modeling and simulation · 헬스케어 모델링 및 시뮬레이션
+  - Simulation optimization and digital twins · 시뮬레이션 최적화 및 디지털 트윈
 aliases:
   - Serin Lee
   - Lee S

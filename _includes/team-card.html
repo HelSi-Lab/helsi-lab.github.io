@@ -1,0 +1,15 @@
+<a href="{{ include.member.url | relative_url }}" class="team-person-card">
+  <div class="team-person-photo">
+    <img src="{{ include.member.image | relative_url }}" alt="{{ include.member.name }}" loading="lazy">
+  </div>
+  <h2>{{ include.member.name_ko | default: include.member.name }}</h2>
+  <p class="team-person-name-en">{{ include.member.name }}</p>
+  <p class="team-person-position">{{ include.member.position_ko | default: include.member.description }}</p>
+  <p class="team-person-position-en">{{ include.member.description }}</p>
+  {% if include.member.links.email %}<p class="team-person-email">✉ <span>{{ include.member.links.email }}</span></p>{% endif %}
+  {% if include.member.research_interests %}
+    <ul class="team-person-interests">
+      {% for interest in include.member.research_interests %}<li>{{ interest }}</li>{% endfor %}
+    </ul>
+  {% endif %}
+</a>

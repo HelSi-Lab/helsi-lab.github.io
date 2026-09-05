@@ -1,7 +1,12 @@
 ---
 name: Haeun Kang
+name_ko: 강하은
 role: grad
 description: M.S. Student
+position_ko: 석사과정 1년차
+research_interests:
+  - Bioprocess modeling · 바이오 공정 모델링
+  - Digital twins · 디지털 트윈
 image: images/team/haeun-kang.jpg
 aliases:
   - Haeun Kang

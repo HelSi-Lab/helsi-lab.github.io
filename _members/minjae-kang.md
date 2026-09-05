@@ -1,7 +1,12 @@
 ---
 name: Minjae Kang
+name_ko: 강민재
 role: undergrad
 description: Undergraduate Researcher
+position_ko: 학부 연구생
+research_interests:
+  - Agent-based modeling · Agent-Based 모델링
+  - Infectious disease simulation · 감염병 시뮬레이션
 image: images/team/minjae-kang.jpg
 aliases:
   - Minjae Kang

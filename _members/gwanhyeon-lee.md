@@ -1,7 +1,12 @@
 ---
 name: Gwanhyeon Lee
+name_ko: 이관현
 role: undergrad
 description: Undergraduate Researcher
+position_ko: 학부 연구생
+research_interests:
+  - Agent-based modeling · Agent-Based 모델링
+  - LLM-based synthetic populations · LLM기반 가상 인구 모델링
 image: images/team/gwanhyeon-lee.jpg
 aliases:
   - Gwanhyeon Lee
