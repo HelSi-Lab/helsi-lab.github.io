@@ -23,16 +23,16 @@ header-dark: false
     </div>
     <div class="home-research-grid">
       <a href="{{ '/research/#healthcare-systems' | relative_url }}" class="home-research-card">
-        <h2><span class="home-title-line">Health Policy &amp;</span><span class="home-title-line">Disease Modeling</span></h2>
+        <h2><span class="home-title-line">Health Policy &amp;</span><span class="home-title-line">Disease Modeling</span><small>보건정책 및 질병 모델링</small></h2>
       </a>
       <a href="{{ '/research/#clinical-trials' | relative_url }}" class="home-research-card">
-        <h2><span class="home-title-line">Clinical Trials &amp;</span><span class="home-title-line">Pharmacometrics</span></h2>
+        <h2><span class="home-title-line">Clinical Trials &amp;</span><span class="home-title-line">Pharmacometrics</span><small>임상시험 및 약리계량학</small></h2>
       </a>
       <a href="{{ '/research/#biomanufacturing' | relative_url }}" class="home-research-card">
-        <h2><span class="home-title-line">Biomanufacturing</span><span class="home-title-line">Digital Twins</span></h2>
+        <h2><span class="home-title-line">Biomanufacturing</span><span class="home-title-line">Digital Twins</span><small>바이오공정 디지털 트윈</small></h2>
       </a>
       <a href="{{ '/research/#simulation-methods' | relative_url }}" class="home-research-card">
-        <h2><span class="home-title-line">Simulation</span><span class="home-title-line">Methods</span></h2>
+        <h2><span class="home-title-line">Simulation</span><span class="home-title-line">Methods</span><small>시뮬레이션 방법론</small></h2>
       </a>
     </div>
   </section>
