@@ -5,14 +5,15 @@ header-dark: false
 
 <div class="home-page">
   <section class="home-hero">
-    <p class="home-kicker">HEALTHCARE &amp; SIMULATION OPTIMIZATION LAB</p>
-    <h1>HELSI LAB</h1>
-    <p class="home-tagline">Building better healthcare decisions through models, data, and optimization.</p>
-    <p class="home-tagline-kr">시뮬레이션·최적화·디지털 트윈으로 더 나은 헬스케어 의사결정을 만듭니다.</p>
-
-    <a class="home-core-image" href="{{ '/research/' | relative_url }}" aria-label="Explore HelSi Lab research">
-      <img src="{{ '/images/proj-abm.png' | relative_url }}" alt="HelSi Lab agent-based simulation visualization">
-      <span>Modeling complex systems for real-world decisions <b aria-hidden="true">→</b></span>
+    <div class="home-hero-copy">
+      <p class="home-kicker">HEALTHCARE &amp; SIMULATION OPTIMIZATION LAB</p>
+      <h1>HELSI LAB</h1>
+      <p class="home-tagline">Building better healthcare decisions through models, data, and optimization.</p>
+      <p class="home-tagline-kr">시뮬레이션·최적화·디지털 트윈으로 더 나은 헬스케어 의사결정을 만듭니다.</p>
+      <a class="home-hero-link" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
+    </div>
+    <a class="home-hero-visual" href="{{ '/research/' | relative_url }}" aria-label="Explore HelSi Lab research">
+      <img src="{{ '/images/hero-network-flow.png' | relative_url }}" alt="Complex networks converging into structured decision paths">
     </a>
   </section>
 
@@ -36,7 +37,7 @@ header-dark: false
       </a>
       <a href="{{ '/research/#simulation-methods' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-xcal.png' | relative_url }}" alt="Simulation optimization research">
-        <div><h2><span class="home-title-line">Simulation</span><span class="home-title-line">Research</span><small>· 시뮬레이션 연구</small></h2><p class="home-card-keywords"><span>Agent-based modeling</span><span>Calibration</span><span>Optimization</span></p><p class="home-card-keywords-ko">에이전트 기반 모델 · 보정 · 최적화</p></div>
+        <div><h2><span class="home-title-line">Simulation</span><span class="home-title-line">Methods</span><small>· 시뮬레이션 방법론</small></h2><p class="home-card-keywords"><span>Agent-based modeling</span><span>Calibration</span><span>Optimization</span></p><p class="home-card-keywords-ko">에이전트 기반 모델 · 보정 · 최적화</p></div>
       </a>
     </div>
   </section>
