@@ -3,29 +3,33 @@ title: Teaching
 nav:
   order: 5
   tooltip: Courses taught at INU
+header-style: urban
+header-dark: false
 ---
 
-{% include section.html %}
+<div class="lab-inner-page teaching-page">
+  <section class="lab-page-heading">
+    <h1>Teaching <span>· 강의</span></h1>
+    <p>Courses taught by Prof. Serin Lee at Incheon National University.<br>인천대학교 산업경영공학과 이세린 교수 담당 교과목입니다.</p>
+  </section>
 
-# Teaching · 강의
+  <section class="teaching-section">
+    <h2>Undergraduate Courses <span>· 학부</span></h2>
+    <div class="teaching-list">
+      <article><p>2026 Fall</p><h3>Simulation <span>· 시뮬레이션</span></h3></article>
+      <article><p>2026 Fall</p><h3>Data Literacy <span>· 데이터 리터러시</span></h3></article>
+      <article><p>2025 Fall · 2026 Spring</p><h3>Database <span>· 데이터베이스</span></h3></article>
+      <article><p>2026 Spring</p><h3>Capstone Design <span>· 캡스톤 디자인</span></h3></article>
+    </div>
+  </section>
 
-Courses taught by Prof. Serin Lee in the Department of Industrial & Management Engineering, Incheon National University.
-인천대학교 산업경영공학과에서 이세린 교수가 담당하는 교과목입니다.
+  <section class="teaching-section">
+    <h2>Graduate Courses <span>· 대학원</span></h2>
+    <div class="teaching-list">
+      <article><p>2026 Spring</p><h3>AI Programming <span>· AI 프로그래밍</span></h3></article>
+      <article><p>2025 Fall</p><h3>Digital Twin <span>· 디지털 트윈</span></h3></article>
+    </div>
+  </section>
 
-## Undergraduate · 학부
-
-| Course | 교과목 | Semester |
-| --- | --- | --- |
-| Simulation | 시뮬레이션 | 2026 Fall |
-| Data Literacy | 데이터 리터러시 | 2026 Fall |
-| Database | 데이터베이스 | 2025 Fall, 2026 Spring |
-| Capstone Design | 캡스톤 디자인 | 2026 Spring |
-
-## Graduate · 대학원
-
-| Course | 교과목 | Semester |
-| --- | --- | --- |
-| AI Programming | AI 프로그래밍 | 2026 Spring |
-| Digital Twin | 디지털 트윈 | 2025 Fall |
-
-Students who have taken **Simulation** are especially encouraged to apply to the lab — see [Join Us]({{ "/join/" | relative_url }}).
+  <p class="teaching-note">Students interested in the lab are encouraged to take Simulation.<br>연구실 참여에 관심 있는 학생은 시뮬레이션 수강을 권장합니다. <a href="{{ '/join/' | relative_url }}">Join Us →</a></p>
+</div>

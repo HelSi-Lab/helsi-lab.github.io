@@ -18,7 +18,7 @@
   publisher: Journal of the International AIDS Society, 29(8), e70188
   date: 2026-08-01
   group: journal
-  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5666231
+  link:  https://doi.org/10.1002/jia2.70188
 
 - id: doi:10.1177/0272989X251378472
   group: journal
@@ -106,37 +106,37 @@
   date: 2026-05-01
   group: review
 
-- title: "Estimating HIV PrEP efficacy threshold in cisgender women using clinical trials data"
-  authors:
-    - "**Serin Lee**"
-    - et al.
-  publisher: In preparation
-  date: 2026-04-01
-  group: review
+# - title: "Estimating HIV PrEP efficacy threshold in cisgender women using clinical trials data"
+#   authors:
+#     - "**Serin Lee**"
+#     - et al.
+#   publisher: In preparation
+#   date: 2026-04-01
+#   group: review
 
-- title: "Discrete-event simulation and batch scheduling optimization for biopharmaceutical manufacturing operations"
-  authors:
-    - Haeun Kang
-    - "**Serin Lee**"
-  publisher: In preparation
-  date: 2026-03-01
-  group: review
+# - title: "Discrete-event simulation and batch scheduling optimization for biopharmaceutical manufacturing operations"
+#   authors:
+#     - Haeun Kang
+#     - "**Serin Lee**"
+#   publisher: In preparation
+#   date: 2026-03-01
+#   group: review
 
-- title: "A household assignment algorithm for general-purpose agent-based modeling using the NVIDIA Persona Korea synthetic population"
-  authors:
-    - "**Serin Lee**"
-    - et al.
-  publisher: In preparation
-  date: 2026-02-01
-  group: review
+# - title: "A household assignment algorithm for general-purpose agent-based modeling using the NVIDIA Persona Korea synthetic population"
+#   authors:
+#     - "**Serin Lee**"
+#     - et al.
+#   publisher: In preparation
+#   date: 2026-02-01
+#   group: review
 
-- title: "Explaining the efficacy–effectiveness gap in seasonal influenza vaccination using agent-based modeling"
-  authors:
-    - "**Serin Lee**"
-    - et al.
-  publisher: In preparation
-  date: 2026-01-01
-  group: review
+# - title: "Explaining the efficacy–effectiveness gap in seasonal influenza vaccination using agent-based modeling"
+#   authors:
+#     - "**Serin Lee**"
+#     - et al.
+#   publisher: In preparation
+#   date: 2026-01-01
+#   group: review
 
 # ========== Invited talks ==========
 

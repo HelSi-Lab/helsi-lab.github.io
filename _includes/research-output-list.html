@@ -1,0 +1,15 @@
+{% assign items = site.data.citations | where: "group", include.group | sort: "date" | reverse %}
+<ol class="research-output-list">
+  {% for c in items %}
+    {% if c.title %}
+      <li class="research-output-row">
+        <div class="research-output-year">{{ c.date | date: "%Y" }}</div>
+        <div>
+          <h3>{% if c.link %}<a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</h3>
+          {% if c.authors %}<p class="research-output-authors">{{ c.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+          {% if c.publisher %}<p class="research-output-meta">{{ c.publisher }}</p>{% endif %}
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ol>

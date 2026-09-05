@@ -9,14 +9,14 @@ header-dark: false
 
 <div class="research-reference-page">
   <nav class="research-subnav" aria-label="Research navigation">
-    <a href="#research-area" class="active">Research Area <span>· 연구 분야</span></a>
-    <a href="{{ '/publications/' | relative_url }}">International Articles <span>· 국제학술지</span></a>
-    <a href="{{ '/publications/' | relative_url }}">Korean Articles <span>· 국내학술지</span></a>
-    <a href="{{ '/publications/' | relative_url }}">Conference <span>· 학술대회</span></a>
-    <a href="{{ '/projects/' | relative_url }}">Projects <span>· 연구과제</span></a>
+    <a href="#area" class="active" data-research-tab="area" role="tab" aria-selected="true">Research Area <span>· 연구 분야</span></a>
+    <a href="#international" data-research-tab="international" role="tab" aria-selected="false">International Articles <span>· 국제학술지</span></a>
+    <a href="#korean" data-research-tab="korean" role="tab" aria-selected="false">Korean Articles <span>· 국내학술지</span></a>
+    <a href="#conference" data-research-tab="conference" role="tab" aria-selected="false">Conference <span>· 학술대회</span></a>
+    <a href="#projects" data-research-tab="projects" role="tab" aria-selected="false">Projects <span>· 연구과제</span></a>
   </nav>
 
-  <section class="research-reference-content" id="research-area">
+  <section class="research-reference-content" id="research-area" data-research-panel="area" role="tabpanel">
     <h1>Research Area <span>· 연구 분야</span></h1>
 
     <article id="healthcare-systems" class="research-reference-item">
@@ -70,5 +70,35 @@ header-dark: false
         </div>
       </div>
     </article>
+  </section>
+
+  <section class="research-output-panel" data-research-panel="international" role="tabpanel" hidden>
+    <h1>International Articles <span>· 국제학술지</span></h1>
+    <h2>Journal Articles <span>· 학술지 논문</span></h2>
+    {% include research-output-list.html group="journal" %}
+    <h2>Forthcoming and Ongoing Work <span>· 게재 예정 및 진행 중인 연구</span></h2>
+    {% include research-output-list.html group="review" %}
+  </section>
+
+  <section class="research-output-panel" data-research-panel="korean" role="tabpanel" hidden>
+    <h1>Korean Articles <span>· 국내학술지</span></h1>
+    <p class="research-empty">국내학술지 논문을 준비하고 있습니다.</p>
+  </section>
+
+  <section class="research-output-panel" data-research-panel="conference" role="tabpanel" hidden>
+    <h1>Conference <span>· 학술대회</span></h1>
+    <h2>Peer-reviewed Proceedings <span>· 학회 프로시딩</span></h2>
+    {% include research-output-list.html group="proceedings" %}
+    <h2>Invited Talks <span>· 초청 강연</span></h2>
+    {% include research-output-list.html group="talk" %}
+    <h2>Oral Presentations <span>· 구두 발표</span></h2>
+    {% include research-output-list.html group="oral" %}
+    <h2>Poster Presentations <span>· 포스터 발표</span></h2>
+    {% include research-output-list.html group="poster" %}
+  </section>
+
+  <section class="research-output-panel" data-research-panel="projects" role="tabpanel" hidden>
+    <h1>Projects <span>· 연구과제</span></h1>
+    {% include research-output-list.html group="project" %}
   </section>
 </div>
