@@ -59,14 +59,14 @@ header-dark: false
     </article>
 
     <article id="simulation-methods" class="research-reference-item">
-      <h2>Simulation Methods &amp; Decision Support <span>· 시뮬레이션 방법론 및 의사결정 지원</span></h2>
+      <h2>Simulation Research <span>· 시뮬레이션 연구</span></h2>
       <div class="research-reference-body">
         <figure><img src="{{ '/images/proj-xcal.png' | relative_url }}" alt="Representative calibration and explainable AI output"></figure>
         <div>
-          <h3>Developing calibration, optimization, and explainable analysis for complex simulation models</h3>
-          <p>복잡한 시뮬레이션 모델을 위한 보정, 최적화, 설명가능 분석 방법론을 개발</p>
-          <h3>Turning model outputs into interpretable evidence for practical decisions</h3>
-          <p>모델 결과를 해석 가능한 근거로 전환하여 실제 의사결정을 지원</p>
+          <h3>Agent-based modeling methods</h3>
+          <p>에이전트 기반 모델의 설계, 가상 인구 구성, 상호작용 및 개입 전략 분석 방법론을 연구</p>
+          <h3>Calibration, optimization, and explainable analysis</h3>
+          <p>복잡한 시뮬레이션 모델의 보정·최적화와 결과 해석을 위한 설명가능 분석 방법론을 개발</p>
         </div>
       </div>
     </article>

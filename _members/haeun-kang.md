@@ -2,11 +2,12 @@
 name: Haeun Kang
 name_ko: 강하은
 role: grad
+order: 1
 description: M.S. Student
 position_ko: 석사과정 1년차
 research_interests:
-  - Bioprocess modeling · 바이오 공정 모델링
-  - Digital twins · 디지털 트윈
+  - Bioprocess modeling
+  - Digital twins
 image: images/team/haeun-kang.jpg
 aliases:
   - Haeun Kang
@@ -21,7 +22,3 @@ links:
 ---
 
 Haeun Kang is a M.S. student in the Department of Industrial & Management Engineering at Incheon National University. Her research focuses on simulation modeling of biomanufacturing processes and digital twins for yield optimization under uncertainty.
-
-<div style="clear: both;"></div>
-
-**Research interests:** Bioprocess modeling · Digital twins

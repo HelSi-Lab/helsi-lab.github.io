@@ -36,7 +36,7 @@ header-dark: false
       </a>
       <a href="{{ '/research/#simulation-methods' | relative_url }}" class="home-research-card">
         <img src="{{ '/images/proj-xcal.png' | relative_url }}" alt="Simulation optimization research">
-        <div><h2>Simulation Methods &amp;<br>Decision Support <small>· 시뮬레이션 방법론 및 의사결정 지원</small></h2><p>Calibration · Optimization · Explainable AI<br><span>모델 보정 · 최적화 · 설명가능 AI</span></p></div>
+        <div><h2>Simulation<br>Research <small>· 시뮬레이션 연구</small></h2><p>Agent-based modeling · Calibration · Optimization<br><span>에이전트 기반 모델 · 보정 · 최적화</span></p></div>
       </a>
     </div>
   </section>

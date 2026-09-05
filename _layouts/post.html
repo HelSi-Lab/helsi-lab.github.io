@@ -2,23 +2,14 @@
 layout: default
 ---
 
-{% include section.html background=page.image %}
-
-<h1 class="center">{{ page.title }}</h1>
-
-{%
-  include post-info.html
-  author=page.author
-  member=page.member
-  published=page.date
-  updated=page.last_modified_at
-  tags=page.tags
-%}
-
-{% include section.html %}
-
-{{ content }}
-
-{% include section.html %}
-
-{% include post-nav.html post=page %}
+<article class="lab-post-page">
+  <header class="lab-post-heading">
+    <p>NEWS · 소식</p>
+    <h1>{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+  </header>
+  <div class="lab-post-content">
+    {{ content }}
+  </div>
+  <p class="lab-post-back"><a href="{{ '/news/' | relative_url }}">← Back to News · 소식 목록</a></p>
+</article>

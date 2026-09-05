@@ -10,7 +10,6 @@ header-dark: false
 <div class="lab-inner-page news-reference-page">
   <section class="lab-page-heading">
     <h1>News <span>· 소식</span></h1>
-    <p>Updates from HelSi Lab.<br>헬스케어 및 시뮬레이션 최적화 연구실의 새로운 소식입니다.</p>
   </section>
 
   <section class="news-reference-list">

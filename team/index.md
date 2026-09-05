@@ -20,7 +20,7 @@ header-dark: false
     <p class="team-group-title">MEMBERS <span>· 연구원</span></p>
 
     <div class="team-card-grid">
-      {% assign researchers = site.members | where_exp: "member", "member.role != 'pi' and member.role != 'alumni'" %}
+      {% assign researchers = site.members | where_exp: "member", "member.role != 'pi' and member.role != 'alumni'" | sort: "order" %}
       {% for member in researchers %}
         {% include team-card.html member=member %}
       {% endfor %}

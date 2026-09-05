@@ -6,6 +6,10 @@ role: pi
 is-pi: true
 description: Assistant Professor · Principal Investigator
 position_ko: 조교수 · 연구책임자
+research_interests:
+  - Healthcare modeling
+  - Simulation optimization
+  - Digital twins
 aliases:
   - Serin Lee
   - Lee S

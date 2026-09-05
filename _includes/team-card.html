@@ -1,15 +1,21 @@
-<a href="{{ include.member.url | relative_url }}" class="team-person-card">
+<article class="team-person-card">
   <div class="team-person-photo">
-    <img src="{{ include.member.image | relative_url }}" alt="{{ include.member.name }}" loading="lazy">
+    <a href="{{ include.member.url | relative_url }}" aria-label="View {{ include.member.name }} profile">
+      <img src="{{ include.member.image | relative_url }}" alt="{{ include.member.name }}" loading="lazy">
+    </a>
   </div>
-  <h2>{{ include.member.name_ko | default: include.member.name }}</h2>
+  <h2><a href="{{ include.member.url | relative_url }}">{{ include.member.name_ko | default: include.member.name }}</a></h2>
   <p class="team-person-name-en">{{ include.member.name }}</p>
   <p class="team-person-position">{{ include.member.position_ko | default: include.member.description }}</p>
   <p class="team-person-position-en">{{ include.member.description }}</p>
-  {% if include.member.links.email %}<p class="team-person-email" aria-label="{{ include.member.links.email }}">✉</p>{% endif %}
-  {% if include.member.research_interests %}
-    <ul class="team-person-interests">
-      {% for interest in include.member.research_interests %}<li>{{ interest }}</li>{% endfor %}
-    </ul>
+  {% if include.member.links %}
+    <div class="team-person-links" aria-label="{{ include.member.name }} links">
+      {% if include.member.links.email %}<a href="mailto:{{ include.member.links.email }}" aria-label="Email {{ include.member.name }}" data-tooltip="Email">✉</a>{% endif %}
+      {% if include.member.links.cv %}<a href="{{ include.member.links.cv | relative_url }}" aria-label="{{ include.member.name }} CV" data-tooltip="CV">▤</a>{% endif %}
+      {% if include.member.links.google-scholar %}<a href="https://scholar.google.com/citations?user={{ include.member.links.google-scholar }}" aria-label="{{ include.member.name }} Google Scholar" data-tooltip="Google Scholar">G</a>{% endif %}
+    </div>
   {% endif %}
-</a>
+  {% if include.member.research_interests %}
+    <p class="team-person-interests">{{ include.member.research_interests | join: " · " }}</p>
+  {% endif %}
+</article>

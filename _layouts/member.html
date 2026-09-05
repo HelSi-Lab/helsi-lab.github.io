@@ -2,50 +2,28 @@
 layout: default
 ---
 
-{% capture floatcontent %}
+<article class="member-reference-page">
+  <section class="member-profile-header">
+    <div class="member-profile-photo">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.name }}" loading="eager">
+    </div>
+    <div class="member-profile-intro">
+      <p class="member-profile-kicker">{% if page.is-pi %}PRINCIPAL INVESTIGATOR · 지도교수{% else %}MEMBER · 연구원{% endif %}</p>
+      <h1>{{ page.name_ko | default: page.name }} <span>{{ page.name }}</span></h1>
+      <p class="member-profile-role">{{ page.position_ko | default: page.description }}</p>
+      <p class="member-profile-role-en">{{ page.description }}</p>
+      {% if page.research_interests %}<p class="member-profile-interests">{{ page.research_interests | join: " · " }}</p>{% endif %}
+      {% if page.links %}
+        <div class="member-profile-links" aria-label="{{ page.name }} links">
+          {% if page.links.email %}<a href="mailto:{{ page.links.email }}" data-tooltip="Email" aria-label="Email {{ page.name }}">✉ Email</a>{% endif %}
+          {% if page.links.cv %}<a href="{{ page.links.cv | relative_url }}" data-tooltip="CV" aria-label="{{ page.name }} CV">▤ CV</a>{% endif %}
+          {% if page.links.google-scholar %}<a href="https://scholar.google.com/citations?user={{ page.links.google-scholar }}" data-tooltip="Google Scholar" aria-label="{{ page.name }} Google Scholar">G Scholar</a>{% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </section>
 
-{% include portrait.html lookup=page.slug %}
-
-<div class="member-links">
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value text="" style="bare" %}
-  {% endfor %}
-</div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
-
-{{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
-
-{% capture search -%}
-  news/?search={{ page.name }}
-{%- endcapture %}
-
-<!--
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    See {{ page.name | default: page.title }}'s posts on the News page
-  </a>
-</p>
--->
+  <section class="member-profile-content">
+    {{ content }}
+  </section>
+</article>

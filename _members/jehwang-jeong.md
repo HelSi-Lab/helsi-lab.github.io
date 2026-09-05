@@ -2,11 +2,12 @@
 name: Jehwang Jeong
 name_ko: 정제황
 role: undergrad
+order: 3
 description: Undergraduate Researcher
 position_ko: 학부 연구생
 research_interests:
-  - Agent-based modeling · Agent-Based 모델링
-  - LLM-based synthetic populations · LLM기반 가상 인구 모델링
+  - Agent-based modeling
+  - LLM synthetic populations
 image: images/team/jehwang-jeong.jpg
 aliases:
   - Jehwang Jeong
@@ -21,7 +22,3 @@ links:
 ---
 
 Jehwang Jeong is an undergraduate researcher in the Department of Industrial & Management Engineering at Incheon National University. He works on agent-based simulation of infectious disease spread and LLM-persona-based agent models.
-
-<div style="clear: both;"></div>
-
-**Research interests:** Agent-based modeling · Infectious disease simulation
