@@ -9,6 +9,11 @@ on:
   # run if user manually requests it
   workflow_dispatch:
 
+# Prevent overlapping pushes from racing to commit the same generated files.
+concurrency:
+  group: on-push-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pull-requests: write
