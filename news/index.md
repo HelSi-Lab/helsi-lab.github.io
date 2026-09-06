@@ -16,7 +16,7 @@ header-dark: false
     {% for post in site.posts %}
       <article{% if post.images and post.images.size > 0 %} class="has-image"{% endif %}>
         {% if post.images and post.images.size > 0 %}
-          <a class="news-reference-image" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+          <a class="news-reference-image{% if post.image_kind == 'logo' %} is-logo{% endif %}" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
             <img src="{{ post.images.first | relative_url }}" alt="{{ post.title }}" loading="lazy">
           </a>
         {% endif %}
