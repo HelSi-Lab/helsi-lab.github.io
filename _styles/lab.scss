@@ -107,37 +107,37 @@ html { font-size: 16px; }
   display: grid;
   grid-template-columns: minmax(0, 0.72fr) minmax(500px, 1.28fr);
   align-items: center;
-  gap: clamp(36px, 6vw, 92px);
+  gap: clamp(34px, 4.5vw, 68px);
   width: min(100%, 1400px);
   margin: 0 auto;
-  padding: clamp(64px, 8vw, 118px) 24px clamp(46px, 6vw, 82px) !important;
-  border-top: 18px solid #f5f5f5;
+  padding: clamp(34px, 4vw, 58px) 24px clamp(28px, 3vw, 42px) !important;
+  border-top: 10px solid #f5f5f5;
   text-align: left;
 }
 
 .home-hero h1 {
-  margin: 18px 0 22px;
+  margin: 12px 0 18px;
   color: #050505;
   font-family: Arial, sans-serif;
-  font-size: clamp(4rem, 7.1vw, 7.3rem);
+  font-size: clamp(4rem, 6vw, 6.2rem);
   font-weight: 900;
   letter-spacing: -0.09em;
   line-height: 0.88;
 }
 
 .home-tagline {
-  max-width: 400px;
+  max-width: 430px;
   margin: 0;
   color: #252525;
-  font-size: clamp(1.3rem, 2.15vw, 2rem);
-  line-height: 1.48;
+  font-size: clamp(1.2rem, 1.7vw, 1.65rem);
+  line-height: 1.42;
 }
 
 .home-tagline-kr {
-  margin: 10px 0 28px;
+  margin: 8px 0 20px;
   color: #707070;
-  font-size: 1rem;
-  line-height: 1.65;
+  font-size: 0.92rem;
+  line-height: 1.55;
 }
 
 .home-hero-link {
@@ -157,7 +157,7 @@ html { font-size: 16px; }
 .home-hero-visual {
   display: block;
   min-width: 0;
-  aspect-ratio: 9 / 6.8;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   background: #f5f8fa;
   text-decoration: none;
@@ -169,7 +169,7 @@ html { font-size: 16px; }
   height: 100%;
   object-fit: contain;
   object-position: center;
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .home-section-title > a span,
@@ -178,14 +178,14 @@ html { font-size: 16px; }
 .home-research-area {
   width: min(100%, 1400px);
   margin: 0 auto;
-  padding: 0 24px clamp(70px, 9vw, 118px) !important;
+  padding: 0 24px clamp(38px, 4vw, 58px) !important;
   border-top: 1px solid #171717;
 }
 
 .home-section-title {
   display: flex;
-  margin-bottom: 12px;
-  padding: 38px 0 20px;
+  margin-bottom: 8px;
+  padding: 24px 0 14px;
 }
 
 .home-research-grid {
@@ -196,7 +196,7 @@ html { font-size: 16px; }
 .home-research-card {
   display: block;
   min-width: 0;
-  padding: 0 30px 16px;
+  padding: 0 30px 10px;
   color: #101010;
   text-decoration: none;
 }
@@ -1125,6 +1125,18 @@ html { font-size: 16px; }
 .lab-post-back { margin: 0; padding-top: 22px; border-top: 1px solid #dedede; }
 .lab-post-back a { color: #293d6f; font-size: 0.86rem; font-weight: 800; text-decoration: none; }
 .lab-post-back a:hover { text-decoration: underline; }
+
+@media (min-width: 851px) and (max-height: 850px) {
+  .home-hero {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .home-hero h1 { font-size: clamp(3.7rem, 5.4vw, 5.5rem); }
+  .home-hero-visual { max-height: 360px; }
+  .home-section-title { padding-top: 18px; padding-bottom: 10px; }
+  .home-research-area { padding-bottom: 28px !important; }
+}
 
 @media (max-width: 850px) {
   .home-hero { grid-template-columns: 1fr; gap: 34px; }

@@ -3,6 +3,8 @@ header-style: urban
 header-dark: false
 ---
 
+<size>full</size>
+
 <div class="home-page">
   <section class="home-hero">
     <div class="home-hero-copy">

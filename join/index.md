@@ -36,8 +36,8 @@ header-dark: false
     </article>
     <article>
       <h2>How to Apply <span>· 지원 방법</span></h2>
-      <p>Incheon National University undergraduates interested in joining the lab may schedule a consultation through STARinU or contact us by email. Consultations are available throughout the year. Please briefly introduce your interests, background, and relevant coursework or experience.</p>
-      <p>연구실 활동에 관심 있는 인천대학교 산업경영공학과 주전공 및 복수전공 학부생은 STARinU를 통해 상담을 예약하거나 이메일로 문의해 주세요. 상담은 상시 진행하며, 문의 시 관심 분야와 배경, 관련 수강 과목 및 경험을 간략히 알려주시기 바랍니다.</p>
+      <p>Students interested in joining the lab may contact us by email. Meetings are available throughout the year. Please briefly introduce your interests, background, and relevant coursework or experience.</p>
+      <p>연구실 활동에 관심 있는 학생은 이메일로 문의해 주세요. 상담은 상시 진행하며, 문의 시 관심 분야와 배경, 관련 수강 과목 및 경험을 간략히 알려주시기 바랍니다.</p>
       <a class="lab-text-link" href="mailto:serinlee@inu.ac.kr">Email Prof. Lee · serinlee@inu.ac.kr →</a>
     </article>
   </section>

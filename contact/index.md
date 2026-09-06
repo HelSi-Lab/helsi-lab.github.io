@@ -13,7 +13,7 @@ header-dark: false
   </section>
 
   <section class="contact-reference-list">
-    <article><h2>Location <span>· 위치</span></h2><p>Department of Industrial &amp; Management Engineering<br>Incheon National University<br>119 Academy-ro, Yeonsu-gu, Incheon, Republic of Korea</p><p>인천광역시 연수구 아카데미로 119 인천대학교<br>산업경영공학과</p></article>
+    <article><h2>Location <span>· 위치</span></h2><p>Department of Industrial &amp; Management Engineering<br>Incheon National University<br>119 Academy-ro, Yeonsu-gu, Incheon, Republic of Korea</p><p>인천광역시 연수구 아카데미로 119<br>인천대학교 산업경영공학과</p></article>
     <article><h2>Research Lab <span>· 연구실</span></h2><p>Building 9, Room 302<br>9호관 302호</p></article>
     <article><h2>Email and Phone <span>· 이메일 및 전화</span></h2><p><a href="mailto:serinlee@inu.ac.kr">serinlee@inu.ac.kr</a><br>+82-32-835-8483</p></article>
   </section>
