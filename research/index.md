@@ -25,7 +25,7 @@ header-dark: false
         <figure><img src="{{ '/images/proj-abm.png' | relative_url }}" alt="Agent-based simulation of infectious disease policy"></figure>
         <div>
           <h3>Developing simulation models for vaccination, prevention, and infectious-disease policy</h3>
-          <p>백신, 예방, 감염병 대응 정책을 위한 시뮬레이션 모델을 개발</p>
+          <p>백신, 예방, 감염병 대응 정책을 위한 시뮬레이션 모델 개발</p>
           <h3>Examining how population behavior and intervention strategies shape health outcomes</h3>
           <p>인구집단의 행동과 개입 전략이 건강 결과에 미치는 영향을 분석</p>
         </div>
@@ -37,8 +37,8 @@ header-dark: false
       <div class="research-reference-body">
         <figure><img src="{{ '/images/proj-dbs.jpg' | relative_url }}" alt="Pharmacokinetic modeling of clinical-trial data"></figure>
         <div>
-          <h3>Developing simulation-based evidence for clinical-trial design and treatment evaluation</h3>
-          <p>임상시험 설계와 치료 효과 평가를 위한 시뮬레이션 기반 근거를 개발</p>
+          <h3>Developing simulation-based evidence for clinical trial design and treatment evaluation</h3>
+          <p>임상시험 설계와 치료 효과 평가를 위한 시뮬레이션 기반 근거 개발</p>
           <h3>Connecting pharmacometric models and virtual trials to practical healthcare decisions</h3>
           <p>약리계량학 모델과 가상 임상시험을 실제 헬스케어 의사결정에 연결</p>
         </div>
@@ -50,8 +50,8 @@ header-dark: false
       <div class="research-reference-body">
         <figure><img src="{{ '/images/proj-biomfg.png' | relative_url }}" alt="Discrete-event simulation of a biomanufacturing process"></figure>
         <div>
-          <h3>Making biopharmaceutical production systems visible, testable, and more resilient</h3>
-          <p>바이오의약품 생산 시스템을 가시화하고, 가상 환경에서 검증하며, 불확실성에 강한 공정을 설계</p>
+          <h3>Modeling biopharmaceutical production process visible, testable, and more resilient</h3>
+          <p>바이오의약품 생산 공정을 모델링하고, 가상 환경에서 검증하며, 불확실성에 강한 공정을 설계</p>
           <h3>Improving yield and throughput through process simulation and scheduling optimization</h3>
           <p>공정 시뮬레이션과 스케줄링 최적화를 통해 수율과 생산성을 향상</p>
         </div>
@@ -65,8 +65,8 @@ header-dark: false
         <div>
           <h3>Agent-based modeling methods</h3>
           <p>에이전트 기반 모델의 설계, 가상 인구 구성, 상호작용 및 개입 전략 분석 방법론 연구</p>
-          <h3>Calibration, optimization, and explainable analysis</h3>
-          <p>복잡한 시뮬레이션 모델의 보정·최적화와 결과 해석을 위한 설명가능 분석 방법론을 개발</p>
+          <h3>Developing optimal and explainable calibration methods</h3>
+          <p>복잡한 시뮬레이션 모델의 보정·최적화와 결과 해석을 위한 설명가능 분석 방법론 연구</p>
         </div>
       </div>
     </article>
@@ -78,6 +78,9 @@ header-dark: false
     {% include research-output-list.html group="review" %}
     <h2>Journal Articles <span>· 학술지 논문</span></h2>
     {% include research-output-list.html group="journal" %}
+    <h2>Conference Proceedings <span>· 컨퍼런스 논문</span></h2>
+    {% include research-output-list.html group="proceedings" %}
+
   </section>
 
   <section class="research-output-panel" data-research-panel="korean" role="tabpanel" hidden>
@@ -87,8 +90,6 @@ header-dark: false
 
   <section class="research-output-panel" data-research-panel="conference" role="tabpanel" hidden>
     <h1>Conference <span>· 학술대회</span></h1>
-    <h2>WSC Proceedings <span>· Winter Simulation Conference 논문</span></h2>
-    {% include research-output-list.html group="proceedings" %}
     <h2>Invited Talks <span>· 초청 강연</span></h2>
     {% include research-output-list.html group="talk" %}
     <h2>Oral Presentations <span>· 구두 발표</span></h2>

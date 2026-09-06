@@ -14,7 +14,7 @@
   date: '2026-08-01'
   group: journal
   link: https://doi.org/10.1002/jia2.70188
-  image: images/proj-dbs.jpg
+  # image: images/proj-dbs.jpg
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1177/0272989X251378472
@@ -28,7 +28,7 @@
   date: '2025-10-22'
   link: https://doi.org/g99wx2
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1007/s10729-025-09696-9
@@ -41,7 +41,7 @@
   date: '2025-02-10'
   link: https://doi.org/hb6xnp
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pcbi.1012181
@@ -57,7 +57,7 @@
   date: '2024-07-01'
   link: https://doi.org/hb7pj3
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.focus.2023.100155
@@ -74,7 +74,7 @@
   date: '2024-02-01'
   link: https://doi.org/hb6xnq
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1177/0272989X221115364
@@ -90,7 +90,7 @@
   date: '2022-07-29'
   link: https://doi.org/hb6xnr
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1177/0272989X211003081
@@ -106,7 +106,7 @@
   date: '2021-03-18'
   link: https://doi.org/hb65nv
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/WSC60868.2023.10408638
@@ -119,8 +119,8 @@
   date: '2023-12-10'
   link: https://doi.org/hb6xns
   group: proceedings
-  image: images/proj-xcal.png
-  image_alt: Representative calibration research presented at WSC
+  # image: images/proj-xcal.png
+  # image_alt: Representative calibration research presented at WSC
   plugin: sources.py
   file: sources.yaml
 - title: 'Dried blood spots measurements as indicator of HIV PrEP adherence and protection:
@@ -132,6 +132,7 @@
   - Mia Moore
   publisher: "Accepted \xB7 AIDS and Behavior"
   date: '2026-06-01'
+  # image: images/proj-dbs.jpg
   group: review
   plugin: sources.py
   file: sources.yaml
@@ -165,15 +166,15 @@
   group: talk
   plugin: sources.py
   file: sources.yaml
-- title: Introduction to agent-based modelling
-  authors:
-  - '**Serin Lee**'
-  publisher: "Invited seminar \xB7 Industrial & Mathematical Data Analytics Research\
-    \ Center, SNU"
-  date: '2020-09-01'
-  group: talk
-  plugin: sources.py
-  file: sources.yaml
+# - title: Introduction to agent-based modelling
+#   authors:
+#   - '**Serin Lee**'
+#   publisher: "Invited seminar \xB7 Industrial & Mathematical Data Analytics Research\
+#     \ Center, SNU"
+#   date: '2020-09-01'
+#   group: talk
+#   plugin: sources.py
+#   file: sources.yaml
 - title: Discrete-event simulation modeling of monoclonal antibody production under
     uncertainty
   authors:

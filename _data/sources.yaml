@@ -163,12 +163,12 @@
   date: 2026-01-16
   group: talk
 
-- title: "Introduction to agent-based modelling"
-  authors:
-    - "**Serin Lee**"
-  publisher: Invited seminar · Industrial & Mathematical Data Analytics Research Center, SNU
-  date: 2020-09-01
-  group: talk
+# - title: "Introduction to agent-based modelling"
+#   authors:
+#     - "**Serin Lee**"
+#   publisher: Invited seminar · Industrial & Mathematical Data Analytics Research Center, SNU
+#   date: 2020-09-01
+#   group: talk
 
 # ========== Conference presentations — oral ==========
 
