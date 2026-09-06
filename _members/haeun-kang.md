@@ -4,7 +4,7 @@ name_ko: 강하은
 role: grad
 order: 1
 description: M.S. Student
-position_ko: 석사과정 1년차
+position_ko: 석사과정
 research_interests:
   - Bioprocess modeling
   - Digital twins

@@ -30,5 +30,5 @@ header-dark: false
     </div>
   </section>
 
-  <p class="teaching-note">Students interested in the lab are encouraged to take Simulation.<br>연구실 참여에 관심 있는 학생은 시뮬레이션 수강을 권장합니다. <a href="{{ '/join/' | relative_url }}">Join Us →</a></p>
+  <p class="teaching-note">Students interested in the lab are encouraged to take the Simulation course.<br>연구실 참여에 관심 있는 학생은 시뮬레이션 수강을 권장합니다. <a href="{{ '/join/' | relative_url }}">Join Us →</a></p>
 </div>

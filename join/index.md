@@ -10,7 +10,6 @@ header-dark: false
 <div class="lab-inner-page join-reference-page">
   <section class="lab-page-heading">
     <h1>Join Us <span>· 연구실 멤버 모집</span></h1>
-    <p>HelSi Lab welcomes students who want to study bio and healthcare systems through simulation and optimization.<br>시뮬레이션과 최적화로 바이오·헬스케어 시스템을 연구할 학생을 찾습니다.</p>
   </section>
 
   <section class="join-reference-list">
