@@ -11,7 +11,6 @@ on:
 
 permissions:
   contents: write
-  pages: read
   pull-requests: write
 
 jobs:

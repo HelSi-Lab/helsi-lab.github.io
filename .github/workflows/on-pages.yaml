@@ -14,7 +14,6 @@ on:
 
 permissions:
   contents: write
-  pages: read
 
 jobs:
   update-url:

@@ -13,7 +13,6 @@ on:
 
 permissions:
   contents: write
-  pages: read
 
 jobs:
   update-url:
@@ -26,7 +25,7 @@ jobs:
 
       - name: Get Pages url
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
 
       - name: Checkout branch contents
         uses: actions/checkout@v4
