@@ -19,11 +19,11 @@
   date: 2026-08-01
   group: journal
   link:  https://doi.org/10.1002/jia2.70188
-  image: images/proj-dbs.jpg
+  #image: images/proj-dbs.jpg
 
 - id: doi:10.1177/0272989X251378472
   group: journal
-  image: images/proj-abm.png
+  #image: images/proj-abm.png
   authors:
     - Christopher Weyant
     - "**Serin Lee**"
@@ -31,7 +31,7 @@
 
 - id: doi:10.1007/s10729-025-09696-9
   group: journal
-  image: images/proj-abm.png
+  #image: images/proj-abm.png
   authors:
     - "**Serin Lee**"
     - Zelda B. Zabinsky
@@ -48,11 +48,11 @@
   publisher: PLOS Computational Biology
   date: 2024-07-01
   group: journal
-  image: images/proj-abm.png
+  #image: images/proj-abm.png
 
 - id: doi:10.1016/j.focus.2023.100155
   group: journal
-  image: images/proj-abm.png
+  #image: images/proj-abm.png
   authors:
     - "**Serin Lee**"
     - Zelda B. Zabinsky
@@ -63,7 +63,7 @@
 
 - id: doi:10.1177/0272989X221115364
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   authors:
     - Christopher Weyant
     - "**Serin Lee**"
@@ -73,7 +73,7 @@
 
 - id: doi:10.1177/0272989X211003081
   group: journal
-  image: images/proj-abm.png
+  # image: images/proj-abm.png
   title: "COVID-19 pandemic response simulation in a large city: impact of nonpharmaceutical interventions on reopening society"
   authors:
     - "**Serin Lee**"
@@ -86,7 +86,7 @@
 
 - id: doi:10.1109/WSC60868.2023.10408638
   group: proceedings
-  image: images/proj-xcal.png
+  # image: images/proj-xcal.png
   image_alt: Representative calibration research presented at WSC
   authors:
     - "**Serin Lee**"

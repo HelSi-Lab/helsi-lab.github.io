@@ -27,7 +27,7 @@ header-dark: false
           <h3>Developing simulation models for vaccination, prevention, and infectious-disease policy</h3>
           <p>백신, 예방, 감염병 대응 정책을 위한 시뮬레이션 모델 개발</p>
           <h3>Examining how population behavior and intervention strategies shape health outcomes</h3>
-          <p>인구집단의 행동과 개입 전략이 건강 결과에 미치는 영향을 분석</p>
+          <p>인구집단의 행동과 개입 전략이 건강 결과에 미치는 영향 분석</p>
         </div>
       </div>
     </article>
