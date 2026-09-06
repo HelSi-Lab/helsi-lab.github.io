@@ -174,22 +174,24 @@
 
 - title: "Discrete-event simulation modeling of monoclonal antibody production under uncertainty"
   authors:
-    - Haeun Kang
-    - "**Serin Lee**"
+    - "**Haeun Kang**"
+    - Serin Lee
   publisher: Korean Institute of Industrial Engineers (KIIE) Spring Conference, Gyeongju
   date: 2026-06-01
-  group: oral
+  group: poster
 
-- title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067"
-  authors:
-    - "**Serin Lee**"
-  publisher: Epidemics, San Diego, CA
-  date: 2025-11-01
-  group: oral
+# - title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067"
+#   authors:
+#     - Serin Lee
+#   publisher: Epidemics, San Diego, CA
+#   date: 2025-11-01
+#   group: oral
 
 - title: "Optimizing Vaccination Campaign Considering Societal Characteristics"
   authors:
     - "**Serin Lee**"
+    - Zelda B. Zabinsky
+    - Shan Liu
   publisher: Korean Institute of Industrial Engineers, Daejeon
   date: 2025-11-01
   group: oral
