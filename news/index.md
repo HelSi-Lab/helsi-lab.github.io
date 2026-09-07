@@ -20,7 +20,7 @@ header-dark: false
             <img src="{{ post.images.first | relative_url }}" alt="{{ post.title }}" loading="lazy">
           </a>
         {% endif %}
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m" }}</time>
         <div>
           <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p>{{ post.content | markdownify | remove: "<p>" | remove: "</p>" | strip_html }}</p>
