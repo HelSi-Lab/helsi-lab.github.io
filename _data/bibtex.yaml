@@ -1,0 +1,51 @@
+- path: _data/publications.bib
+  groups:
+    journal:
+      - Mia_len
+      - Weyant2
+      - Serin_campaign
+      - HPVSim
+      - Lee_AJPM
+      - weyant2022dynamics
+      - lee2021covid
+    proceedings:
+      - Represent_calib
+    review:
+      - Serin_DBS
+      - Expl_calib
+  overrides:
+    Mia_len:
+      date: 2026-08-01
+      journal: J Int AIDS Soc
+    Weyant2:
+      date: 2026-01-01
+      journal: Med Decis Making
+    Serin_campaign:
+      date: 2025-02-10
+      journal: Health Care Manag Sci
+    HPVSim:
+      date: 2024-07-01
+      journal: PLoS Comput Biol
+    Lee_AJPM:
+      date: 2024-02-01
+      journal: AJPM Focus
+    Represent_calib:
+      date: 2023-12-10
+    weyant2022dynamics:
+      date: 2023-01-01
+      journal: Med Decis Making
+    lee2021covid:
+      date: 2021-03-18
+      journal: Med Decis Making
+    Serin_DBS:
+      date: 2026-06-01
+      year: '2026'
+      journal: AIDS Behav
+      publisher: Accepted · AIDS and Behavior
+      status: Accepted
+    Expl_calib:
+      date: 2026-05-01
+      year: '2026'
+      journal: ''
+      publisher: Under review
+      status: Under review

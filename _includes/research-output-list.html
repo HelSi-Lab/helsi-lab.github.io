@@ -8,9 +8,21 @@
         {% endif %}
         <div class="research-output-year">{{ c.date | date: "%Y" }}</div>
         <div>
-          <h3>{% if c.link %}<a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</h3>
-          {% if c.authors %}<p class="research-output-authors">{{ c.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
-          {% if c.publisher %}<p class="research-output-meta">{{ c.publisher }}</p>{% endif %}
+          {% if c.citation_style == "vancouver" %}
+            <p class="research-output-vancouver">
+              {% if c.authors %}<span class="research-output-authors">{{ c.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>.{% endif %}
+              <span class="research-output-title">{% if c.link %}<a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</span>.
+              {% if c.journal %}<em class="research-output-journal">{{ c.journal }}</em>.{% endif %}
+              {% if c.status %}<span class="research-output-status">{{ c.status }}</span>.{% endif %}
+              {% if c.year %}<span class="research-output-details">{{ c.year }}{% if c.volume %};{{ c.volume }}{% if c.issue %}({{ c.issue }}){% endif %}{% if c.pages %}:{{ c.pages }}{% endif %}{% endif %}.</span>{% endif %}
+              {% if c.pages and c.volume == nil %}<span class="research-output-pages">p. {{ c.pages }}.</span>{% endif %}
+              {% if c.doi %}<a class="research-output-doi" href="https://doi.org/{{ c.doi }}" target="_blank" rel="noopener">doi:{{ c.doi }}</a>.{% endif %}
+            </p>
+          {% else %}
+            <h3>{% if c.link %}<a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</h3>
+            {% if c.authors %}<p class="research-output-authors">{{ c.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+            {% if c.publisher %}<p class="research-output-meta">{{ c.publisher }}</p>{% endif %}
+          {% endif %}
         </div>
       </li>
     {% endif %}

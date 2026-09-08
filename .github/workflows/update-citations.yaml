@@ -10,6 +10,8 @@ on:
     outputs:
       changed:
         value: ${{ jobs.update-citations.outputs.changed }}
+      commit_sha:
+        value: ${{ jobs.update-citations.outputs.commit_sha }}
 
   # run if user manually requests it
   workflow_dispatch:
@@ -82,6 +84,7 @@ jobs:
           steps.changed.outputs.files_changed == 'true' &&
           inputs.open-pr != true
         uses: stefanzweifel/git-auto-commit-action@v5
+        id: citation_commit
         with:
           commit_message: "Update citations"
 
@@ -99,3 +102,4 @@ jobs:
 
     outputs:
       changed: ${{ steps.changed.outputs.files_changed || false }}
+      commit_sha: ${{ steps.citation_commit.outputs.commit_hash || github.sha }}

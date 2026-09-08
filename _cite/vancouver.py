@@ -64,6 +64,15 @@ def _name_to_vancouver(full_name):
     if len(parts) < 2:
         return full_name
 
+    # Already abbreviated in Vancouver form (for example, "Lee S").
+    if re.fullmatch(r"[A-Z]{1,5}", parts[-1]):
+        return full_name
+
+    # Preserve collective authors instead of treating the last word as a surname.
+    collective_words = {"collaboration", "committee", "consortium", "group", "team"}
+    if any(word.lower() in collective_words for word in parts):
+        return full_name
+
     last_name = parts[-1]
     initials = "".join(p.rstrip(".")[0].upper() for p in parts[:-1])
     return f"{last_name} {initials}"

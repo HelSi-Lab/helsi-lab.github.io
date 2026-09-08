@@ -30,7 +30,7 @@ log("Compiling sources")
 sources = []
 
 # in-order list of plugins to run
-plugins = ["google-scholar", "pubmed", "orcid", "sources"]
+plugins = ["google-scholar", "pubmed", "orcid", "bibtex", "sources"]
 
 # loop through plugins
 for plugin in plugins:
@@ -136,8 +136,10 @@ for index, source in enumerate(sources):
     # source id
     _id = get_safe(source, "id", "").strip()
 
-    # manubot doesn't work without an id
-    if _id:
+    # BibTeX entries are already complete and should not be replaced by network data.
+    # Other source types can still use Manubot when they provide an identifier.
+    source_plugin = get_safe(source, "plugin", "")
+    if _id and source_plugin != "bibtex.py":
         log("Using Manubot to generate citation", indent=1)
 
         try:

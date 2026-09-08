@@ -4,6 +4,11 @@ run-name: build live site
 on:
   # run when called from another workflow
   workflow_call:
+    inputs:
+      ref:
+        description: Commit to build. Defaults to the workflow's triggering commit.
+        required: false
+        type: string
 
   # run if user manually requests it
   workflow_dispatch:
@@ -26,6 +31,8 @@ jobs:
 
       - name: Checkout branch contents
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1

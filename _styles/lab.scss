@@ -111,7 +111,7 @@ html { font-size: 16px; }
 
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.76fr) minmax(500px, 1.24fr);
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
   align-items: center;
   gap: clamp(34px, 4.5vw, 68px);
   width: min(100%, 1120px);
@@ -164,7 +164,7 @@ html { font-size: 16px; }
   justify-self: end;
   width: min(100%, 760px);
   min-width: 0;
-  aspect-ratio: 16 / 9;
+  
   overflow: hidden;
   background: #f5f8fa;
   text-decoration: none;
@@ -1153,6 +1153,12 @@ html { font-size: 16px; }
   .home-hero-visual { max-height: 360px; }
   .home-section-title { padding-top: 18px; padding-bottom: 10px; }
   .home-research-area { padding-bottom: 28px !important; }
+}
+
+@media (min-width: 851px) and (max-width: 1100px) {
+  .home-hero { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 28px; }
+  .home-hero h1 { font-size: clamp(3.2rem, 5vw, 4.8rem); }
+  .home-hero-visual { width: 100%; }
 }
 
 @media (max-width: 850px) {

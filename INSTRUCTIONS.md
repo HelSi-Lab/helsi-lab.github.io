@@ -18,7 +18,9 @@ copy of the Lab Website Template. Folder layout here matches the repo layout.
 |---|---|---|
 | `_config-BASIC-SETTINGS.yaml` | `_config.yaml` | Copy ONLY the basic-settings block into the **top** of the existing `_config.yaml`. **Do not** touch the Jekyll settings below it. |
 | `_members/*.md` | `_members/` | Replace the example members with these 5. Rename student files to real names later. |
-| `_data/sources.yaml` | `_data/sources.yaml` | Replace. Holds all publications. |
+| `_data/publications.bib` | `_data/publications.bib` | Replace or update. Holds journal papers, proceedings, and work in progress. |
+| `_data/bibtex.yaml` | `_data/bibtex.yaml` | Selects which BibTeX keys appear and supplies dates/status overrides. |
+| `_data/sources.yaml` | `_data/sources.yaml` | Replace. Holds talks, presentations, and funded projects. |
 | `index.md` | `index.md` | Replace (home page). |
 | `research/index.md` | `research/index.md` | Replace (publications + talks). |
 | `projects/index.md` | `projects/index.md` | Replace (projects). |
@@ -28,19 +30,18 @@ copy of the Lab Website Template. Folder layout here matches the repo layout.
 | `images/team/serin-lee.jpg` | `images/team/` | Add (PI photo). |
 | `images/proj-*.jpg` | `images/` | Add (project figures). |
 
-After committing, the **cite** workflow runs automatically and turns the DOIs in
-`sources.yaml` into full citations on the Research page.
+After committing, the **cite** workflow runs automatically and turns the selected
+entries in `publications.bib` into Vancouver-style citations on the Research page.
 
 ## Notes
 
-- **Publications**: entries with `id: doi:...` are fetched automatically. Two papers
-  (HPVsim, the 2021 COVID paper) had no DOI in your .bib, so they're manual entries —
-  replace with `- id: doi:...` later for auto thumbnails. Add your **ORCID** in
-  `_config.yaml` and as an `orcid-*.yaml` metasource to auto-pull everything.
+- **Publications**: update `_data/publications.bib`, then add the BibTeX key to the
+  appropriate group in `_data/bibtex.yaml`. Journal abbreviations, display dates,
+  and review statuses can be overridden there without changing the exported `.bib`.
 - **Roles**: member `role:` values (`pi`, `grad`, `undergrad`) control the icon via
   `_data/types.yaml`. Members display regardless; if you want matching icons, add those
   keys in `_data/types.yaml`.
 - **Students**: rename the placeholder member files and add `image:` + a bio.
-- **Optional preprint**: a commented-out HPV therapeutic-vaccine paper sits at the
-  bottom of `sources.yaml`; uncomment to include it.
+- **Optional entries**: all exported BibTeX records remain in `publications.bib`;
+  only keys listed in `bibtex.yaml` are shown on the website.
 - LWT controls the visual design/theme — tweak colors in `_styles` / theme file if desired.
