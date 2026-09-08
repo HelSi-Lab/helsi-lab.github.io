@@ -20,8 +20,13 @@ header-dark: false
     </article>
     <article>
       <h2>Undergraduate Researchers <span>· 학부 연구생</span></h2>
+<<<<<<< Updated upstream
       <p>Undergraduate positions are primarily intended for 3rd- and 4th-year students. New participants complete a two-month internship before formally joining the lab, at which point they receive a monthly research stipend. After one semester, the student and advisor discuss whether to continue.</p>
       <p>학부 3·4학년 학생을 중심으로 모집합니다. 신규 참여자는 2개월의 인턴 기간을 거친 후 학부 연구생으로 정식 참여하며, 이후 매월 연구장려금을 지급합니다. 한 학기 활동 후 학생과 지도교수가 상호 논의를 통해 참여 지속 여부를 결정합니다.</p>
+=======
+      <p>Undergraduate positions are primarily intended for 3rd- and 4th-year students. The lab recruits undergraduate researchers once each semester, and participation is organized in six-month terms. New participants complete a two-month internship before formally joining the lab, at which point they receive a monthly research stipend. After one semester, the student and advisor discuss whether to continue.</p>
+      <p>학부 3·4학년 학생을 중심으로 모집합니다. 학부 연구생은 학기마다 한 차례 모집하며, 연구실 활동은 6개월 단위로 진행합니다. 신규 참여자는 2개월의 인턴 기간을 거친 후 학부 연구생으로 정식 참여하며, 이후 매월 연구장려금을 지급합니다. 한 학기 활동 후 학생과 지도교수가 상호 논의를 통해 참여 지속 여부를 결정합니다.</p>
+>>>>>>> Stashed changes
     </article>
     <article>
       <h2>Graduate Students <span>· 대학원생</span></h2>
