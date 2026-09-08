@@ -125,7 +125,7 @@ def _citation(record, group):
         "date": _date(record),
         "group": group,
         "link": f"https://doi.org/{doi}" if doi else "",
-        "citation_style": "vancouver",
+        "author_style": "vancouver",
     }
     return {key: value for key, value in citation.items() if value != ""}
 

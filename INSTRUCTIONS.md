@@ -31,7 +31,8 @@ copy of the Lab Website Template. Folder layout here matches the repo layout.
 | `images/proj-*.jpg` | `images/` | Add (project figures). |
 
 After committing, the **cite** workflow runs automatically and turns the selected
-entries in `publications.bib` into Vancouver-style citations on the Research page.
+entries in `publications.bib` into citations with Vancouver-style author names on
+the Research page.
 
 ## Notes
 

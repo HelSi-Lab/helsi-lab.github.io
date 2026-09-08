@@ -31,6 +31,7 @@ class BibtexPipelineTests(unittest.TestCase):
         self.assertEqual(citation["volume"], "28")
         self.assertEqual(citation["issue"], "1")
         self.assertEqual(citation["pages"], "84-98")
+        self.assertEqual(citation["author_style"], "vancouver")
 
     def test_doi_urls_are_normalized(self):
         citation = self.by_key["Lee_AJPM"]

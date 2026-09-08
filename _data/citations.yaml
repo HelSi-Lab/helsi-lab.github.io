@@ -27,7 +27,7 @@
   date: '2026-08-01'
   group: journal
   link: https://doi.org/10.1002/jia2.70188
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: doi:10.1177/0272989X251378472
@@ -48,7 +48,7 @@
   date: '2026-01-01'
   group: journal
   link: https://doi.org/10.1177/0272989X251378472
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: doi:10.1007/s10729-025-09696-9
@@ -68,7 +68,7 @@
   date: '2025-02-10'
   group: journal
   link: https://doi.org/10.1007/s10729-025-09696-9
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: doi:10.1371/journal.pcbi.1012181
@@ -97,7 +97,7 @@
   date: '2024-07-01'
   group: journal
   link: https://doi.org/10.1371/journal.pcbi.1012181
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: doi:10.1016/j.focus.2023.100155
@@ -121,7 +121,7 @@
   date: '2024-02-01'
   group: journal
   link: https://doi.org/10.1016/j.focus.2023.100155
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: doi:10.1177/0272989X221115364
@@ -144,7 +144,7 @@
   date: '2023-01-01'
   group: journal
   link: https://doi.org/10.1177/0272989X221115364
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: doi:10.1177/0272989X211003081
@@ -167,7 +167,7 @@
   date: '2021-03-18'
   group: journal
   link: https://doi.org/10.1177/0272989X211003081
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: doi:10.1109/WSC60868.2023.10408638
@@ -185,7 +185,7 @@
   date: '2023-12-10'
   group: proceedings
   link: https://doi.org/10.1109/WSC60868.2023.10408638
-  citation_style: vancouver
+  author_style: vancouver
   plugin: bibtex.py
   file: bibtex.yaml
 - id: bib:Serin_DBS
@@ -200,7 +200,7 @@
   publisher: "Accepted \xB7 AIDS and Behavior"
   journal: AIDS Behav
   group: review
-  citation_style: vancouver
+  author_style: vancouver
   date: '2026-06-01'
   year: '2026'
   status: Accepted
@@ -217,7 +217,7 @@
   - Liu S
   publisher: Under review
   group: review
-  citation_style: vancouver
+  author_style: vancouver
   date: '2026-05-01'
   year: '2026'
   status: Under review
