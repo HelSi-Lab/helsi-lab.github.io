@@ -7,6 +7,7 @@ from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
 from util import *
+from vancouver import format_citations
 
 
 # load environment variables
@@ -172,6 +173,10 @@ for index, source in enumerate(sources):
 
 
 log()
+
+
+log("Formatting authors (Vancouver style)")
+format_citations(citations)
 
 log("Saving updated citations")
 
