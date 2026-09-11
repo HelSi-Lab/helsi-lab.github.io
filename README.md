@@ -6,5 +6,3 @@
   # HelSi-Lab's Website
 
   Visit **[helsi-lab.github.io](https://helsi-lab.github.io)** 
-
-  _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
