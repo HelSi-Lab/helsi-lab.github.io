@@ -190,7 +190,8 @@
   file: bibtex.yaml
 - id: bib:Serin_DBS
   cite_key: Serin_DBS
-  title: 'Dried Blood Spots Measurements as Indicator of HIV PrEP Adherence and Protection among MSM in HPTN067'
+  title: Dried Blood Spots Measurements as Indicator of HIV PrEP Adherence and Protection
+    among MSM in HPTN067
   authors:
   - '**Lee S**'
   - Dimitrov D
