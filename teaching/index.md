@@ -18,7 +18,7 @@ header-dark: false
       <article><p>2026 Fall</p><h3>Simulation <span>· 시뮬레이션</span></h3></article>
       <article><p>2026 Fall</p><h3>Data Literacy <span>· 데이터 리터러시</span></h3></article>
       <article><p>2025 Fall · 2026 Spring</p><h3>Database <span>· 데이터베이스</span></h3></article>
-      <article><p>2026 Spring</p><h3>Capstone Design <span>· 캡스톤 디자인</span></h3></article>
+      <article><p>2026 Spring</p><h3>Capstone Design <span>· 시스템 종합설계</span></h3></article>
     </div>
   </section>
 
