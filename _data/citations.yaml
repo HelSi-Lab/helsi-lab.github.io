@@ -241,6 +241,16 @@
   group: talk
   plugin: sources.py
   file: sources.yaml
+- title: Optimizing Vaccination Campaign Considering Societal Characteristics
+  authors:
+  - '**Lee S**'
+  - Zabinsky ZB
+  - Liu S
+  publisher: Korean Institute of Industrial Engineers, Daejeon
+  date: '2025-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
 - title: Discrete-event simulation modeling of monoclonal antibody production under
     uncertainty
   authors:
@@ -251,14 +261,14 @@
   group: poster
   plugin: sources.py
   file: sources.yaml
-- title: Optimizing Vaccination Campaign Considering Societal Characteristics
+- title: "Agent-based simulation research using publicly available data (\uACF5\uACF5\
+    \uB370\uC774\uD130\uB97C \uD65C\uC6A9\uD55C \uC5D0\uC774\uC804\uD2B8 \uAE30\uBC18\
+    \ \uC2DC\uBBAC\uB808\uC774\uC158 \uC5F0\uAD6C)"
   authors:
-  - '**Lee S**'
-  - Zabinsky ZB
-  - Liu S
-  publisher: Korean Institute of Industrial Engineers, Daejeon
-  date: '2025-11-01'
-  group: oral
+  - '**Lee S** (PI)'
+  publisher: "Incheon National University \xB7 Apr 2026 \u2013 Apr 2027"
+  date: '2026-04-01'
+  group: project
   plugin: sources.py
   file: sources.yaml
 - title: "Digital twin-based virtual clinical trial for infectious diseases: effectiveness\
@@ -270,16 +280,6 @@
   publisher: "National Research Foundation of Korea (NRF) \xB7 Mar 2026 \u2013 Feb\
     \ 2029"
   date: '2026-03-01'
-  group: project
-  plugin: sources.py
-  file: sources.yaml
-- title: "Agent-based simulation research using publicly available data (\uACF5\uACF5\
-    \uB370\uC774\uD130\uB97C \uD65C\uC6A9\uD55C \uC5D0\uC774\uC804\uD2B8 \uAE30\uBC18\
-    \ \uC2DC\uBBAC\uB808\uC774\uC158 \uC5F0\uAD6C)"
-  authors:
-  - '**Lee S** (PI)'
-  publisher: "Incheon National University \xB7 Apr 2026 \u2013 Apr 2027"
-  date: '2026-04-01'
   group: project
   plugin: sources.py
   file: sources.yaml
