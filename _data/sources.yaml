@@ -26,14 +26,17 @@
 #   group: talk
 
 # ========== Conference presentations — oral ==========
-
-- title: "Discrete-event simulation modeling of monoclonal antibody production under uncertainty"
+- title: "Explainable Post-Calibration Analysis for Policy EvaluationSerin"
   authors:
-    - "**Haeun Kang**"
-    - Serin Lee
-  publisher: Korean Institute of Industrial Engineers (KIIE) Spring Conference, Gyeongju
-  date: 2026-06-01
-  group: poster
+    - "**Serin Lee**"
+    - Pariyakorn
+    - Maneekul
+    - ZeldaZabinsky
+    - Shan Liu
+
+  publisher: The Institute for Operations Research and the Management Sciences (INFORMS) Annual Meeting, San Francisco, CA
+  date: 2026-11-01
+  group: oral
 
 # - title: "Dried blood spots measurements as indicator of HIV PrEP adherence and protection among MSM in HPTN067"
 #   authors:
@@ -133,6 +136,22 @@
 #   group: oral
 
 # ========== Posters ==========
+- title: "Cell Growth Trajectory Features and Antibody Production in CHO-based Biomanufacturing"
+  authors:
+    - "**Haeun Kang**"
+    - Serin Lee
+  publisher: The Institute for Operations Research and the Management Sciences (INFORMS) Annual Meeting, San Francisco, CA
+  date: 2026-11-01
+  group: poster
+
+- title: "Discrete-event simulation modeling of monoclonal antibody production under uncertainty"
+  authors:
+    - "**Haeun Kang**"
+    - Serin Lee
+  publisher: Korean Institute of Industrial Engineers (KIIE) Spring Conference, Gyeongju
+  date: 2026-06-01
+  group: poster
+
 
 # - title: "Optimal vaccination campaigns under disease transmission and opinion propagation"
 #   authors:
