@@ -241,6 +241,19 @@
   group: talk
   plugin: sources.py
   file: sources.yaml
+- title: Explainable Post-Calibration Analysis for Policy EvaluationSerin
+  authors:
+  - '**Lee S**'
+  - Pariyakorn
+  - Maneekul
+  - ZeldaZabinsky
+  - Liu S
+  publisher: The Institute for Operations Research and the Management Sciences (INFORMS)
+    Annual Meeting, San Francisco, CA
+  date: '2026-11-01'
+  group: oral
+  plugin: sources.py
+  file: sources.yaml
 - title: Optimizing Vaccination Campaign Considering Societal Characteristics
   authors:
   - '**Lee S**'
@@ -249,6 +262,16 @@
   publisher: Korean Institute of Industrial Engineers, Daejeon
   date: '2025-11-01'
   group: oral
+  plugin: sources.py
+  file: sources.yaml
+- title: Cell Growth Trajectory Features and Antibody Production in CHO-based Biomanufacturing
+  authors:
+  - <u>Kang H</u>
+  - '**Lee S**'
+  publisher: The Institute for Operations Research and the Management Sciences (INFORMS)
+    Annual Meeting, San Francisco, CA
+  date: '2026-11-01'
+  group: poster
   plugin: sources.py
   file: sources.yaml
 - title: Discrete-event simulation modeling of monoclonal antibody production under
